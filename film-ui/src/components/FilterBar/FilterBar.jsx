@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styles from './FilterBar.module.scss'
 
-function FilterBar({ filters, onFiltersChange }) {
+function FilterBar({ filters, onFiltersChange, genres }) {
   const handleSearchChange = (e) => {
     onFiltersChange({ ...filters, search: e.target.value })
   }
@@ -14,15 +14,23 @@ function FilterBar({ filters, onFiltersChange }) {
     onFiltersChange({ ...filters, showFreeOnly: !filters.showFreeOnly })
   }
 
+  const handleGenreClick = (genre) => {
+    onFiltersChange({
+      ...filters,
+      selectedGenre: filters.selectedGenre === genre ? null : genre
+    })
+  }
+
   const handleClearFilters = () => {
     onFiltersChange({
       search: '',
       showPrimeOnly: false,
-      showFreeOnly: false
+      showFreeOnly: false,
+      selectedGenre: null
     })
   }
 
-  const hasActiveFilters = filters.search || filters.showPrimeOnly || filters.showFreeOnly
+  const hasActiveFilters = filters.search || filters.showPrimeOnly || filters.showFreeOnly || filters.selectedGenre
 
   return (
     <div className={styles.filterBar}>
@@ -68,6 +76,22 @@ function FilterBar({ filters, onFiltersChange }) {
           Clear All
         </button>
       )}
+
+      {genres && genres.length > 0 && (
+        <div className={styles.genresSection}>
+          <div className={styles.genreChips}>
+            {genres.map(genre => (
+              <button
+                key={genre}
+                className={`${styles.genreChip} ${filters.selectedGenre === genre ? styles.active : ''}`}
+                onClick={() => handleGenreClick(genre)}
+              >
+                {genre}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -76,9 +100,11 @@ FilterBar.propTypes = {
   filters: PropTypes.shape({
     search: PropTypes.string,
     showPrimeOnly: PropTypes.bool,
-    showFreeOnly: PropTypes.bool
+    showFreeOnly: PropTypes.bool,
+    selectedGenre: PropTypes.string
   }).isRequired,
-  onFiltersChange: PropTypes.func.isRequired
+  onFiltersChange: PropTypes.func.isRequired,
+  genres: PropTypes.arrayOf(PropTypes.string)
 }
 
 export default FilterBar
