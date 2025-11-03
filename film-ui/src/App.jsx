@@ -13,7 +13,7 @@ function App() {
     search: '',
     showPrimeOnly: false,
     showFreeOnly: false,
-    selectedGenre: null
+    selectedGenres: []
   })
 
   useEffect(() => {
@@ -56,8 +56,9 @@ function App() {
         return false
       }
 
-      // Genre filter
-      if (filters.selectedGenre && !film.genres?.includes(filters.selectedGenre)) {
+      // Genre filter (OR logic - film must have at least one selected genre)
+      if (filters.selectedGenres.length > 0 &&
+          !film.genres?.some(g => filters.selectedGenres.includes(g))) {
         return false
       }
 

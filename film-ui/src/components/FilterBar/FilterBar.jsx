@@ -17,7 +17,9 @@ function FilterBar({ filters, onFiltersChange, genres }) {
   const handleGenreClick = (genre) => {
     onFiltersChange({
       ...filters,
-      selectedGenre: filters.selectedGenre === genre ? null : genre
+      selectedGenres: filters.selectedGenres.includes(genre)
+        ? filters.selectedGenres.filter(g => g !== genre)  // Remove if already selected
+        : [...filters.selectedGenres, genre]  // Add if not selected
     })
   }
 
@@ -26,11 +28,11 @@ function FilterBar({ filters, onFiltersChange, genres }) {
       search: '',
       showPrimeOnly: false,
       showFreeOnly: false,
-      selectedGenre: null
+      selectedGenres: []
     })
   }
 
-  const hasActiveFilters = filters.search || filters.showPrimeOnly || filters.showFreeOnly || filters.selectedGenre
+  const hasActiveFilters = filters.search || filters.showPrimeOnly || filters.showFreeOnly || filters.selectedGenres.length > 0
 
   return (
     <div className={styles.filterBar}>
@@ -83,7 +85,7 @@ function FilterBar({ filters, onFiltersChange, genres }) {
             {genres.map(genre => (
               <button
                 key={genre}
-                className={`${styles.genreChip} ${filters.selectedGenre === genre ? styles.active : ''}`}
+                className={`${styles.genreChip} ${filters.selectedGenres.includes(genre) ? styles.active : ''}`}
                 onClick={() => handleGenreClick(genre)}
               >
                 {genre}
@@ -101,7 +103,7 @@ FilterBar.propTypes = {
     search: PropTypes.string,
     showPrimeOnly: PropTypes.bool,
     showFreeOnly: PropTypes.bool,
-    selectedGenre: PropTypes.string
+    selectedGenres: PropTypes.arrayOf(PropTypes.string)
   }).isRequired,
   onFiltersChange: PropTypes.func.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string)
