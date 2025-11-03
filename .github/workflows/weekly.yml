@@ -8,6 +8,9 @@ on:
   # Allow manual trigger from Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   check-availability:
     runs-on: ubuntu-latest
@@ -33,7 +36,35 @@ jobs:
           COUNTRY: ${{ vars.COUNTRY }}
         run: python check_availability.py
 
-      - name: Upload results
+      - name: Copy results to UI data folder
+        run: cp results.json film-ui/src/data/films.json
+
+      - name: Commit updated data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add film-ui/src/data/films.json
+          git diff --staged --quiet || git commit -m "Update film data - $(date +'%Y-%m-%d %H:%M')"
+          git push
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install UI dependencies
+        run: |
+          cd film-ui
+          npm ci
+
+      - name: Build and deploy UI
+        run: |
+          cd film-ui
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          npm run deploy -- --repo=https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Upload results as artifact
         uses: actions/upload-artifact@v4
         with:
           name: availability-results
