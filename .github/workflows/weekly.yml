@@ -34,7 +34,7 @@ jobs:
         run: python check_availability.py
 
       - name: Upload results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: availability-results
           path: |
