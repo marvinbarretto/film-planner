@@ -1,0 +1,145 @@
+@use '@styles/variables.scss' as *;
+
+.filterBar {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--background-light);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-xl);
+  flex-wrap: wrap;
+
+  @include tablet {
+    padding: var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+}
+
+.searchContainer {
+  position: relative;
+  flex: 1;
+  min-width: 250px;
+
+  @include mobile {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
+.searchInput {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-right: 2.5rem;
+  background: var(--background);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast);
+
+  &:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+
+  &::placeholder {
+    color: var(--text-secondary);
+  }
+}
+
+.clearSearch {
+  position: absolute;
+  right: var(--spacing-sm);
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--secondary);
+  color: var(--text-secondary);
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--primary);
+    color: white;
+  }
+}
+
+.toggles {
+  display: flex;
+  gap: var(--spacing-sm);
+
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.toggle {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--background);
+  border: 2px solid var(--secondary);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover {
+    border-color: var(--primary);
+    color: var(--text-primary);
+  }
+
+  &.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+
+    .toggleIcon {
+      transform: scale(1.2);
+    }
+  }
+
+  @include mobile {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+.toggleIcon {
+  font-size: 1rem;
+  transition: transform var(--transition-fast);
+}
+
+.clearAll {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: transparent;
+  border: 2px solid var(--text-secondary);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+}
