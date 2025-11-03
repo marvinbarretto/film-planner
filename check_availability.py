@@ -116,6 +116,61 @@ def get_watch_providers(movie_id: int) -> Dict:
         return {}
 
 
+def get_movie_details(movie_id: int) -> Dict:
+    """Get additional movie details including trailer, poster, rating, etc."""
+    movie_url = f'{TMDB_BASE_URL}/movie/{movie_id}'
+    videos_url = f'{TMDB_BASE_URL}/movie/{movie_id}/videos'
+    params = {'api_key': TMDB_API_KEY, 'language': 'en-US'}
+
+    details = {
+        'tmdb_rating': None,
+        'runtime': None,
+        'genres': [],
+        'poster_url': None,
+        'backdrop_url': None,
+        'trailer_url': None,
+        'overview': None,
+        'release_date': None
+    }
+
+    try:
+        # Get movie details
+        movie_response = requests.get(movie_url, params=params, timeout=10)
+        movie_response.raise_for_status()
+        movie_data = movie_response.json()
+
+        details['tmdb_rating'] = movie_data.get('vote_average')
+        details['runtime'] = movie_data.get('runtime')
+        details['genres'] = [g['name'] for g in movie_data.get('genres', [])]
+        details['overview'] = movie_data.get('overview')
+        details['release_date'] = movie_data.get('release_date')
+
+        # Build image URLs
+        if movie_data.get('poster_path'):
+            details['poster_url'] = f"https://image.tmdb.org/t/p/w500{movie_data['poster_path']}"
+        if movie_data.get('backdrop_path'):
+            details['backdrop_url'] = f"https://image.tmdb.org/t/p/original{movie_data['backdrop_path']}"
+
+        time.sleep(REQUEST_DELAY)  # Rate limiting
+
+        # Get videos (trailers)
+        videos_response = requests.get(videos_url, params=params, timeout=10)
+        videos_response.raise_for_status()
+        videos_data = videos_response.json()
+
+        # Find official trailer (prefer YouTube)
+        for video in videos_data.get('results', []):
+            if video['site'] == 'YouTube' and video['type'] in ['Trailer', 'Teaser']:
+                details['trailer_url'] = f"https://www.youtube.com/watch?v={video['key']}"
+                break
+
+        return details
+
+    except Exception as e:
+        print(f"  ERROR fetching movie details: {e}")
+        return details
+
+
 def check_film_availability(title: str, year: Optional[str] = None) -> Dict:
     """Check availability for a single film"""
     print(f"Checking: {title}" + (f" ({year})" if year else ""))
@@ -140,11 +195,19 @@ def check_film_availability(title: str, year: Optional[str] = None) -> Dict:
     # Small delay to respect rate limits
     time.sleep(REQUEST_DELAY)
 
+    # Get movie details (rating, poster, trailer, etc.)
+    details = get_movie_details(movie_id)
+    result.update(details)
+
+    # Small delay to respect rate limits
+    time.sleep(REQUEST_DELAY)
+
     # Get watch providers
     providers_data = get_watch_providers(movie_id)
 
     if not providers_data:
         print(f"  No streaming info available for {COUNTRY}")
+        # Still return result with movie details even if no providers
         return result
 
     # Check flatrate (subscription services)
