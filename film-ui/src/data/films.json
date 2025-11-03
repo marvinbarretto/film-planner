@@ -1,30 +1,112 @@
 [
   {
-    "title": "Inception",
-    "year": "2010",
-    "tmdb_id": 27205,
+    "title": "Internal Affairs",
+    "year": "N/A",
+    "tmdb_id": 643963,
     "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.0,
+    "runtime": 180,
+    "genres": [
+      "TV Movie"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iRLiu4x5XBNrgC0TOl6K16m3PIr.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "A skilled police detective in a case involving the strange, sadistic murder of a young prostitute who has been killed in exactly the same fashion as a young nightclub singer in Saigon during the Vietnam War. At the same time, the detective attempts to ferret out corruption in the police ranks.",
+    "release_date": "1988-11-06"
+  },
+  {
+    "title": "24 Hour Party People",
+    "year": "N/A",
+    "tmdb_id": 2750,
+    "prime": true,
     "free_any": true,
     "providers": [
-      "Sky Go",
-      "Now TV Cinema"
+      "Amazon Prime Video",
+      "Icon Film Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "Plex",
+      "W4free"
     ],
-    "tmdb_rating": 8.4,
-    "runtime": 148,
+    "tmdb_rating": 6.9,
+    "runtime": 117,
     "genres": [
-      "Action",
-      "Science Fiction",
-      "Adventure"
+      "Comedy",
+      "Drama",
+      "Music"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/28kKbSUvUz6P5RE1AuMJMO7IMfK.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=cdx31ak4KbQ",
-    "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
-    "release_date": "2010-07-15"
+    "poster_url": "https://image.tmdb.org/t/p/w500/8f50NQ1wz6hdxfCISCPV8XQ6DII.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ucRD8UUr5tllltg3ZTWoXOyPXyJ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=A1Qz2x94q6A",
+    "overview": "Manchester, 1976. Tony Wilson is an ambitious but frustrated local TV news reporter looking for a way to make his mark. After witnessing a life-changing concert by a band known as the Sex Pistols, he persuades his station to televise one of their performances, and soon Manchester's punk groups are clamoring for him to manage them. Riding the wave of a musical revolution, Wilson and his friends create the legendary Factory Records label and The Hacienda club.",
+    "release_date": "2002-02-13"
+  },
+  {
+    "title": "Irony of Fate",
+    "year": "N/A",
+    "tmdb_id": 556107,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 0,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": null,
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "",
+    "release_date": "1924-11-28"
+  },
+  {
+    "title": "le Donk & Scor-zay-zee",
+    "year": "N/A",
+    "tmdb_id": 25048,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.0,
+    "runtime": 71,
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fUrQEbGcxGMR2aMdA2PNGJKzRFM.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/aWK8SGc594kJwUa7vBcCes96Ylf.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=QGIo7AzBrRI",
+    "overview": "An improvised comedy, shot over five days by Shane Meadows, devised with and starring Paddy Considine. Rock roadie and failed musician, Le Donk has lived, loved and learned. Along the way he's lost a girlfriend but he has found a new sidekick in up-and-coming rap prodigy Scor-zay-zee. With Meadows' fly-on-the-wall crew in tow, Donk sets out to make Scor-zay-zee a star...",
+    "release_date": "2009-10-09"
+  },
+  {
+    "title": "in The Loop",
+    "year": "N/A",
+    "tmdb_id": 19833,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "MUBI",
+      "MUBI Amazon Channel",
+      "Studiocanal Presents Amazon Channel",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 7.031,
+    "runtime": 106,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jL6txnziFSeEifQkqnPBtaPaiXU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/baRFkHjBNSEF2frf0Gh8dZBFewl.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=NSTdPxndUzE",
+    "overview": "The US President and the UK Prime Minister are planning on launching a war in the Middle East, but\u2014behind the scenes\u2014government officials and advisers are either promoting the war or are trying to prevent it.",
+    "release_date": "2009-01-22"
   },
   {
     "title": "Drive",
-    "year": "2011",
+    "year": "N/A",
     "tmdb_id": 64690,
     "prime": true,
     "free_any": true,
@@ -52,25 +134,2261 @@
     "release_date": "2011-09-15"
   },
   {
-    "title": "Parasite",
-    "year": "2019",
-    "tmdb_id": 496243,
+    "title": "The Salt of The Earth",
+    "year": "2014",
+    "tmdb_id": 265297,
     "prime": true,
     "free_any": true,
     "providers": [
       "Curzon Amazon Channel"
     ],
-    "tmdb_rating": 8.497,
-    "runtime": 133,
+    "tmdb_rating": 8.121,
+    "runtime": 110,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jRmQNj8NacAHJnzwfvFvglKSGB6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lqtzWKCpejXdKb22cav5bB6MqSR.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=OivMlWXtWpY",
+    "overview": "During the last forty years, the photographer Sebasti\u00e3o Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus\u2026 He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
+    "release_date": "2014-08-29"
+  },
+  {
+    "title": "Porko Rosso Film",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Hustler",
+    "year": "N/A",
+    "tmdb_id": 990,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.7,
+    "runtime": 134,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/snItsSViawjaadW9mlWUmGwR41R.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/1aspiiXDHVizaCYTNaWwRQSmXCh.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=n7aFFqz2bXU",
+    "overview": "Fast Eddie Felson is a small-time pool hustler with a lot of talent but a self-destructive attitude. His bravado causes him to challenge the legendary Minnesota Fats to a high-stakes match.",
+    "release_date": "1961-09-25"
+  },
+  {
+    "title": "Gattaca",
+    "year": "N/A",
+    "tmdb_id": 782,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.561,
+    "runtime": 107,
+    "genres": [
+      "Thriller",
+      "Science Fiction",
+      "Mystery",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eSKr5Fl1MEC7zpAXaLWBWSBjgJq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hPsCR1ny6GnctJkWqeJwihTDD7T.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=NIIZ2P-fiyI",
+    "overview": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an \"In-Valid\" who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
+    "release_date": "1997-09-07"
+  },
+  {
+    "title": "Inside Out",
+    "year": "N/A",
+    "tmdb_id": 150540,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 7.91,
+    "runtime": 95,
+    "genres": [
+      "Animation",
+      "Family",
+      "Adventure",
+      "Drama",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=1HFv47QHWJU",
+    "overview": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+    "release_date": "2015-06-17"
+  },
+  {
+    "title": "The Master",
+    "year": "N/A",
+    "tmdb_id": 68722,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.116,
+    "runtime": 137,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rUSjbyvYWN9H4az8xt0tDtU7I6v.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/d6EZMyJos2FonQb7omnXWe38aHY.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=RApl06pYIuU",
+    "overview": "Freddie, a volatile, heavy-drinking veteran who suffers from post-traumatic stress disorder, finds some semblance of a family when he stumbles onto the ship of Lancaster Dodd, the charismatic leader of a new \"religion\" he forms after World War II.",
+    "release_date": "2012-09-14"
+  },
+  {
+    "title": "mr Robot",
+    "year": "N/A",
+    "tmdb_id": 1539338,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 8.0,
+    "runtime": 13,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jyTdCfhuJkeLEb5JRQH90mh2Syf.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "A surreal and intimate glimpse into Elliot\u2019s mind as he reconnects with a lost loved one in this immersive Mr. Robot virtual reality short film.",
+    "release_date": "2016-07-21"
+  },
+  {
+    "title": "Stranger Things",
+    "year": "N/A",
+    "tmdb_id": 182026,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 8.5,
+    "runtime": 77,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4TKdguyacjYrC1Hnbi3PjSP8r3M.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/rNFrzuwvbJtu3UV4xe3EhGZn6DP.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=KS2EztRMuRw",
+    "overview": "Oona, a recent graduate in anthropology, has returned to her dead mother\u2019s seaside cottage in southern England to prepare it for sale. Her arrival disturbs Mani, a wary vagrant who has been squatting on the property.",
+    "release_date": "2013-04-05"
+  },
+  {
+    "title": "The Babadook",
+    "year": "N/A",
+    "tmdb_id": 242224,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Icon Film Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium",
+      "Plex"
+    ],
+    "tmdb_rating": 6.527,
+    "runtime": 94,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qt3fqapeo94TfvMyld8P7gkpXLz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/t18ocAG0cpgC1AP288SseqmXqB5.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=88DDAyYkvis",
+    "overview": "A single mother, plagued by the violent death of her husband, battles with her son's fear of a monster lurking in the house, but soon discovers a sinister presence all around her.",
+    "release_date": "2014-05-22"
+  },
+  {
+    "title": "Hatari! Film John Wayne",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "the Night Of'",
+    "year": "N/A",
+    "tmdb_id": 1502943,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Shudder",
+      "Shudder Amazon Channel"
+    ],
+    "tmdb_rating": 7.273,
+    "runtime": 93,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/HVR8cNWzBVoqbEIIqVtLpDvVKn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/zGRYT2j2uoCcBWICP4u1BakqGT3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=yID7jDK0HYA",
+    "overview": "College student Deena visits her home town and is roped into a babysitting gig. Meanwhile, the local sheriff, after receiving a piece of evidence in the mail, falls into an increasingly desperate scavenger hunt involving a series of murders.",
+    "release_date": "2025-10-30"
+  },
+  {
+    "title": "the Wire'",
+    "year": "N/A",
+    "tmdb_id": 801047,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 0,
+    "genres": [],
+    "poster_url": "https://image.tmdb.org/t/p/w500/j5yJt9QpEnaZaH6lKlESnBnuJw9.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "ROH War of the Wire II is an event produced by Ring of Honor. It took place on July 28, 2006 in Dayton, Ohio at the Montgomery County Fairgrounds Coliseum.",
+    "release_date": "2006-07-28"
+  },
+  {
+    "title": "i Daniel Blake",
+    "year": "N/A",
+    "tmdb_id": 374473,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "BFI Player Apple TV Channel"
+    ],
+    "tmdb_rating": 7.711,
+    "runtime": 100,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nu3WVABXz2W85N6JXTZOT1aWS3b.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mNLonkdD4MtaZnHTifp8be8nJrm.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=tWaZFvdW7Pc",
+    "overview": "A middle aged carpenter, who requires state welfare after injuring himself, is joined by a single mother in a similar scenario.",
+    "release_date": "2016-10-21"
+  },
+  {
+    "title": "Fear And Loathing in Las Vegas",
+    "year": "N/A",
+    "tmdb_id": 1878,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "tmdb_rating": 7.212,
+    "runtime": 118,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tisNLcMkxryU2zxhi0PiyDFqhm0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/qJaR9AZx2Qq2oJ3krnSO0Z5ne5I.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Rx-EsbhLZLQ",
+    "overview": "Raoul Duke and his attorney Dr. Gonzo drive a red convertible across the Mojave desert to Las Vegas with a suitcase full of drugs to cover a motorcycle race. As their consumption of drugs increases at an alarming rate, the stoned duo trash their hotel room and fear legal repercussions. Duke begins to drive back to L.A., but after an odd run-in with a cop, he returns to Sin City and continues his wild drug binge.",
+    "release_date": "1998-05-22"
+  },
+  {
+    "title": "The Work",
+    "year": "2017",
+    "tmdb_id": 438449,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.556,
+    "runtime": 90,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/yxPk4a44miDk17tNpqhrwnrf3DZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/pNJ7rcfnuUpW5wJLcB37LmFAduI.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=lEfCtnM-jwc",
+    "overview": "Set entirely inside Folsom Prison, The Work follows three men during four days of intensive group therapy with convicts, revealing an intimate and powerful portrait of authentic human transformation that transcends what we think of as rehabilitation.",
+    "release_date": "2017-03-11"
+  },
+  {
+    "title": "Kaiser",
+    "year": "N/A",
+    "tmdb_id": 819657,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 5.0,
+    "runtime": 30,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4sY6tyynVg6gT49AGi7ldfL2hWL.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "\u2018The Emperor\u2019s New Clothes\u2019 in a new robe. KAISER translates Hans Christian Andersen fairytale into a company in the 21st century. A dystopian yet colorful narrative about power, hierarchies and invisible caterpillars.",
+    "release_date": "2019-10-24"
+  },
+  {
+    "title": "L\u00c3\u00a9on: The Professional",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Spring, Summer, Fall, Winter... And Spring.. Korean Film",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Football - Take The Ball Pass The Ball Amazon",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Football - Next Goal Wins Amazon",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Man on Wire",
+    "year": "N/A",
+    "tmdb_id": 14048,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Now TV",
+      "ITVX Premium"
+    ],
+    "tmdb_rating": 7.363,
+    "runtime": 94,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1mS4rhIgHZcHIvf1beP9Av0Ui33.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/yKEe2nFu4fRYcmVdeAwZxTZvP3g.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=EIawNRm9NWM",
+    "overview": "On August 7th 1974, French tightrope walker Philippe Petit stepped out on a high wire, illegally rigged between New York's World Trade Center twin towers, then the world's tallest buildings. After nearly an hour of performing on the wire, 1,350 feet above the sidewalks of Manhattan, he was arrested. This fun and spellbinding documentary chronicles Philippe Petit's \"highest\" achievement.",
+    "release_date": "2008-08-01"
+  },
+  {
+    "title": "The Wild And Wonderful Whites of West Virginia",
+    "year": "N/A",
+    "tmdb_id": 49637,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.7,
+    "runtime": 86,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7EQQsuK1Hk1zcoBlNBKfU41aS39.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2S0Kk3cMPE2CX0vEJ6Fp5OjPZgI.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=AQBiXDNVeSA",
+    "overview": "Produced by Johnny Knoxville and Jeff Tremaine for MTV and Dickhouse Productions, The Wild and Wonderful Whites of West Virginia is a documentary about the renowned West Virginia outlaw Jesco White and his eccentric backwoods family. In addition to getting in trouble with the law, the Whites, who live deep within Appalachia, uphold a time-honored dancing style, even as they contend with poverty, drugs and other issues. Alternately humorous and sad, the movie is an unflinching look at life on the criminal margins of rural mountain culture.",
+    "release_date": "2009-04-01"
+  },
+  {
+    "title": "Jiro Dreams of Sushi",
+    "year": "N/A",
+    "tmdb_id": 80767,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "Plex"
+    ],
+    "tmdb_rating": 7.742,
+    "runtime": 82,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iVrkM4jSJw1IsOpW5jTtY5QxVqj.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/1h815ydN8AvrRmNU48eXu4EanO.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=heWRagwzVPo",
+    "overview": "Revered sushi chef Jiro Ono strives for perfection in his work, while his eldest son, Yoshikazu, has trouble living up to his father's legacy.",
+    "release_date": "2011-06-11"
+  },
+  {
+    "title": "Good Kill",
+    "year": "N/A",
+    "tmdb_id": 253626,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 5.959,
+    "runtime": 104,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oO9nK1bqssxRdNHFSFGiucffiA8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/7ghhzg8fFDVPJoB8ImahndG0wwL.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=c7ADAgsmI2o",
+    "overview": "In the shadowy world of drone warfare, combat unfolds like a video game\u2013only with real lives at stake. After six tours of duty, Air Force pilot Tom Egan now fights the Taliban from an air-conditioned bunker in the Nevada desert. But as he yearns to get back in the cockpit of a real plane and becomes increasingly troubled by the collateral damage he causes each time he pushes a button, Egan\u2019s nerves\u2014and his relationship with his wife\u2014begin to unravel.",
+    "release_date": "2015-04-09"
+  },
+  {
+    "title": "The Fighter",
+    "year": "N/A",
+    "tmdb_id": 45317,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Sundance Now Amazon Channel"
+    ],
+    "tmdb_rating": 7.379,
+    "runtime": 116,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xfsFerGhO1h6rLk8vwLgMyQ8WVJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2kqmEQZqime0G3ULgrKtAq3WVdH.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=LRIZ4mCi5Ps",
+    "overview": "Boxer \"Irish\" Micky Ward's unlikely road to the world light welterweight title. His Rocky-like rise was shepherded by half-brother Dicky, a boxer-turned-trainer who rebounded in life after nearly being KO'd by drugs and crime.",
+    "release_date": "2010-12-10"
+  },
+  {
+    "title": "ex Machina",
+    "year": "N/A",
+    "tmdb_id": 264660,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 7.571,
+    "runtime": 108,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/uqOuJ50EtTj7kkDIXP8LCg7G45D.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=sDkEF7Db7Gw",
+    "overview": "Caleb, a coder at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl.",
+    "release_date": "2015-01-21"
+  },
+  {
+    "title": "Catastrophe...",
+    "year": "N/A",
+    "tmdb_id": 583942,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 481,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bxM6uVO9avnZFD1Q6IkQBgO9SI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/4aBh0JEuoH6NG2bVr5Q1SKs8Awz.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Ft1MLonRndE",
+    "overview": "Since 1989, before many of you were born, John Clarke and Bryan Dawe have broadcast a weekly interview in which prominent figures speak about issues of the day. After 20 years this idea is getting into its stride nicely. In the interviews, John makes no attempt to look or sound like the person he is pretending to be, but deals with matters as he sees fit. Bryan persists with dignity and strives for understanding.",
+    "release_date": "2010-04-07"
+  },
+  {
+    "title": "W11",
+    "year": "N/A",
+    "tmdb_id": 1041120,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 11,
+    "genres": [],
+    "poster_url": null,
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "A film by Michael Johnsen and Greg Pierce",
+    "release_date": "1996-01-01"
+  },
+  {
+    "title": "Ghost Dog: The Way of The Samurai",
+    "year": "N/A",
+    "tmdb_id": 4816,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.3,
+    "runtime": 116,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gkH4zOxIfbb4BEbk9Q4cVOEpDaY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/80A15cocDNupdJw5f5i9TogpBum.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=ZhR6jWWpUj0",
+    "overview": "A Black hitman who models after the samurai of old finds himself targeted for death by the mob.",
+    "release_date": "1999-10-06"
+  },
+  {
+    "title": "Dopesic",
+    "year": "N/A",
+    "tmdb_id": 941929,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.0,
+    "runtime": 52,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uUS2XUMKBv6viaccmHgKMjYjaC0.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "This VICE feature film follows the lives of people in Alberta, Canada, affected by the powerful opioid drug fentanyl. The underlying source of the fentanyl crisis in the country goes back to 2012, when the notorious prescription painkiller OxyContin was pulled from pharmacy shelves in lieu of a \"safer\" alternative called OxyNeo. In response to the change, counterfeit fentanyl disguised as fake OxyContin pills started popping up, proliferated, and ended up sparking a full-on crisis in the country-with Canada's west becoming a major epicenter.",
+    "release_date": "2016-11-27"
+  },
+  {
+    "title": "Godfrey Reggio - Koyaniqatsi",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Waking Life - Mat",
+    "year": "2001",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Altered Carbon",
+    "year": "N/A",
+    "tmdb_id": 665251,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "tmdb_rating": 6.542,
+    "runtime": 75,
+    "genres": [
+      "Animation",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vlIYzx7cc4Wvaoh7ShjF2HZG45.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/x6Dxc9Z17Yt9gtq7Dq6uCPbPcxD.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=HmDxxoFslzs",
+    "overview": "On the planet Latimer, Takeshi Kovacs must protect a tattooist while investigating the death of a yakuza boss alongside a no-nonsense CTAC.",
+    "release_date": "2020-03-19"
+  },
+  {
+    "title": "The Banshees of Inisherin",
+    "year": "N/A",
+    "tmdb_id": 674324,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus",
+      "Channel 4 Plus"
+    ],
+    "tmdb_rating": 7.452,
+    "runtime": 114,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/1vXD5HXqkhvsXFHE7KmCPZGPR1e.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=UUuSudyJRrw",
+    "overview": "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
+    "release_date": "2022-10-20"
+  },
+  {
+    "title": "The Gods Must be Crazy",
+    "year": "N/A",
+    "tmdb_id": 50507,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 5.2,
+    "runtime": 96,
     "genres": [
       "Comedy",
+      "Fantasy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bULIYu1m6h9aJfV3Odz6k1DbZzc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/otq0Et6zuiA5uyuduNSqkiVfwp3.jpg",
+    "trailer_url": null,
+    "overview": "Two guys, one of them a magician, are transporting an ancient chinese vampire who can only be controlled by a series of yellow tapes, and is the ancestor of the other guy. On the way, while flying over Africa, their plane stalls. And of all places, where do they land? That's right, in the village of the tribe of \"The Gods Must Be Crazy\".",
+    "release_date": "1991-07-05"
+  },
+  {
+    "title": "Levellers",
+    "year": "N/A",
+    "tmdb_id": 1357633,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.998,
+    "runtime": 116,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Animation"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dblIFen0bNZAq8icJXHwrjfymDW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hlfu6g0h0D65SjkVhQBU20zePTl.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=UdIXUDpeTXU",
+    "overview": "Over a decade after 'gates' connecting worlds appeared, awakening 'hunters' with superpowers, weakest hunter Sung Jinwoo encounters a double dungeon and accepts a mysterious quest, becoming the only one able to level up, changing his fate. A catch-up recap of the first season coupled with an exclusive sneak peek of the first two episodes of the highly anticipated second season in one momentous theatrical fan experience.",
+    "release_date": "2024-11-26"
+  },
+  {
+    "title": "The Good Place",
+    "year": "N/A",
+    "tmdb_id": 319165,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 39,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/coZfDIyEJLFNvYox9hjdsp2EdcO.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "A maid applies to a good position at the Dutilleul's, but she wouldn't know how good it was to be until people starts taking her for the lady of the house...",
+    "release_date": "1930-12-31"
+  },
+  {
+    "title": "Arjun Sen Jaw Surgery",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Eat Pray Love",
+    "year": "N/A",
+    "tmdb_id": 38167,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.2,
+    "runtime": 133,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nPLoZSLqUeQV37Brm71cRQTVUuY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/elzrIY3nfzWz4AXh0lxxBsXLCGI.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=mjay5vgIwt4",
+    "overview": "Liz Gilbert had everything a modern woman is supposed to dream of having \u2013 a husband, a house and a successful career \u2013 yet like so many others, she found herself lost, confused and searching for what she really wanted in life. Newly divorced and at a crossroads, Gilbert steps out of her comfort zone, risking everything to change her life, embarking on a journey around the world that becomes a quest for self-discovery. In her travels, she discovers the true pleasure of nourishment by eating in Italy, the power of prayer in India and, finally and unexpectedly, the inner peace and balance of true love in Bali.",
+    "release_date": "2010-08-12"
+  },
+  {
+    "title": "Another Round",
+    "year": "N/A",
+    "tmdb_id": 1156965,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 14,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/zjKqQKSlGDscTTGwwu5OCHdeT4X.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "Adapted from Arthur Schnitzler's La Ronde, Another Round explores ten couples struggles with life, love and relationships around (literally) a bar.",
+    "release_date": "2018-01-01"
+  },
+  {
+    "title": "Perfect Days Japan Film Mat",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Midsommar",
+    "year": "N/A",
+    "tmdb_id": 530385,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.153,
+    "runtime": 147,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/aAM3cQmYGjjLQ24m0F0RWfjKQ57.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=S3EZ-iTDqX0",
+    "overview": "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
+    "release_date": "2019-07-03"
+  },
+  {
+    "title": "There Will be Blood",
+    "year": "N/A",
+    "tmdb_id": 7345,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "tmdb_rating": 8.1,
+    "runtime": 158,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9UAKA6ceZi6TgQwTAAMt7DWwYPI.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=-bEwlq_7f4s",
+    "overview": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+    "release_date": "2007-12-26"
+  },
+  {
+    "title": "Soylent Green",
+    "year": "N/A",
+    "tmdb_id": 12101,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.934,
+    "runtime": 97,
+    "genres": [
+      "Science Fiction",
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/5nbkShkOEXUoKVhaX0XG41wyBkq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/b7ATgNqE84WrGKq7Y8JtrnAuAS8.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=N_jGOKYHxaQ",
+    "overview": "In the year 2022, overcrowding, pollution,  and resource depletion have reduced society\u2019s leaders to finding food for the teeming masses. The answer is Soylent Green.",
+    "release_date": "1973-04-18"
+  },
+  {
+    "title": "Down by Law",
+    "year": "N/A",
+    "tmdb_id": 1554,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.333,
+    "runtime": 106,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4IyxoUQ7BB5kcSd7gASe2dTyWu7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/8kVPLOzuZ1G9EBYxcOrzaHbxCeC.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=IeFU1PJ-APQ",
+    "overview": "A disc jockey, a pimp and an Italian tourist escape from jail in New Orleans.",
+    "release_date": "1986-09-20"
+  },
+  {
+    "title": "Civil War",
+    "year": "2024",
+    "tmdb_id": 929590,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 6.848,
+    "runtime": 109,
+    "genres": [
+      "War",
+      "Action",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/en3GU5uGkKaYmSyetHV4csHHiH3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=c2G18nIVpNE",
+    "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war.",
+    "release_date": "2024-04-10"
+  },
+  {
+    "title": "This is England Shane Meadows",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Commitments",
+    "year": "N/A",
+    "tmdb_id": 11663,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 7.255,
+    "runtime": 118,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iccBDq9aS1gwi6b8aJjBgPU4t2D.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/bQHHEFYBZc23nhbo0z0qB7nxW31.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=PG3uEHpUflA",
+    "overview": "Jimmy Rabbitte, just a thick-ya out of school, gets a brilliant idea: to put a soul band together in Barrytown, his slum home in north Dublin. First he needs musicians and singers: things slowly start to click when he finds three fine-voiced females virtually in his back yard, a lead singer (Deco) at a wedding, and, responding to his ad, an aging trumpet player, Joey \"The Lips\" Fagan.",
+    "release_date": "1991-08-14"
+  },
+  {
+    "title": "12 Monkeys",
+    "year": "N/A",
+    "tmdb_id": 63,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "BBC iPlayer"
+    ],
+    "tmdb_rating": 7.601,
+    "runtime": 129,
+    "genres": [
+      "Science Fiction",
+      "Thriller",
+      "Mystery"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gt3iyguaCIw8DpQZI1LIN5TohM2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mKIkGoyuR71qz6FdiEiOjxvBQcS.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Xwh1xBzsc1Q",
+    "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly and the son of a famous virus expert who may hold the key to the Army of the 12 Monkeys; thought to be responsible for unleashing the killer disease.",
+    "release_date": "1995-12-29"
+  },
+  {
+    "title": "Brazil",
+    "year": "1985",
+    "tmdb_id": 68,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.671,
+    "runtime": 143,
+    "genres": [
+      "Comedy",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aewan59WcFThBimkTVVoNf2o5Vb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9IYyCLf5NNAQFK9pNtqzEU9HWzM.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=A_7ATU9dslE",
+    "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+    "release_date": "1985-02-20"
+  },
+  {
+    "title": "Watch The Figo Affair: The Transfer That Changed Football",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Hatton Documentary",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Ronnie O'sullivan The Edge of Everything",
+    "year": "N/A",
+    "tmdb_id": 1198730,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 8.0,
+    "runtime": 113,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rObStOoSioXYXKCtrOSDu9mFg0f.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/AtKUxS9kyT5c9S8GmU4x3La8cS.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=MbVu-QsIvTQ",
+    "overview": "Ronnie O\u2019Sullivan hasn\u2019t had the most harmonious relationship with the media over the years, but his attempt to win the Snooker World Championship for a record 7th time in 2021 apparently proved to good an opportunity to pass up.",
+    "release_date": "2023-11-21"
+  },
+  {
+    "title": "Michaela school",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "v For Vendetta",
+    "year": "N/A",
+    "tmdb_id": 752,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.899,
+    "runtime": 132,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1avD1JeaRiJX5M4ahPdZPypGoGN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sFEYsEfzTx7hhjetlNrme8B5OUo.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=V5VGq23aZ-g",
+    "overview": "In a world in which Great Britain has become a fascist state, a masked vigilante known only as \u201cV\u201d conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain.",
+    "release_date": "2006-02-23"
+  },
+  {
+    "title": "Sexy Beast",
+    "year": "N/A",
+    "tmdb_id": 11826,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Channel 4 Plus"
+    ],
+    "tmdb_rating": 6.998,
+    "runtime": 89,
+    "genres": [
+      "Crime",
       "Thriller",
       "Drama"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=lkA5ifth91k",
-    "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-    "release_date": "2019-05-30"
+    "poster_url": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/yYUGy4MDM6jbJoamlfo3HT6Guhy.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=osexRaPM_Gc",
+    "overview": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+    "release_date": "2001-01-12"
+  },
+  {
+    "title": "Line of Duty",
+    "year": "N/A",
+    "tmdb_id": 346709,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 5.88,
+    "runtime": 98,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Action"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/h3mrc6JunZYFTmFas2gKilmw77q.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ygIHxA8EB246fwnNlHn6gN1QCf4.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=HlicR75YXEE",
+    "overview": "Frank Penny is a disgraced cop looking for a shot at redemption. When the police chief's 11-year-old daughter is abducted, Frank goes rogue to try and save her. But to find the girl, Frank will need the help of Ava Brooks, whose live-streaming news channel is broadcasting Frank's every move.",
+    "release_date": "2019-12-25"
+  },
+  {
+    "title": "Alice in Borderland",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Politics Speak",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "life aquatic",
+    "year": "N/A",
+    "tmdb_id": 421,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 7.1,
+    "runtime": 119,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qZoFLNBC78jzboWeDH6Ha0qavF2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/7tWktnLQ81G8pHUkhuTebcTkcB3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=XVRXYnGz-Mo",
+    "overview": "Renowned oceanographer Steve Zissou has sworn vengeance upon the rare shark that devoured a member of his crew. In addition to his regular team, he is joined on his boat by Ned, a man who believes Zissou to be his father, and Jane, a journalist pregnant by a married man. They travel the sea, all too often running into pirates and, perhaps more traumatically, various figures from Zissou's past, including his estranged wife, Eleanor.",
+    "release_date": "2004-12-10"
+  },
+  {
+    "title": "Clerks",
+    "year": "N/A",
+    "tmdb_id": 2292,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Now TV Cinema"
+    ],
+    "tmdb_rating": 7.383,
+    "runtime": 92,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9IiSgiq4h4siTIS9H3o4nZ3h5L9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sjfbZVKRGh84lNxhqvuhdvovh18.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=f8yqQkABBjY",
+    "overview": "Convenience and video store clerks Dante and Randal are sharp-witted, potty-mouthed and bored out of their minds. So in between needling customers, the counter jockeys play hockey on the roof, visit a funeral home and deal with their love lives.",
+    "release_date": "1994-10-19"
+  },
+  {
+    "title": "Archer",
+    "year": "N/A",
+    "tmdb_id": 74269,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.1,
+    "runtime": 92,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/yWE9VchocHnEc4YllOdIWRIgifk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/aqq0UwsfhxbBZmpdbews92VlU4p.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=FKCK0tyPBRo",
+    "overview": "Guo Jing and Huang Rong pursue Yang Kang to Iron Palm Peak, where Qiu Qianren and the Iron Palm Sect is based. Huang is injured by Qiu in a fight and she escapes with Guo Jing's help. Guo brings her in search of a cure to heal her wounds and they stumble upon a house in a swamp, inhabited by a woman called Yinggu. Yinggu tells them that the only person who can save Huang Rong's life is Duan Zhixing, the former ruler of the Kingdom of Dali, who has become a monk now.",
+    "release_date": "1981-11-12"
+  },
+  {
+    "title": "la Vie D'ad\u00c3\u00a8le Film",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Working Girl",
+    "year": "N/A",
+    "tmdb_id": 3525,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 6.596,
+    "runtime": 114,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lRWIiRSOMH7qQT6UGcmx8Uykix3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=va1UqFivi6A",
+    "overview": "When a secretary's idea is stolen by her boss, she seizes an opportunity to steal it back by pretending she has her boss' job.",
+    "release_date": "1988-12-20"
+  },
+  {
+    "title": "Iccl Human Rights Film Awards",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Get Carter Article About Cult British Films",
+    "year": "1971",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Amazon Prime Four Year Plan Qpr",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Natural Born Killers",
+    "year": "N/A",
+    "tmdb_id": 241,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 7.049,
+    "runtime": 118,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fEKZwT91gxvkAoyPgpNXo8W5fu0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/k3TOt50cHvTLXWYPnXP0szhiXB8.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Quh24cn7-E8",
+    "overview": "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
+    "release_date": "1994-08-26"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": "N/A",
+    "tmdb_id": 278,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "tmdb_rating": 8.712,
+    "runtime": 142,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/v8xVDqt8uCul3c3mgx4VpGCwxJC.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "release_date": "1994-09-23"
+  },
+  {
+    "title": "Star Wars",
+    "year": "N/A",
+    "tmdb_id": 11,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 8.204,
+    "runtime": 121,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2w4xG178RpB4MDAIfTkqAuSJzec.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=XsS1yE2f-hE",
+    "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+    "release_date": "1977-05-25"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "N/A",
+    "tmdb_id": 13,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Paramount Plus",
+      "Paramount+ Amazon Channel",
+      "Netflix Standard with Ads",
+      "ITVX Premium",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "tmdb_rating": 8.464,
+    "runtime": 142,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=m-btyJIYLyI",
+    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events\u2014in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "release_date": "1994-06-23"
+  },
+  {
+    "title": "Trainspotting",
+    "year": "N/A",
+    "tmdb_id": 627,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.96,
+    "runtime": 94,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/wUc83y8kXNdRK66o0HU5X8eBri4.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=r9v3UXKhVQM",
+    "overview": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.",
+    "release_date": "1996-02-23"
+  },
+  {
+    "title": "The Thin Red Line",
+    "year": "N/A",
+    "tmdb_id": 8741,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 7.447,
+    "runtime": 171,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/seMydAaoxQP6F0xbE1jOcTmn5Jr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hsDyfAk2ml82IrpPC4AHvxvuTsn.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=ejm0XvT3rB8",
+    "overview": "The story of a group of men, an Army Rifle company called C-for-Charlie, who change, suffer, and ultimately make essential discoveries about themselves during the fierce World War II battle of Guadalcanal. It follows their journey, from the surprise of an unopposed landing, through the bloody and exhausting battles that follow, to the ultimate departure of those who survived.",
+    "release_date": "1998-12-23"
+  },
+  {
+    "title": "Platoon",
+    "year": "N/A",
+    "tmdb_id": 792,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.745,
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "War",
+      "Action"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/m3mmFkPQKvPZq5exmh0bDuXlD9T.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xywFHPls3rMTiRtZUhrCghMCsMe.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=R8weLPF4qBQ",
+    "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+    "release_date": "1986-12-19"
+  },
+  {
+    "title": "Interstellar",
+    "year": "N/A",
+    "tmdb_id": 157336,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 8.462,
+    "runtime": 169,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=PG5c2GgkA2w",
+    "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    "release_date": "2014-11-05"
+  },
+  {
+    "title": "The Rock",
+    "year": "N/A",
+    "tmdb_id": 9802,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 7.137,
+    "runtime": 137,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/j5mxLNWjUlXUUk8weFBtnF4afIR.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/qDVdTL1KqGmGLGsy7UPA3vksku7.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=a3qcNyjj9ZQ",
+    "overview": "When vengeful General Francis X. Hummel seizes control of Alcatraz Island and threatens to launch missiles loaded with deadly chemical weapons into San Francisco, only a young FBI chemical weapons expert and notorious Federal prisoner have the skills to penetrate the impregnable island fortress and take him down.",
+    "release_date": "1996-06-07"
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": "N/A",
+    "tmdb_id": 28,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "tmdb_rating": 8.271,
+    "runtime": 147,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9Qs9oyn4iE8QtQjGZ0Hp2WyYNXT.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=9l-ViOOFH-s",
+    "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+    "release_date": "1979-05-19"
+  },
+  {
+    "title": "Life of Brian",
+    "year": "N/A",
+    "tmdb_id": 583,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "ITVX Premium"
+    ],
+    "tmdb_rating": 7.757,
+    "runtime": 94,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lSSA64WF0M0BXnjwr2quMh6shCl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lOrM3OQhHlzEkpF7Ih3GghecrA8.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=tK4Qb51ftd4",
+    "overview": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs.",
+    "release_date": "1979-08-17"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "year": "N/A",
+    "tmdb_id": 500,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads",
+      "ITVX Premium"
+    ],
+    "tmdb_rating": 8.118,
+    "runtime": 99,
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/eohMDv8x1XRSkPdjWv5xsFct4Dj.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=2KLZ4fSXtgI",
+    "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+    "release_date": "1992-09-02"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "N/A",
+    "tmdb_id": 680,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Paramount Plus",
+      "Sky Go",
+      "Now TV Cinema",
+      "Paramount+ Amazon Channel",
+      "Amazon Prime Video with Ads",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "tmdb_rating": 8.5,
+    "runtime": 154,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=tGpTpVyI_OQ",
+    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "release_date": "1994-09-10"
+  },
+  {
+    "title": "Lord of The Rings",
+    "year": "N/A",
+    "tmdb_id": 120,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "tmdb_rating": 8.425,
+    "runtime": 179,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/z51Wzj94hvAIsWfknifKTqKJRwp.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=CbYmZOV3G-Q",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "release_date": "2001-12-18"
+  },
+  {
+    "title": "Magnolia",
+    "year": "N/A",
+    "tmdb_id": 334,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.724,
+    "runtime": 189,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mFfyE5DPFDqoes4HIcElHc2a15y.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=cxcegktcxSM",
+    "overview": "On one random day in the San Fernando Valley, a dying father, a young wife, a male caretaker, a famous lost son, a police officer in love, a boy genius, an ex-boy genius, a game show host and an estranged daughter will each become part of a dazzling multiplicity of plots, but one story.",
+    "release_date": "1999-12-17"
+  },
+  {
+    "title": "Children of Men",
+    "year": "N/A",
+    "tmdb_id": 9693,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Sky Go",
+      "Now TV Cinema"
+    ],
+    "tmdb_rating": 7.611,
+    "runtime": 109,
+    "genres": [
+      "Drama",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8Xgvmx7WWc7Z9Ws9RAYk7uya2kh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/22yIGscWOOLRvwQb44ZboZmstIH.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=mhp4o8nIUFI",
+    "overview": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind.",
+    "release_date": "2006-09-22"
+  },
+  {
+    "title": "Breaking The Waves",
+    "year": "N/A",
+    "tmdb_id": 145,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "Curzon Amazon Channel",
+      "BFI Player Apple TV Channel"
+    ],
+    "tmdb_rating": 7.492,
+    "runtime": 159,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dQWMcdHXUOSHtr7ypOCa5T79JMS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nY2faCdUVHzuH6FmDI6QsAURE68.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=dPmWixRLFPQ",
+    "overview": "In a small, conservative Scottish village, an oilman is paralyzed in an accident. His wife, who prayed for his return, feels guilty; even more, when he urges her to have sex with another.",
+    "release_date": "1996-07-05"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "year": "N/A",
+    "tmdb_id": 600,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+    ],
+    "tmdb_rating": 8.123,
+    "runtime": 117,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/yYderAvjtKnYLBxKujVpmKTVlOM.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=n2i917l5RFc",
+    "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+    "release_date": "1987-06-26"
+  },
+  {
+    "title": "a Clockwork Orange",
+    "year": "N/A",
+    "tmdb_id": 185,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 8.2,
+    "runtime": 137,
+    "genres": [
+      "Science Fiction",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nLFxvLokHe3bQmrmAfljIfax2jQ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
+    "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
+    "release_date": "1971-12-19"
+  },
+  {
+    "title": "The Royal Tenenbaums",
+    "year": "N/A",
+    "tmdb_id": 9428,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 7.465,
+    "runtime": 110,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/cbuX448RKetr5Y5cZkmJEfu3xji.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=-DNAI9bhBFU",
+    "overview": "Royal Tenenbaum and his wife Etheline had three children and then they separated. All three children are extraordinary --- all geniuses. Virtually all memory of the brilliance of the young Tenenbaums was subsequently erased by two decades of betrayal, failure, and disaster. Most of this was generally considered to be their father's fault. \"The Royal Tenenbaums\" is the story of the family's sudden, unexpected reunion one recent winter.",
+    "release_date": "2001-10-05"
+  },
+  {
+    "title": "Requiem For a Dream",
+    "year": "N/A",
+    "tmdb_id": 641,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "Lionsgate+ Amazon Channels"
+    ],
+    "tmdb_rating": 8.012,
+    "runtime": 102,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/7tZt3PA948fvSTFx0699YF44Tdt.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=NEKjZSTo0Uk",
+    "overview": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
+    "release_date": "2000-10-06"
+  },
+  {
+    "title": "Fight Club",
+    "year": "N/A",
+    "tmdb_id": 550,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 8.438,
+    "runtime": 139,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5TiwfWEaPSwD20uwXjCTUqpQX70.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=dfeUzm6KF4g",
+    "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "release_date": "1999-10-15"
+  },
+  {
+    "title": "American Beauty",
+    "year": "N/A",
+    "tmdb_id": 14,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Paramount Plus",
+      "Paramount Plus Premium",
+      "Paramount Plus Basic with Ads"
+    ],
+    "tmdb_rating": 8.003,
+    "runtime": 122,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wby9315QzVKdW9BonAefg8jGTTb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2ndw55F40IkALzWyjCCza3M6nqM.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=XCxzXblZyfQ",
+    "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+    "release_date": "1999-09-15"
+  },
+  {
+    "title": "The Green Mile",
+    "year": "N/A",
+    "tmdb_id": 497,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads",
+      "Channel 4 Plus"
+    ],
+    "tmdb_rating": 8.502,
+    "runtime": 189,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/o0lO84GI7qrG6XFvtsPOSV7CTNa.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/b6HWTOxn1xevvyHU2K9ICvaRU6g.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Bg7epsq0OIQ",
+    "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+    "release_date": "1999-12-10"
+  },
+  {
+    "title": "Into The Wild",
+    "year": "N/A",
+    "tmdb_id": 5915,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.799,
+    "runtime": 148,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jnLnLYP5pGDfri04gxtAqAvkHMw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/87tmTU1NSR5EUGTKsF5rhLwZtZc.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=XZG1FzyB8DI",
+    "overview": "After graduating from Emory University in 1992, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity, and hitchhikes to Alaska to live in the wilderness.",
+    "release_date": "2007-09-21"
+  },
+  {
+    "title": "This is England.",
+    "year": "N/A",
+    "tmdb_id": 324349,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 7.0,
+    "runtime": 10,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nZjf9XJn6z2TQ0gyXSBhNU25sYh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5UGHs5lF30xJaXufCjL70jATNbK.jpg",
+    "trailer_url": null,
+    "overview": "Edward R. Murrow narrates Humphrey Jennings' short documentary about life in England during wartime.",
+    "release_date": "1941-01-01"
+  },
+  {
+    "title": "Manchester by The Sea",
+    "year": "N/A",
+    "tmdb_id": 334541,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Netflix Standard with Ads"
+    ],
+    "tmdb_rating": 7.547,
+    "runtime": 138,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fjk4eE8Ypke4YLv5A3ArDH4GzYH.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Je7Qw5kCJbM",
+    "overview": "After his older brother passes away, Lee Chandler is forced to return home to care for his 16-year-old nephew. There he is compelled to deal with a tragic past that separated him from his family and the community where he was born and raised.",
+    "release_date": "2016-11-17"
+  },
+  {
+    "title": "The Wire",
+    "year": "N/A",
+    "tmdb_id": 1024837,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 0.0,
+    "runtime": 0,
+    "genres": [],
+    "poster_url": null,
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "A boy plants a microphone in the sitting-room so that he can listen to his parents after going to bed at night.",
+    "release_date": "1983-09-03"
+  },
+  {
+    "title": "Firefly",
+    "year": "N/A",
+    "tmdb_id": 1164506,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 8.0,
+    "runtime": 105,
+    "genres": [
+      "Fantasy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dRyckThsRzAuIk7pUNs6QSqfpy4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/iOtIjnDdXmEKHDOxmE4LZK244Xi.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=pJ4H5-YOH2U",
+    "overview": "The film follows a young boy's search for the mythical island of fireflies described in his mother's bedtime stories. Using the \"clues\" he believes his mother left behind in an old notebook, the boy makes the long journey to the magical island to wish her back to life.",
+    "release_date": "2023-12-25"
+  },
+  {
+    "title": "oz",
+    "year": "N/A",
+    "tmdb_id": 51560,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 4.5,
+    "runtime": 100,
+    "genres": [
+      "Music",
+      "Fantasy",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pFhWEWzZNhiQBrLVJfcFWDGMP6C.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9u8ivUdOMZhVdMIgEznyBbVogww.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=KJD8xFpvuiw",
+    "overview": "Dorothy is a sixteen-year-old groupie riding with a rock band when, suddenly, the van is in a road accident, and she hits her head. She wakes up in a fantasy world as gritty and realistic as the one she came from and learns she killed a young thug in the process. A gay clothier called the Good Fairy gives her a pair of red shoes as a reward to help her see the last concert of the Wizard, an androgynous rock singer. She is pursed by the thug's brother who attempts to rape her on several occasions. She also meets a dumb surfer, a heartless mechanic, and a cowardly biker.",
+    "release_date": "1976-07-29"
+  },
+  {
+    "title": "Spooks",
+    "year": "N/A",
+    "tmdb_id": 162580,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.0,
+    "runtime": 8,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Horror",
+      "Fantasy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tEKe6KxYo00t6q3LhpBH3o7geVO.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "Flip the Frog finds himself in a house haunted by crazy skeletons.",
+    "release_date": "1931-12-20"
+  },
+  {
+    "title": "Three Billboards",
+    "year": "N/A",
+    "tmdb_id": 359940,
+    "prime": false,
+    "free_any": true,
+    "providers": [
+      "Disney Plus"
+    ],
+    "tmdb_rating": 8.061,
+    "runtime": 115,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=_UsoBzKxj9A",
+    "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
+    "release_date": "2017-12-01"
+  },
+  {
+    "title": "Dopesic",
+    "year": "N/A",
+    "tmdb_id": 941929,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 6.0,
+    "runtime": 52,
+    "genres": [
+      "Documentary"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uUS2XUMKBv6viaccmHgKMjYjaC0.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "This VICE feature film follows the lives of people in Alberta, Canada, affected by the powerful opioid drug fentanyl. The underlying source of the fentanyl crisis in the country goes back to 2012, when the notorious prescription painkiller OxyContin was pulled from pharmacy shelves in lieu of a \"safer\" alternative called OxyNeo. In response to the change, counterfeit fentanyl disguised as fake OxyContin pills started popping up, proliferated, and ended up sparking a full-on crisis in the country-with Canada's west becoming a major epicenter.",
+    "release_date": "2016-11-27"
+  },
+  {
+    "title": "You Were Never Really Here",
+    "year": "N/A",
+    "tmdb_id": 398181,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "STUDIOCANAL PRESENTS Apple TV Channel",
+      "Studiocanal Presents Amazon Channel"
+    ],
+    "tmdb_rating": 6.547,
+    "runtime": 89,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nx4lUyQNEzJowcF55VAP0TQEaX0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/h4Lk8Cgfvlzz0hcnSJBTAOwNDia.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=fQyDaGWQ43w",
+    "overview": "A traumatized veteran, unafraid of violence, tracks down missing girls for a living. When a job spins out of control, his nightmares begin to overtake him, and a conspiracy is uncovered\u2014leading to what may be his death trip or his awakening.",
+    "release_date": "2017-11-08"
+  },
+  {
+    "title": "Netflix: 14 Peaks: Nothing is Impossible",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "24 (tanzanian Boys",
+    "year": "N/A",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Prison Break",
+    "year": "N/A",
+    "tmdb_id": 242693,
+    "prime": false,
+    "free_any": false,
+    "providers": [],
+    "tmdb_rating": 5.591,
+    "runtime": 72,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jSeX7De6WLd1sLh7USH0GVctyH8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/huJhHslibJDKUaIbJMAIsYZtUyy.jpg",
+    "trailer_url": null,
+    "overview": "Story of a tuna fisherman who has been wrongfully convicted of a murder he did not commit. His exemplary behavior in prison ensures that he is up for early parole. He realizes, however, that his movements will be limited, and he will be unable to join and wed his beloved. The only solution is to escape and hunt down the real killer, himself.",
+    "release_date": "1938-07-12"
+  },
+  {
+    "title": "Brothers Grimsby",
+    "year": "N/A",
+    "tmdb_id": 267193,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+    ],
+    "tmdb_rating": 6.0,
+    "runtime": 83,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2jQGFmShpdflApc5oidJZ97m1d1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/jPz33Dx0l6uLGD6iLuqhiYuprxf.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=_YtclB_02wA",
+    "overview": "Wrongfully accused and on the run, a top MI6 assassin joins forces with his long-lost, football hooligan brother to save the world from a sinister plot.",
+    "release_date": "2016-02-24"
+  },
+  {
+    "title": "Human Traffic",
+    "year": "N/A",
+    "tmdb_id": 11129,
+    "prime": true,
+    "free_any": true,
+    "providers": [
+      "BFI Player",
+      "BFI Player Amazon Channel",
+      "BFI Player Apple TV Channel"
+    ],
+    "tmdb_rating": 6.796,
+    "runtime": 99,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cHwnYGZh1fVuVWqT28GpCN0usYF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kRC0aqvYYDIrgeq83yUdq7qFTn4.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=GjoWJB9SGf0",
+    "overview": "For Jip, Lulu, Koop, Nina and Moff, the dead-end jobs they endure during the week just kill the time until Friday night. That's when they cut very loose and get on the rollercoaster ride that takes them right through to Monday morning.",
+    "release_date": "1999-06-04"
+  },
+  {
+    "title": "Apocalypse Now Francis Ford Coppola",
+    "year": "1980",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Chariots of Fire Hugh Hudson",
+    "year": "1981",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Missing Costa-gavras",
+    "year": "1982",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The King of Comedy Martin Scorsese",
+    "year": "1983",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Paris, Texas Wim Wenders",
+    "year": "1984",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Purple Rose of Cairo Woody Allen",
+    "year": "1985",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "a Room With a View James Ivory",
+    "year": "1986",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Hope And Glory John Boorman",
+    "year": "1987",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "House of Games David Mamet",
+    "year": "1988",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Distant Voices, Still Lives Terence Davies",
+    "year": "1989",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Crimes And Misdemeanors Woody Allen",
+    "year": "1990",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Thelma & Louise Ridley Scott",
+    "year": "1991",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Unforgiven Clint Eastwood",
+    "year": "1992",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Piano Jane Campion",
+    "year": "1993",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Schindler's List Steven Spielberg",
+    "year": "1994",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Babe Chris Noonan",
+    "year": "1995",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Fargo Joel Coen",
+    "year": "1996",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "L.a. Confidential Curtis Hanson",
+    "year": "1997",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Saving Private Ryan Steven Spielberg",
+    "year": "1998",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "American Beauty Sam Mendes",
+    "year": "1999",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Being John Malkovich Spike Jonze",
+    "year": "2000",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Moulin Rouge! Baz Luhrmann",
+    "year": "2001",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "About Schmidt Alexander Payne",
+    "year": "2002",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Master And Commander: The Far Side of The World Peter Weir",
+    "year": "2003",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Sideways Alexander Payne",
+    "year": "2004",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Brokeback Mountain Ang Lee",
+    "year": "2005",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "United 93 Paul Greengrass",
+    "year": "2006",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "no Country For Old Men Joel And Ethan Coen",
+    "year": "2007",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Wrestler Darren Aronofsky",
+    "year": "2008",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "a Prophet Jacques Audiard",
+    "year": "2009",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Social Network David Fincher",
+    "year": "2010",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "The Artist Michel Hazanavicius",
+    "year": "2011",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Amour Michael Haneke",
+    "year": "2012",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "12 Years a Slave Steve Mcqueen",
+    "year": "2013",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Boyhood Richard Linklater",
+    "year": "2014",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Mad Max: Fury Road George Miller",
+    "year": "2015",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "la la Land Damien Chazelle",
+    "year": "2016",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Three Billboards Outside Ebbing, Missouri Martin Mcdonagh",
+    "year": "2017",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Roma Alfonso Cuar\u00c3\u00b3n",
+    "year": "2018",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
+  },
+  {
+    "title": "Nomadland Chlo\u00c3\u00a9 Zhao",
+    "year": "2020",
+    "tmdb_id": null,
+    "prime": false,
+    "free_any": false,
+    "providers": []
   }
 ]
