@@ -1,0 +1,43 @@
+name: Check Film Availability
+
+on:
+  # Run every Sunday at 9:00 AM UTC
+  schedule:
+    - cron: '0 9 * * 0'
+
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+
+jobs:
+  check-availability:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run availability checker
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL }}
+          COUNTRY: ${{ vars.COUNTRY }}
+        run: python check_availability.py
+
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: availability-results
+          path: |
+            results.json
+            results_summary.csv
+          retention-days: 90
