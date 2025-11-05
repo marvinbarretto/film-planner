@@ -15,7 +15,9 @@
     "backdrop_url": null,
     "trailer_url": null,
     "overview": "A skilled police detective in a case involving the strange, sadistic murder of a young prostitute who has been killed in exactly the same fashion as a young nightclub singer in Saigon during the Vietnam War. At the same time, the detective attempts to ferret out corruption in the police ranks.",
-    "release_date": "1988-11-06"
+    "release_date": "1988-11-06",
+    "suggested_by": "Sarah",
+    "notes": "Test note for Internal Affairs"
   },
   {
     "title": "24 Hour Party People",
@@ -41,7 +43,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/ucRD8UUr5tllltg3ZTWoXOyPXyJ.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=A1Qz2x94q6A",
     "overview": "Manchester, 1976. Tony Wilson is an ambitious but frustrated local TV news reporter looking for a way to make his mark. After witnessing a life-changing concert by a band known as the Sex Pistols, he persuades his station to televise one of their performances, and soon Manchester's punk groups are clamoring for him to manage them. Riding the wave of a musical revolution, Wilson and his friends create the legendary Factory Records label and The Hacienda club.",
-    "release_date": "2002-02-13"
+    "release_date": "2002-02-13",
+    "suggested_by": "Mike",
+    "notes": "Test note for 24 Hour Party People"
   },
   {
     "title": "Irony of Fate",
@@ -59,7 +63,9 @@
     "backdrop_url": null,
     "trailer_url": null,
     "overview": "",
-    "release_date": "1924-11-28"
+    "release_date": "1924-11-28",
+    "suggested_by": "John",
+    "notes": "Test note for Irony of Fate"
   },
   {
     "title": "le Donk & Scor-zay-zee",
@@ -78,7 +84,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/aWK8SGc594kJwUa7vBcCes96Ylf.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=QGIo7AzBrRI",
     "overview": "An improvised comedy, shot over five days by Shane Meadows, devised with and starring Paddy Considine. Rock roadie and failed musician, Le Donk has lived, loved and learned. Along the way he's lost a girlfriend but he has found a new sidekick in up-and-coming rap prodigy Scor-zay-zee. With Meadows' fly-on-the-wall crew in tow, Donk sets out to make Scor-zay-zee a star...",
-    "release_date": "2009-10-09"
+    "release_date": "2009-10-09",
+    "suggested_by": "Emma",
+    "notes": "Test note for le Donk & Scor-zay-zee"
   },
   {
     "title": "in The Loop",
@@ -102,7 +110,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/baRFkHjBNSEF2frf0Gh8dZBFewl.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=NSTdPxndUzE",
     "overview": "The US President and the UK Prime Minister are planning on launching a war in the Middle East, but\u2014behind the scenes\u2014government officials and advisers are either promoting the war or are trying to prevent it.",
-    "release_date": "2009-01-22"
+    "release_date": "2009-01-22",
+    "suggested_by": "Alex",
+    "notes": "Test note for in The Loop"
   },
   {
     "title": "Drive",
@@ -131,7 +141,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/1oaLxMtdn47TWdaty8BwdU4oXhV.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=J8lZi3ocbYk",
     "overview": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
-    "release_date": "2011-09-15"
+    "release_date": "2011-09-15",
+    "suggested_by": "Rachel",
+    "notes": "Test note for Drive"
   },
   {
     "title": "The Salt of The Earth",
@@ -151,7 +163,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/lqtzWKCpejXdKb22cav5bB6MqSR.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=OivMlWXtWpY",
     "overview": "During the last forty years, the photographer Sebasti\u00e3o Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus\u2026 He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
-    "release_date": "2014-08-29"
+    "release_date": "2014-08-29",
+    "suggested_by": "Sarah",
+    "notes": "Test note for The Salt of The Earth"
   },
   {
     "title": "Porko Rosso Film",
@@ -159,7 +173,9 @@
     "tmdb_id": null,
     "prime": false,
     "free_any": false,
-    "providers": []
+    "providers": [],
+    "suggested_by": "Mike",
+    "notes": "Test note for Porko Rosso Film"
   },
   {
     "title": "The Hustler",
@@ -178,7 +194,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/1aspiiXDHVizaCYTNaWwRQSmXCh.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=n7aFFqz2bXU",
     "overview": "Fast Eddie Felson is a small-time pool hustler with a lot of talent but a self-destructive attitude. His bravado causes him to challenge the legendary Minnesota Fats to a high-stakes match.",
-    "release_date": "1961-09-25"
+    "release_date": "1961-09-25",
+    "suggested_by": "John",
+    "notes": "Test note for The Hustler"
   },
   {
     "title": "Gattaca",
@@ -199,7 +217,9 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/hPsCR1ny6GnctJkWqeJwihTDD7T.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=NIIZ2P-fiyI",
     "overview": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an \"In-Valid\" who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
-    "release_date": "1997-09-07"
+    "release_date": "1997-09-07",
+    "suggested_by": "Emma",
+    "notes": "Test note for Gattaca"
   },
   {
     "title": "Inside Out",
@@ -304,14 +324,6 @@
     "trailer_url": "https://www.youtube.com/watch?v=88DDAyYkvis",
     "overview": "A single mother, plagued by the violent death of her husband, battles with her son's fear of a monster lurking in the house, but soon discovers a sinister presence all around her.",
     "release_date": "2014-05-22"
-  },
-  {
-    "title": "Hatari! Film John Wayne",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   },
   {
     "title": "the Night Of'",
@@ -431,38 +443,6 @@
     "trailer_url": null,
     "overview": "\u2018The Emperor\u2019s New Clothes\u2019 in a new robe. KAISER translates Hans Christian Andersen fairytale into a company in the 21st century. A dystopian yet colorful narrative about power, hierarchies and invisible caterpillars.",
     "release_date": "2019-10-24"
-  },
-  {
-    "title": "L\u00c3\u00a9on: The Professional",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Spring, Summer, Fall, Winter... And Spring.. Korean Film",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Football - Take The Ball Pass The Ball Amazon",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Football - Next Goal Wins Amazon",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   },
   {
     "title": "Man on Wire",
@@ -664,22 +644,6 @@
     "release_date": "2016-11-27"
   },
   {
-    "title": "Godfrey Reggio - Koyaniqatsi",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Waking Life - Mat",
-    "year": "2001",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
     "title": "Altered Carbon",
     "year": "N/A",
     "tmdb_id": 665251,
@@ -782,14 +746,6 @@
     "release_date": "1930-12-31"
   },
   {
-    "title": "Arjun Sen Jaw Surgery",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
     "title": "Eat Pray Love",
     "year": "N/A",
     "tmdb_id": 38167,
@@ -825,14 +781,6 @@
     "trailer_url": null,
     "overview": "Adapted from Arthur Schnitzler's La Ronde, Another Round explores ten couples struggles with life, love and relationships around (literally) a bar.",
     "release_date": "2018-01-01"
-  },
-  {
-    "title": "Perfect Days Japan Film Mat",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   },
   {
     "title": "Midsommar",
@@ -942,14 +890,6 @@
     "release_date": "2024-04-10"
   },
   {
-    "title": "This is England Shane Meadows",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
     "title": "The Commitments",
     "year": "N/A",
     "tmdb_id": 11663,
@@ -1014,22 +954,6 @@
     "release_date": "1985-02-20"
   },
   {
-    "title": "Watch The Figo Affair: The Transfer That Changed Football",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Hatton Documentary",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
     "title": "Ronnie O'sullivan The Edge of Everything",
     "year": "N/A",
     "tmdb_id": 1198730,
@@ -1049,14 +973,6 @@
     "trailer_url": "https://www.youtube.com/watch?v=MbVu-QsIvTQ",
     "overview": "Ronnie O\u2019Sullivan hasn\u2019t had the most harmonious relationship with the media over the years, but his attempt to win the Snooker World Championship for a record 7th time in 2021 apparently proved to good an opportunity to pass up.",
     "release_date": "2023-11-21"
-  },
-  {
-    "title": "Michaela school",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   },
   {
     "title": "v For Vendetta",
@@ -1124,22 +1040,6 @@
     "release_date": "2019-12-25"
   },
   {
-    "title": "Alice in Borderland",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Politics Speak",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
     "title": "life aquatic",
     "year": "N/A",
     "tmdb_id": 421,
@@ -1201,14 +1101,6 @@
     "release_date": "1981-11-12"
   },
   {
-    "title": "la Vie D'ad\u00c3\u00a8le Film",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
     "title": "Working Girl",
     "year": "N/A",
     "tmdb_id": 3525,
@@ -1229,30 +1121,6 @@
     "trailer_url": "https://www.youtube.com/watch?v=va1UqFivi6A",
     "overview": "When a secretary's idea is stolen by her boss, she seizes an opportunity to steal it back by pretending she has her boss' job.",
     "release_date": "1988-12-20"
-  },
-  {
-    "title": "Iccl Human Rights Film Awards",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Get Carter Article About Cult British Films",
-    "year": "1971",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Amazon Prime Four Year Plan Qpr",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   },
   {
     "title": "Natural Born Killers",
@@ -1950,24 +1818,6 @@
     "release_date": "2017-12-01"
   },
   {
-    "title": "Dopesic",
-    "year": "N/A",
-    "tmdb_id": 941929,
-    "prime": false,
-    "free_any": false,
-    "providers": [],
-    "tmdb_rating": 6.0,
-    "runtime": 52,
-    "genres": [
-      "Documentary"
-    ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/uUS2XUMKBv6viaccmHgKMjYjaC0.jpg",
-    "backdrop_url": null,
-    "trailer_url": null,
-    "overview": "This VICE feature film follows the lives of people in Alberta, Canada, affected by the powerful opioid drug fentanyl. The underlying source of the fentanyl crisis in the country goes back to 2012, when the notorious prescription painkiller OxyContin was pulled from pharmacy shelves in lieu of a \"safer\" alternative called OxyNeo. In response to the change, counterfeit fentanyl disguised as fake OxyContin pills started popping up, proliferated, and ended up sparking a full-on crisis in the country-with Canada's west becoming a major epicenter.",
-    "release_date": "2016-11-27"
-  },
-  {
     "title": "You Were Never Really Here",
     "year": "N/A",
     "tmdb_id": 398181,
@@ -1989,22 +1839,6 @@
     "trailer_url": "https://www.youtube.com/watch?v=fQyDaGWQ43w",
     "overview": "A traumatized veteran, unafraid of violence, tracks down missing girls for a living. When a job spins out of control, his nightmares begin to overtake him, and a conspiracy is uncovered\u2014leading to what may be his death trip or his awakening.",
     "release_date": "2017-11-08"
-  },
-  {
-    "title": "Netflix: 14 Peaks: Nothing is Impossible",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "24 (tanzanian Boys",
-    "year": "N/A",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   },
   {
     "title": "Prison Break",
@@ -2070,325 +1904,5 @@
     "trailer_url": "https://www.youtube.com/watch?v=GjoWJB9SGf0",
     "overview": "For Jip, Lulu, Koop, Nina and Moff, the dead-end jobs they endure during the week just kill the time until Friday night. That's when they cut very loose and get on the rollercoaster ride that takes them right through to Monday morning.",
     "release_date": "1999-06-04"
-  },
-  {
-    "title": "Apocalypse Now Francis Ford Coppola",
-    "year": "1980",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Chariots of Fire Hugh Hudson",
-    "year": "1981",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Missing Costa-gavras",
-    "year": "1982",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "The King of Comedy Martin Scorsese",
-    "year": "1983",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Paris, Texas Wim Wenders",
-    "year": "1984",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "The Purple Rose of Cairo Woody Allen",
-    "year": "1985",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "a Room With a View James Ivory",
-    "year": "1986",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Hope And Glory John Boorman",
-    "year": "1987",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "House of Games David Mamet",
-    "year": "1988",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Distant Voices, Still Lives Terence Davies",
-    "year": "1989",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Crimes And Misdemeanors Woody Allen",
-    "year": "1990",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Thelma & Louise Ridley Scott",
-    "year": "1991",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Unforgiven Clint Eastwood",
-    "year": "1992",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "The Piano Jane Campion",
-    "year": "1993",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Schindler's List Steven Spielberg",
-    "year": "1994",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Babe Chris Noonan",
-    "year": "1995",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Fargo Joel Coen",
-    "year": "1996",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "L.a. Confidential Curtis Hanson",
-    "year": "1997",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Saving Private Ryan Steven Spielberg",
-    "year": "1998",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "American Beauty Sam Mendes",
-    "year": "1999",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Being John Malkovich Spike Jonze",
-    "year": "2000",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Moulin Rouge! Baz Luhrmann",
-    "year": "2001",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "About Schmidt Alexander Payne",
-    "year": "2002",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Master And Commander: The Far Side of The World Peter Weir",
-    "year": "2003",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Sideways Alexander Payne",
-    "year": "2004",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Brokeback Mountain Ang Lee",
-    "year": "2005",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "United 93 Paul Greengrass",
-    "year": "2006",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "no Country For Old Men Joel And Ethan Coen",
-    "year": "2007",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "The Wrestler Darren Aronofsky",
-    "year": "2008",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "a Prophet Jacques Audiard",
-    "year": "2009",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "The Social Network David Fincher",
-    "year": "2010",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "The Artist Michel Hazanavicius",
-    "year": "2011",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Amour Michael Haneke",
-    "year": "2012",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "12 Years a Slave Steve Mcqueen",
-    "year": "2013",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Boyhood Richard Linklater",
-    "year": "2014",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Mad Max: Fury Road George Miller",
-    "year": "2015",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "la la Land Damien Chazelle",
-    "year": "2016",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Three Billboards Outside Ebbing, Missouri Martin Mcdonagh",
-    "year": "2017",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Roma Alfonso Cuar\u00c3\u00b3n",
-    "year": "2018",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
-  },
-  {
-    "title": "Nomadland Chlo\u00c3\u00a9 Zhao",
-    "year": "2020",
-    "tmdb_id": null,
-    "prime": false,
-    "free_any": false,
-    "providers": []
   }
 ]

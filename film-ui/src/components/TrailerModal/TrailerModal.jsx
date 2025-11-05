@@ -17,7 +17,9 @@ function TrailerModal({ film, onClose }) {
     free_any,
     providers,
     suggested_by,
-    notes
+    notes,
+    director,
+    cast
   } = film
 
   // Close on ESC key
@@ -126,6 +128,22 @@ function TrailerModal({ film, onClose }) {
               </div>
             )}
 
+            {/* Director */}
+            {director && (
+              <div className={styles.section}>
+                <h3>Director</h3>
+                <p>{director}</p>
+              </div>
+            )}
+
+            {/* Cast */}
+            {cast && cast.length > 0 && (
+              <div className={styles.section}>
+                <h3>Cast</h3>
+                <p>{cast.join(', ')}</p>
+              </div>
+            )}
+
             {/* Where to Watch */}
             {providers && providers.length > 0 && (
               <div className={styles.section}>
@@ -181,7 +199,9 @@ TrailerModal.propTypes = {
     free_any: PropTypes.bool,
     providers: PropTypes.arrayOf(PropTypes.string),
     suggested_by: PropTypes.string,
-    notes: PropTypes.string
+    notes: PropTypes.string,
+    director: PropTypes.string,
+    cast: PropTypes.arrayOf(PropTypes.string)
   }).isRequired,
   onClose: PropTypes.func.isRequired
 }

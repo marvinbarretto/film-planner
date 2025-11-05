@@ -13,7 +13,9 @@ function App() {
     search: '',
     showPrimeOnly: false,
     showFreeOnly: false,
-    selectedGenres: []
+    selectedGenres: [],
+    selectedProviders: [],
+    selectedSuggestedBy: []
   })
 
   useEffect(() => {
@@ -29,6 +31,26 @@ function App() {
       film.genres?.forEach(genre => genreSet.add(genre))
     })
     return Array.from(genreSet).sort()
+  }, [films])
+
+  // Get all unique providers
+  const allProviders = useMemo(() => {
+    const providerSet = new Set()
+    films.forEach(film => {
+      film.providers?.forEach(provider => providerSet.add(provider))
+    })
+    return Array.from(providerSet).sort()
+  }, [films])
+
+  // Get all unique suggested_by values
+  const allSuggestedBy = useMemo(() => {
+    const suggestedSet = new Set()
+    films.forEach(film => {
+      if (film.suggested_by) {
+        suggestedSet.add(film.suggested_by)
+      }
+    })
+    return Array.from(suggestedSet).sort()
   }, [films])
 
   // Filter films based on current filters
@@ -59,6 +81,18 @@ function App() {
       // Genre filter (OR logic - film must have at least one selected genre)
       if (filters.selectedGenres.length > 0 &&
           !film.genres?.some(g => filters.selectedGenres.includes(g))) {
+        return false
+      }
+
+      // Provider filter (OR logic - film must have at least one selected provider)
+      if (filters.selectedProviders.length > 0 &&
+          !film.providers?.some(p => filters.selectedProviders.includes(p))) {
+        return false
+      }
+
+      // Suggested By filter (OR logic - film must be suggested by one of selected people)
+      if (filters.selectedSuggestedBy.length > 0 &&
+          !filters.selectedSuggestedBy.includes(film.suggested_by)) {
         return false
       }
 
@@ -95,7 +129,13 @@ function App() {
           </p>
         </header>
 
-        <FilterBar filters={filters} onFiltersChange={setFilters} genres={allGenres} />
+        <FilterBar
+          filters={filters}
+          onFiltersChange={setFilters}
+          genres={allGenres}
+          providers={allProviders}
+          suggestedBy={allSuggestedBy}
+        />
 
         <FilmGrid films={filteredFilms} onFilmClick={handleFilmClick} />
       </div>

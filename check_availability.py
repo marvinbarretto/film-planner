@@ -22,6 +22,7 @@ LOCAL_CSV_PATH = os.environ.get('LOCAL_CSV_PATH', 'films_cleaned.csv')  # Defaul
 TMDB_BASE_URL = 'https://api.themoviedb.org/3'
 SEARCH_ENDPOINT = f'{TMDB_BASE_URL}/search/movie'
 WATCH_PROVIDERS_ENDPOINT = f'{TMDB_BASE_URL}/movie/{{movie_id}}/watch/providers'
+CREDITS_ENDPOINT = f'{TMDB_BASE_URL}/movie/{{movie_id}}/credits'
 
 # Rate limiting (TMDb allows 40 requests per 10 seconds)
 REQUEST_DELAY = 0.3  # 300ms between requests
@@ -130,7 +131,9 @@ def get_movie_details(movie_id: int) -> Dict:
         'backdrop_url': None,
         'trailer_url': None,
         'overview': None,
-        'release_date': None
+        'release_date': None,
+        'director': None,
+        'cast': []
     }
 
     try:
@@ -164,6 +167,25 @@ def get_movie_details(movie_id: int) -> Dict:
                 details['trailer_url'] = f"https://www.youtube.com/watch?v={video['key']}"
                 break
 
+        time.sleep(REQUEST_DELAY)  # Rate limiting
+
+        # Get credits (director and cast)
+        credits_url = CREDITS_ENDPOINT.format(movie_id=movie_id)
+        credits_response = requests.get(credits_url, params=params, timeout=10)
+        credits_response.raise_for_status()
+        credits_data = credits_response.json()
+
+        # Extract director from crew
+        crew = credits_data.get('crew', [])
+        for member in crew:
+            if member.get('job') == 'Director':
+                details['director'] = member.get('name')
+                break
+
+        # Extract top 3 cast members
+        cast = credits_data.get('cast', [])
+        details['cast'] = [actor.get('name') for actor in cast[:3] if actor.get('name')]
+
         return details
 
     except Exception as e:
@@ -171,13 +193,15 @@ def get_movie_details(movie_id: int) -> Dict:
         return details
 
 
-def check_film_availability(title: str, year: Optional[str] = None) -> Dict:
+def check_film_availability(title: str, year: Optional[str] = None, suggested_by: str = '', notes: str = '') -> Dict:
     """Check availability for a single film"""
     print(f"Checking: {title}" + (f" ({year})" if year else ""))
 
     result = {
         'title': title,
         'year': year or 'N/A',
+        'suggested_by': suggested_by,
+        'notes': notes,
         'tmdb_id': None,
         'prime': False,
         'free_any': False,
@@ -263,11 +287,13 @@ def main():
     for film in films:
         title = film.get('title', '').strip()
         year = film.get('year', '').strip()
+        suggested_by = film.get('suggested_by', '').strip()
+        notes = film.get('notes', '').strip()
 
         if not title:
             continue
 
-        result = check_film_availability(title, year if year else None)
+        result = check_film_availability(title, year if year else None, suggested_by, notes)
         results.append(result)
         print()  # Blank line between films
 

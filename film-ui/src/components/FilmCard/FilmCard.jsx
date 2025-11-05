@@ -11,7 +11,8 @@ function FilmCard({ film, onClick }) {
     genres,
     prime,
     free_any,
-    providers
+    providers,
+    suggested_by
   } = film
 
   const formatRuntime = (minutes) => {
@@ -59,6 +60,13 @@ function FilmCard({ film, onClick }) {
       <div className={styles.info}>
         <h3 className={styles.title}>{title}</h3>
 
+        {suggested_by && (
+          <div className={styles.suggestedByBadge}>
+            <span className={styles.icon}>👤</span>
+            {suggested_by}
+          </div>
+        )}
+
         <div className={styles.meta}>
           <span className={styles.year}>{year}</span>
           {runtime && (
@@ -102,7 +110,8 @@ FilmCard.propTypes = {
     genres: PropTypes.arrayOf(PropTypes.string),
     prime: PropTypes.bool,
     free_any: PropTypes.bool,
-    providers: PropTypes.arrayOf(PropTypes.string)
+    providers: PropTypes.arrayOf(PropTypes.string),
+    suggested_by: PropTypes.string
   }).isRequired,
   onClick: PropTypes.func
 }

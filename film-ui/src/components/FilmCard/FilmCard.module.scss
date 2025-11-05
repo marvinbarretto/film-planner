@@ -110,6 +110,26 @@
   overflow: hidden;
 }
 
+.suggestedByBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  background: linear-gradient(135deg, var(--info), var(--primary));
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: var(--spacing-xs);
+  width: fit-content;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  .icon {
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+}
+
 .meta {
   display: flex;
   align-items: center;
