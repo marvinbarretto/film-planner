@@ -1,3 +1,4 @@
 .vscode/
 results.json
 results_summary.csv
+.env

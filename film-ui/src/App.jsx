@@ -55,7 +55,9 @@ function App() {
 
   // Filter films based on current filters
   const filteredFilms = useMemo(() => {
-    return films.filter(film => {
+    console.log('🔍 FILTERING WITH:', JSON.stringify(filters, null, 2))
+
+    const result = films.filter(film => {
       // Search filter
       if (filters.search) {
         const searchLower = filters.search.toLowerCase()
@@ -64,45 +66,73 @@ function App() {
         const matchesSuggestedBy = film.suggested_by?.toLowerCase().includes(searchLower)
 
         if (!matchesTitle && !matchesGenres && !matchesSuggestedBy) {
+          console.log(`❌ SEARCH: "${film.title}" doesn't match search "${filters.search}"`)
           return false
         }
       }
 
-      // Prime filter
-      if (filters.showPrimeOnly && !film.prime) {
-        return false
+      // Prime filter - check if actually on Amazon Prime Video (not just Amazon channels)
+      if (filters.showPrimeOnly) {
+        const isRealPrime = film.providers?.some(p =>
+          p === 'Amazon Prime Video' || p === 'Amazon Prime Video with Ads'
+        )
+        if (!isRealPrime) {
+          console.log(`❌ PRIME: "${film.title}" is not on real Amazon Prime Video (providers: ${film.providers?.join(', ')})`)
+          return false
+        }
       }
 
       // Free filter
       if (filters.showFreeOnly && !film.free_any) {
+        console.log(`❌ FREE: "${film.title}" is not free`)
         return false
       }
 
       // Genre filter (OR logic - film must have at least one selected genre)
-      if (filters.selectedGenres.length > 0 &&
-          !film.genres?.some(g => filters.selectedGenres.includes(g))) {
-        return false
+      if (filters.selectedGenres.length > 0) {
+        const hasMatchingGenre = film.genres?.some(g => filters.selectedGenres.includes(g))
+        if (!hasMatchingGenre) {
+          console.log(`❌ GENRE: "${film.title}" genres [${film.genres?.join(', ')}] don't include any of [${filters.selectedGenres.join(', ')}]`)
+          return false
+        }
       }
 
       // Provider filter (OR logic - film must have at least one selected provider)
       if (filters.selectedProviders.length > 0 &&
           !film.providers?.some(p => filters.selectedProviders.includes(p))) {
+        console.log(`❌ PROVIDER: "${film.title}" providers [${film.providers?.join(', ')}] don't include any of [${filters.selectedProviders.join(', ')}]`)
         return false
       }
 
       // Suggested By filter (OR logic - film must be suggested by one of selected people)
       if (filters.selectedSuggestedBy.length > 0 &&
           !filters.selectedSuggestedBy.includes(film.suggested_by)) {
+        console.log(`❌ SUGGESTED: "${film.title}" suggested by "${film.suggested_by}" not in [${filters.selectedSuggestedBy.join(', ')}]`)
         return false
       }
 
+      console.log(`✅ PASS: "${film.title}"`)
       return true
     })
+
+    console.log(`📊 RESULT: ${result.length} of ${films.length} films`)
+    console.log('📋 FILTERED FILMS:', result.map(f => f.title))
+
+    return result
   }, [films, filters])
 
   const handleFilmClick = (film) => {
     setSelectedFilm(film)
   }
+
+  // Count real Prime films (not just Amazon channels)
+  const realPrimeCount = useMemo(() => {
+    return films.filter(film =>
+      film.providers?.some(p =>
+        p === 'Amazon Prime Video' || p === 'Amazon Prime Video with Ads'
+      )
+    ).length
+  }, [films])
 
   if (loading) {
     return <div className={styles.app}>Loading...</div>
@@ -125,7 +155,7 @@ function App() {
             </a>
           </div>
           <p>
-            {filteredFilms.length} of {films.length} films • {films.filter(f => f.prime).length} on Prime • {films.filter(f => f.free_any).length} free
+            {filteredFilms.length} of {films.length} films • {realPrimeCount} on Prime • {films.filter(f => f.free_any).length} free
           </p>
         </header>
 

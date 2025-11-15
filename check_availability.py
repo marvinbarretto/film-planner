@@ -11,6 +11,10 @@ import csv
 import time
 from typing import Dict, List, Optional
 import requests
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (for local development)
+load_dotenv()
 
 # Configuration from environment variables
 TMDB_API_KEY = os.environ.get('TMDB_API_KEY')
@@ -203,6 +207,7 @@ def check_film_availability(title: str, year: Optional[str] = None, suggested_by
         'suggested_by': suggested_by,
         'notes': notes,
         'tmdb_id': None,
+        'not_found_on_tmdb': False,
         'prime': False,
         'free_any': False,
         'providers': []
@@ -211,6 +216,7 @@ def check_film_availability(title: str, year: Optional[str] = None, suggested_by
     # Search for film
     movie_id = search_film(title, year)
     if not movie_id:
+        result['not_found_on_tmdb'] = True
         print(f"  Skipping - not found on TMDb")
         return result
 

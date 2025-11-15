@@ -15,7 +15,7 @@ function FilmGrid({ films, onFilmClick }) {
     <div className={styles.grid}>
       {films.map((film, index) => (
         <FilmCard
-          key={film.tmdb_id || index}
+          key={`${film.tmdb_id || 'unknown'}-${film.title}-${index}`}
           film={film}
           onClick={() => onFilmClick && onFilmClick(film)}
         />

@@ -12,7 +12,8 @@ function FilmCard({ film, onClick }) {
     prime,
     free_any,
     providers,
-    suggested_by
+    suggested_by,
+    not_found_on_tmdb
   } = film
 
   const formatRuntime = (minutes) => {
@@ -21,6 +22,11 @@ function FilmCard({ film, onClick }) {
     const mins = minutes % 60
     return hours > 0 ? `${hours}h ${mins}m` : `${mins}m`
   }
+
+  // Check if actually on Amazon Prime Video (not just Amazon channels)
+  const isRealPrime = providers?.some(p =>
+    p === 'Amazon Prime Video' || p === 'Amazon Prime Video with Ads'
+  )
 
   const posterPlaceholder = 'https://via.placeholder.com/500x750/1f1f1f/666?text=No+Poster'
 
@@ -36,12 +42,17 @@ function FilmCard({ film, onClick }) {
 
         {/* Availability badges */}
         <div className={styles.badges}>
-          {prime && (
+          {not_found_on_tmdb && (
+            <span className={`${styles.badge} ${styles.notFound}`}>
+              Not Found
+            </span>
+          )}
+          {!not_found_on_tmdb && isRealPrime && (
             <span className={`${styles.badge} ${styles.prime}`}>
               Prime
             </span>
           )}
-          {free_any && !prime && (
+          {!not_found_on_tmdb && free_any && !isRealPrime && (
             <span className={`${styles.badge} ${styles.free}`}>
               Free
             </span>
@@ -87,12 +98,9 @@ function FilmCard({ film, onClick }) {
 
         {providers && providers.length > 0 && (
           <div className={styles.providers}>
-            {providers.slice(0, 2).map(provider => (
+            {providers.map(provider => (
               <span key={provider} className={styles.provider}>{provider}</span>
             ))}
-            {providers.length > 2 && (
-              <span className={styles.provider}>+{providers.length - 2}</span>
-            )}
           </div>
         )}
       </div>
@@ -111,7 +119,8 @@ FilmCard.propTypes = {
     prime: PropTypes.bool,
     free_any: PropTypes.bool,
     providers: PropTypes.arrayOf(PropTypes.string),
-    suggested_by: PropTypes.string
+    suggested_by: PropTypes.string,
+    not_found_on_tmdb: PropTypes.bool
   }).isRequired,
   onClick: PropTypes.func
 }
