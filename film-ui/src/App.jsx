@@ -4,6 +4,7 @@ import filmsData from '@data/films.json'
 import FilmGrid from '@components/FilmGrid/FilmGrid'
 import FilterBar from '@components/FilterBar/FilterBar'
 import TrailerModal from '@components/TrailerModal/TrailerModal'
+import CountrySelector from '@components/CountrySelector/CountrySelector'
 
 function App() {
   const [films, setFilms] = useState([])
@@ -11,18 +12,29 @@ function App() {
   const [selectedFilm, setSelectedFilm] = useState(null)
   const [filters, setFilters] = useState({
     search: '',
-    showPrimeOnly: false,
     showFreeOnly: false,
     selectedGenres: [],
     selectedProviders: [],
     selectedSuggestedBy: []
   })
 
+  // Country selection state (no loading needed - all data is preloaded)
+  const [selectedCountry, setSelectedCountry] = useState(() => {
+    return localStorage.getItem('selectedCountry') || 'GB'
+  })
+
   useEffect(() => {
-    // Load films data
+    // Load films data once on mount
     setFilms(filmsData)
     setLoading(false)
   }, [])
+
+  // Handle country change - just update state, data is already loaded
+  const handleCountryChange = (newCountry) => {
+    setSelectedCountry(newCountry)
+    localStorage.setItem('selectedCountry', newCountry)
+    console.log(`🌍 Switched to ${newCountry}`)
+  }
 
   // Get all unique genres
   const allGenres = useMemo(() => {
@@ -33,14 +45,15 @@ function App() {
     return Array.from(genreSet).sort()
   }, [films])
 
-  // Get all unique providers
+  // Get all unique providers for selected country
   const allProviders = useMemo(() => {
     const providerSet = new Set()
     films.forEach(film => {
-      film.providers?.forEach(provider => providerSet.add(provider))
+      const countryData = film.availability?.[selectedCountry]
+      countryData?.providers?.forEach(provider => providerSet.add(provider))
     })
     return Array.from(providerSet).sort()
-  }, [films])
+  }, [films, selectedCountry])
 
   // Get all unique suggested_by values
   const allSuggestedBy = useMemo(() => {
@@ -71,20 +84,12 @@ function App() {
         }
       }
 
-      // Prime filter - check if actually on Amazon Prime Video (not just Amazon channels)
-      if (filters.showPrimeOnly) {
-        const isRealPrime = film.providers?.some(p =>
-          p === 'Amazon Prime Video' || p === 'Amazon Prime Video with Ads'
-        )
-        if (!isRealPrime) {
-          console.log(`❌ PRIME: "${film.title}" is not on real Amazon Prime Video (providers: ${film.providers?.join(', ')})`)
-          return false
-        }
-      }
+      // Get country-specific availability data
+      const countryData = film.availability?.[selectedCountry] || { providers: [], prime: false, free_any: false }
 
       // Free filter
-      if (filters.showFreeOnly && !film.free_any) {
-        console.log(`❌ FREE: "${film.title}" is not free`)
+      if (filters.showFreeOnly && !countryData.free_any) {
+        console.log(`❌ FREE: "${film.title}" is not free in ${selectedCountry}`)
         return false
       }
 
@@ -99,8 +104,8 @@ function App() {
 
       // Provider filter (OR logic - film must have at least one selected provider)
       if (filters.selectedProviders.length > 0 &&
-          !film.providers?.some(p => filters.selectedProviders.includes(p))) {
-        console.log(`❌ PROVIDER: "${film.title}" providers [${film.providers?.join(', ')}] don't include any of [${filters.selectedProviders.join(', ')}]`)
+          !countryData.providers?.some(p => filters.selectedProviders.includes(p))) {
+        console.log(`❌ PROVIDER: "${film.title}" providers [${countryData.providers?.join(', ')}] don't include any of [${filters.selectedProviders.join(', ')}]`)
         return false
       }
 
@@ -115,24 +120,40 @@ function App() {
       return true
     })
 
-    console.log(`📊 RESULT: ${result.length} of ${films.length} films`)
-    console.log('📋 FILTERED FILMS:', result.map(f => f.title))
+    // Sort by rating (highest first), films without rating go to end
+    const sorted = result.sort((a, b) => {
+      const ratingA = a.tmdb_rating || 0
+      const ratingB = b.tmdb_rating || 0
+      return ratingB - ratingA
+    })
 
-    return result
-  }, [films, filters])
+    console.log(`📊 RESULT: ${sorted.length} of ${films.length} films`)
+    console.log('📋 FILTERED FILMS:', sorted.map(f => `${f.title} (${f.tmdb_rating || 'N/A'})`))
+
+    return sorted
+  }, [films, filters, selectedCountry])
 
   const handleFilmClick = (film) => {
     setSelectedFilm(film)
   }
 
-  // Count real Prime films (not just Amazon channels)
+  // Count real Prime films for selected country
   const realPrimeCount = useMemo(() => {
-    return films.filter(film =>
-      film.providers?.some(p =>
+    return films.filter(film => {
+      const countryData = film.availability?.[selectedCountry]
+      return countryData?.providers?.some(p =>
         p === 'Amazon Prime Video' || p === 'Amazon Prime Video with Ads'
       )
-    ).length
-  }, [films])
+    }).length
+  }, [films, selectedCountry])
+
+  // Count free films for selected country
+  const freeCount = useMemo(() => {
+    return films.filter(film => {
+      const countryData = film.availability?.[selectedCountry]
+      return countryData?.free_any
+    }).length
+  }, [films, selectedCountry])
 
   if (loading) {
     return <div className={styles.app}>Loading...</div>
@@ -144,18 +165,24 @@ function App() {
         <header className={styles.header}>
           <div className={styles.headerTop}>
             <h1>🎬 Film Planner</h1>
-            <a
-              href="https://docs.google.com/spreadsheets/d/1rlKS3PJhRjeiiQ9KEdIuMchrJxAn5TdCPjV7a2ZVcw8/edit"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.editLink}
-              title="Edit film list"
-            >
-              ✏️ THE LIST
-            </a>
+            <div className={styles.headerControls}>
+              <CountrySelector
+                selectedCountry={selectedCountry}
+                onCountryChange={handleCountryChange}
+              />
+              <a
+                href="https://docs.google.com/spreadsheets/d/1rlKS3PJhRjeiiQ9KEdIuMchrJxAn5TdCPjV7a2ZVcw8/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.editLink}
+                title="Edit film list"
+              >
+                ✏️ THE LIST
+              </a>
+            </div>
           </div>
           <p>
-            {filteredFilms.length} of {films.length} films • {realPrimeCount} on Prime • {films.filter(f => f.free_any).length} free
+            {filteredFilms.length} of {films.length} films • {realPrimeCount} on Prime • {freeCount} free ({selectedCountry})
           </p>
         </header>
 
@@ -167,7 +194,7 @@ function App() {
           suggestedBy={allSuggestedBy}
         />
 
-        <FilmGrid films={filteredFilms} onFilmClick={handleFilmClick} />
+        <FilmGrid films={filteredFilms} onFilmClick={handleFilmClick} selectedCountry={selectedCountry} />
       </div>
 
       {selectedFilm && (

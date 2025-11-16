@@ -19,8 +19,11 @@ load_dotenv()
 # Configuration from environment variables
 TMDB_API_KEY = os.environ.get('TMDB_API_KEY')
 SHEET_CSV_URL = os.environ.get('SHEET_CSV_URL')
-COUNTRY = os.environ.get('COUNTRY', 'GB')  # Default to GB (United Kingdom)
+COUNTRY = os.environ.get('COUNTRY', 'GB')  # Default to GB (United Kingdom) - kept for backward compatibility
 LOCAL_CSV_PATH = os.environ.get('LOCAL_CSV_PATH', 'films_cleaned.csv')  # Default to local file
+
+# Countries to fetch provider data for
+COUNTRIES = ['GB', 'US', 'CA', 'AU', 'NZ']
 
 # TMDb API endpoints
 TMDB_BASE_URL = 'https://api.themoviedb.org/3'
@@ -102,23 +105,57 @@ def search_film(title: str, year: Optional[str] = None) -> Optional[int]:
 
 
 def get_watch_providers(movie_id: int) -> Dict:
-    """Get streaming providers for a film"""
+    """Get streaming providers for all configured countries"""
     url = WATCH_PROVIDERS_ENDPOINT.format(movie_id=movie_id)
     params = {'api_key': TMDB_API_KEY}
+
+    availability = {}
 
     try:
         response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
         data = response.json()
 
-        # Get providers for specified country
-        if 'results' in data and COUNTRY in data['results']:
-            return data['results'][COUNTRY]
-        else:
-            return {}
+        # Extract providers for each country
+        for country_code in COUNTRIES:
+            country_data = data['results'].get(country_code, {})
+
+            providers = []
+            prime = False
+            free_any = False
+
+            # Check flatrate (subscription services)
+            if 'flatrate' in country_data:
+                for provider in country_data['flatrate']:
+                    provider_name = provider['provider_name']
+                    providers.append(provider_name)
+
+                    # Check for Amazon Prime
+                    if 'Prime Video' in provider_name or 'Amazon' in provider_name:
+                        prime = True
+
+                    free_any = True
+
+            # Check free with ads
+            if 'free' in country_data:
+                for provider in country_data['free']:
+                    provider_name = provider['provider_name']
+                    if provider_name not in providers:
+                        providers.append(provider_name)
+                    free_any = True
+
+            availability[country_code] = {
+                'providers': providers,
+                'prime': prime,
+                'free_any': free_any
+            }
+
+        return availability
+
     except Exception as e:
         print(f"  ERROR fetching providers: {e}")
-        return {}
+        # Return empty availability for all countries
+        return {country: {'providers': [], 'prime': False, 'free_any': False} for country in COUNTRIES}
 
 
 def get_movie_details(movie_id: int) -> Dict:
@@ -208,9 +245,7 @@ def check_film_availability(title: str, year: Optional[str] = None, suggested_by
         'notes': notes,
         'tmdb_id': None,
         'not_found_on_tmdb': False,
-        'prime': False,
-        'free_any': False,
-        'providers': []
+        'availability': {}  # Will hold providers for each country
     }
 
     # Search for film
@@ -232,39 +267,18 @@ def check_film_availability(title: str, year: Optional[str] = None, suggested_by
     # Small delay to respect rate limits
     time.sleep(REQUEST_DELAY)
 
-    # Get watch providers
-    providers_data = get_watch_providers(movie_id)
+    # Get watch providers for all countries
+    availability = get_watch_providers(movie_id)
+    result['availability'] = availability
 
-    if not providers_data:
-        print(f"  No streaming info available for {COUNTRY}")
-        # Still return result with movie details even if no providers
-        return result
-
-    # Check flatrate (subscription services)
-    if 'flatrate' in providers_data:
-        for provider in providers_data['flatrate']:
-            provider_name = provider['provider_name']
-            result['providers'].append(provider_name)
-
-            # Check for Amazon Prime
-            if 'Prime Video' in provider_name or 'Amazon' in provider_name:
-                result['prime'] = True
-                print(f"  ✓ Available on Prime Video!")
-
-            result['free_any'] = True
-
-    # Check free with ads
-    if 'free' in providers_data:
-        for provider in providers_data['free']:
-            provider_name = provider['provider_name']
-            if provider_name not in result['providers']:
-                result['providers'].append(provider_name)
-            result['free_any'] = True
-
-    if result['providers']:
-        print(f"  Providers: {', '.join(result['providers'])}")
-    else:
-        print(f"  No free streaming options found")
+    # Print availability summary for configured countries
+    for country_code in COUNTRIES:
+        country_avail = availability.get(country_code, {})
+        providers = country_avail.get('providers', [])
+        if providers:
+            print(f"  {country_code}: {', '.join(providers)}")
+            if country_avail.get('prime'):
+                print(f"    ✓ Available on Prime Video in {country_code}!")
 
     return result
 
@@ -308,36 +322,42 @@ def main():
         json.dump(results, f, indent=2)
     print(f"Saved detailed results to results.json")
 
-    # Create summary CSV
+    # Create summary CSV (using GB as default for backward compatibility)
     with open('results_summary.csv', 'w', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['Title', 'Year', 'TMDb ID', 'Prime', 'Free Any', 'Providers'])
+        writer.writerow(['Title', 'Year', 'TMDb ID', 'Prime (GB)', 'Free Any (GB)', 'Providers (GB)'])
 
         for r in results:
+            gb_data = r.get('availability', {}).get('GB', {})
             writer.writerow([
                 r['title'],
                 r['year'],
                 r['tmdb_id'] or 'Not Found',
-                'Yes' if r['prime'] else 'No',
-                'Yes' if r['free_any'] else 'No',
-                ', '.join(r['providers']) if r['providers'] else 'None'
+                'Yes' if gb_data.get('prime', False) else 'No',
+                'Yes' if gb_data.get('free_any', False) else 'No',
+                ', '.join(gb_data.get('providers', [])) if gb_data.get('providers') else 'None'
             ])
 
     print(f"Saved summary to results_summary.csv")
 
-    # Print summary statistics
+    # Print summary statistics for all countries
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
     total = len(results)
     found = sum(1 for r in results if r['tmdb_id'])
-    prime = sum(1 for r in results if r['prime'])
-    free = sum(1 for r in results if r['free_any'])
 
     print(f"Total films checked: {total}")
     print(f"Found on TMDb: {found}")
-    print(f"Available on Prime: {prime}")
-    print(f"Available free anywhere: {free}")
+
+    # Print stats for each country
+    for country_code in COUNTRIES:
+        prime_count = sum(1 for r in results if r.get('availability', {}).get(country_code, {}).get('prime', False))
+        free_count = sum(1 for r in results if r.get('availability', {}).get(country_code, {}).get('free_any', False))
+        print(f"\n{country_code}:")
+        print(f"  Available on Prime: {prime_count}")
+        print(f"  Available free anywhere: {free_count}")
+
     print("=" * 60)
 
 

@@ -31,8 +31,27 @@
 .headerTop {
   display: flex;
   align-items: center;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  h1 {
+    margin: 0;
+  }
+
+  @include tablet {
+    gap: var(--spacing-md);
+  }
+}
+
+.headerControls {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+
+  @include tablet {
+    gap: var(--spacing-md);
+  }
 }
 
 .editLink {

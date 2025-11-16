@@ -6,10 +6,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
     onFiltersChange({ ...filters, search: e.target.value })
   }
 
-  const handlePrimeToggle = () => {
-    onFiltersChange({ ...filters, showPrimeOnly: !filters.showPrimeOnly })
-  }
-
   const handleFreeToggle = () => {
     onFiltersChange({ ...filters, showFreeOnly: !filters.showFreeOnly })
   }
@@ -44,7 +40,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
   const handleClearFilters = () => {
     onFiltersChange({
       search: '',
-      showPrimeOnly: false,
       showFreeOnly: false,
       selectedGenres: [],
       selectedProviders: [],
@@ -53,7 +48,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
   }
 
   const hasActiveFilters = filters.search ||
-    filters.showPrimeOnly ||
     filters.showFreeOnly ||
     filters.selectedGenres.length > 0 ||
     filters.selectedProviders.length > 0 ||
@@ -81,14 +75,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
       </div>
 
       <div className={styles.toggles}>
-        <button
-          className={`${styles.toggle} ${filters.showPrimeOnly ? styles.active : ''}`}
-          onClick={handlePrimeToggle}
-        >
-          <span className={styles.toggleIcon}>🎬</span>
-          Prime Only
-        </button>
-
         <button
           className={`${styles.toggle} ${filters.showFreeOnly ? styles.active : ''}`}
           onClick={handleFreeToggle}
@@ -121,28 +107,50 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
       )}
 
       {providers && providers.length > 0 && (
-        <details className={styles.providersSection}>
-          <summary className={styles.sectionHeader}>
-            <span className={styles.sectionTitle}>
-              Streaming Providers
-              {filters.selectedProviders.length > 0 && (
-                <span className={styles.count}>({filters.selectedProviders.length})</span>
-              )}
-            </span>
-            <span className={styles.chevron}>▼</span>
-          </summary>
+        <div className={styles.providersSection}>
+          <h4 className={styles.sectionTitle}>
+            Streaming Providers
+            {filters.selectedProviders.length > 0 && (
+              <span className={styles.count}>({filters.selectedProviders.length})</span>
+            )}
+          </h4>
           <div className={styles.providerChips}>
-            {providers.map(provider => (
-              <button
-                key={provider}
-                className={`${styles.providerChip} ${filters.selectedProviders.includes(provider) ? styles.active : ''}`}
-                onClick={() => handleProviderClick(provider)}
-              >
-                {provider}
-              </button>
-            ))}
+            {/* Preset/priority providers first */}
+            {['Amazon Prime Video', 'Netflix', 'Disney Plus', 'BBC iPlayer'].map(preset => {
+              if (providers.includes(preset)) {
+                return (
+                  <button
+                    key={preset}
+                    className={`${styles.providerChip} ${styles.preset} ${filters.selectedProviders.includes(preset) ? styles.active : ''}`}
+                    onClick={() => handleProviderClick(preset)}
+                  >
+                    {preset}
+                  </button>
+                )
+              }
+              return null
+            })}
+
+            {/* Separator */}
+            {providers.some(p => ['Amazon Prime Video', 'Netflix', 'Disney Plus', 'BBC iPlayer'].includes(p)) &&
+             providers.some(p => !['Amazon Prime Video', 'Netflix', 'Disney Plus', 'BBC iPlayer'].includes(p)) && (
+              <div className={styles.separator}></div>
+            )}
+
+            {/* All other providers */}
+            {providers
+              .filter(p => !['Amazon Prime Video', 'Netflix', 'Disney Plus', 'BBC iPlayer'].includes(p))
+              .map(provider => (
+                <button
+                  key={provider}
+                  className={`${styles.providerChip} ${filters.selectedProviders.includes(provider) ? styles.active : ''}`}
+                  onClick={() => handleProviderClick(provider)}
+                >
+                  {provider}
+                </button>
+              ))}
           </div>
-        </details>
+        </div>
       )}
 
       {suggestedBy && suggestedBy.length > 0 && (
@@ -173,7 +181,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
 FilterBar.propTypes = {
   filters: PropTypes.shape({
     search: PropTypes.string,
-    showPrimeOnly: PropTypes.bool,
     showFreeOnly: PropTypes.bool,
     selectedGenres: PropTypes.arrayOf(PropTypes.string),
     selectedProviders: PropTypes.arrayOf(PropTypes.string),

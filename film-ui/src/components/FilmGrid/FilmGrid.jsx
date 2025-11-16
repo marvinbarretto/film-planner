@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import FilmCard from '@components/FilmCard/FilmCard'
 import styles from './FilmGrid.module.scss'
 
-function FilmGrid({ films, onFilmClick }) {
+function FilmGrid({ films, onFilmClick, selectedCountry }) {
   if (films.length === 0) {
     return (
       <div className={styles.empty}>
@@ -17,6 +17,7 @@ function FilmGrid({ films, onFilmClick }) {
         <FilmCard
           key={`${film.tmdb_id || 'unknown'}-${film.title}-${index}`}
           film={film}
+          selectedCountry={selectedCountry}
           onClick={() => onFilmClick && onFilmClick(film)}
         />
       ))}
@@ -26,7 +27,8 @@ function FilmGrid({ films, onFilmClick }) {
 
 FilmGrid.propTypes = {
   films: PropTypes.arrayOf(PropTypes.object).isRequired,
-  onFilmClick: PropTypes.func
+  onFilmClick: PropTypes.func,
+  selectedCountry: PropTypes.string.isRequired
 }
 
 export default FilmGrid

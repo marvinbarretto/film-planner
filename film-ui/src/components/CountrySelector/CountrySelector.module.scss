@@ -1,0 +1,61 @@
+@use '@styles/variables.scss' as *;
+
+.countrySelector {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+
+  @include tablet {
+    gap: var(--spacing-sm);
+  }
+}
+
+.label {
+  display: none;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  @include tablet {
+    display: block;
+  }
+}
+
+.flags {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.flagButton {
+  background: var(--background-light);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  padding: 0;
+
+  @include tablet {
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+  }
+
+  &:hover:not(.disabled) {
+    transform: scale(1.1);
+    border-color: var(--primary);
+  }
+
+  &.active {
+    border-color: var(--primary);
+    background: var(--primary);
+    box-shadow: 0 0 0 4px rgba(var(--primary-rgb), 0.2);
+  }
+}

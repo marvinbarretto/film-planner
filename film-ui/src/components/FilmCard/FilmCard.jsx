@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styles from './FilmCard.module.scss'
 
-function FilmCard({ film, onClick }) {
+function FilmCard({ film, selectedCountry, onClick }) {
   const {
     title,
     year,
@@ -9,12 +9,14 @@ function FilmCard({ film, onClick }) {
     tmdb_rating,
     runtime,
     genres,
-    prime,
-    free_any,
-    providers,
     suggested_by,
-    not_found_on_tmdb
+    not_found_on_tmdb,
+    availability
   } = film
+
+  // Get country-specific availability data
+  const countryData = availability?.[selectedCountry] || { providers: [], prime: false, free_any: false }
+  const { providers, prime, free_any } = countryData
 
   const formatRuntime = (minutes) => {
     if (!minutes) return 'N/A'
@@ -32,6 +34,7 @@ function FilmCard({ film, onClick }) {
 
   return (
     <div className={styles.card} onClick={onClick}>
+      {/* Poster on the left */}
       <div className={styles.posterContainer}>
         <img
           src={poster_url || posterPlaceholder}
@@ -58,43 +61,49 @@ function FilmCard({ film, onClick }) {
             </span>
           )}
         </div>
-
-        {/* Rating overlay */}
-        {tmdb_rating && (
-          <div className={styles.rating}>
-            <span className={styles.star}>★</span>
-            <span className={styles.ratingValue}>{tmdb_rating.toFixed(1)}</span>
-          </div>
-        )}
       </div>
 
+      {/* Info section on the right */}
       <div className={styles.info}>
-        <h3 className={styles.title}>{title}</h3>
+        <div className={styles.mainInfo}>
+          <h3 className={styles.title}>{title}</h3>
 
-        {suggested_by && (
-          <div className={styles.suggestedByBadge}>
-            <span className={styles.icon}>👤</span>
-            {suggested_by}
+          <div className={styles.meta}>
+            {tmdb_rating && (
+              <>
+                <div className={styles.rating}>
+                  <span className={styles.star}>★</span>
+                  <span className={styles.ratingValue}>{tmdb_rating.toFixed(1)}</span>
+                </div>
+                <span className={styles.separator}>•</span>
+              </>
+            )}
+            <span className={styles.year}>{year}</span>
+            {runtime && (
+              <>
+                <span className={styles.separator}>•</span>
+                <span className={styles.runtime}>{formatRuntime(runtime)}</span>
+              </>
+            )}
+            {suggested_by && (
+              <>
+                <span className={styles.separator}>•</span>
+                <span className={styles.suggestedBy}>
+                  <span className={styles.icon}>👤</span>
+                  {suggested_by}
+                </span>
+              </>
+            )}
           </div>
-        )}
 
-        <div className={styles.meta}>
-          <span className={styles.year}>{year}</span>
-          {runtime && (
-            <>
-              <span className={styles.separator}>•</span>
-              <span className={styles.runtime}>{formatRuntime(runtime)}</span>
-            </>
+          {genres && genres.length > 0 && (
+            <div className={styles.genres}>
+              {genres.map(genre => (
+                <span key={genre} className={styles.genre}>{genre}</span>
+              ))}
+            </div>
           )}
         </div>
-
-        {genres && genres.length > 0 && (
-          <div className={styles.genres}>
-            {genres.slice(0, 3).map(genre => (
-              <span key={genre} className={styles.genre}>{genre}</span>
-            ))}
-          </div>
-        )}
 
         {providers && providers.length > 0 && (
           <div className={styles.providers}>
@@ -116,12 +125,15 @@ FilmCard.propTypes = {
     tmdb_rating: PropTypes.number,
     runtime: PropTypes.number,
     genres: PropTypes.arrayOf(PropTypes.string),
-    prime: PropTypes.bool,
-    free_any: PropTypes.bool,
-    providers: PropTypes.arrayOf(PropTypes.string),
     suggested_by: PropTypes.string,
-    not_found_on_tmdb: PropTypes.bool
+    not_found_on_tmdb: PropTypes.bool,
+    availability: PropTypes.objectOf(PropTypes.shape({
+      providers: PropTypes.arrayOf(PropTypes.string),
+      prime: PropTypes.bool,
+      free_any: PropTypes.bool
+    }))
   }).isRequired,
+  selectedCountry: PropTypes.string.isRequired,
   onClick: PropTypes.func
 }
 
