@@ -281,6 +281,163 @@ For each collection:
 
 ---
 
+## Appendix A: Complete Data Sources Directory
+
+This section catalogs 30+ curated film collection sources, prioritized for **art house/independent** and **international cinema**. Use this as a menu of options when expanding beyond the Criterion POC.
+
+### Priority Levels
+- **P1** (Must-Have): Core collections for art house focus
+- **P2** (Should-Have): Strong additions for discovery
+- **P3** (Nice-to-Have): Supplementary collections
+
+---
+
+### Art House & Independent Cinema (P1)
+
+| Collection | Size | Update | Art House | Notes |
+|------------|------|--------|-----------|-------|
+| **Criterion Collection** | ~1,600 | Annual | ✓ | Gold standard for art house, already in POC |
+| **A24 Films Catalog** | ~150 | Ongoing | ✓ | Modern American independent |
+| **IFC Films Catalog** | ~500 | Ongoing | ✓ | Independent & foreign distribution |
+| **Neon Films Catalog** | ~50 | Ongoing | ✓ | Boutique distributor (Parasite, Portrait of a Lady) |
+| **MUBI Top 1000** | ~1,000 | Annual | ✓ | Curated art house streaming |
+| **Sundance Film Festival Archives** | ~400 | Annual | ✓ | Indie focus, Grand Jury + Audience winners |
+| **Tribeca Film Festival Winners** | ~100 | Annual | Mixed | Documentary-heavy indie |
+
+---
+
+### International Cinema by Region (P1)
+
+| Collection | Size | Update | Art House | Notes |
+|------------|------|--------|-----------|-------|
+| **French New Wave Essentials** | ~100 | Static | ✓ | Godard, Truffaut, Resnais, Varda |
+| **Italian Neorealism Classics** | ~50 | Static | ✓ | Rossellini, De Sica, Visconti |
+| **Japanese Cinema Masters** | ~200 | Static | ✓ | Kurosawa, Ozu, Mizoguchi, Naruse |
+| **Korean New Wave & Contemporary** | ~150 | Ongoing | ✓ | Hong Sang-soo, Park Chan-wook, Bong Joon-ho |
+| **Iranian Cinema** | ~75 | Ongoing | ✓ | Kiarostami, Farhadi, Panahi, Makhmalbaf |
+| **Latin American Cinema** | ~100 | Static | ✓ | Mexico, Argentina, Brazil classics |
+| **African Cinema Essentials** | ~50 | Static | ✓ | Sembène, Sissako, Bekolo |
+| **Eastern European Art Cinema** | ~100 | Static | ✓ | Poland, Czech, Hungary, Romania |
+| **German New Wave** | ~75 | Static | ✓ | Fassbinder, Herzog, Wenders |
+| **Spanish Cinema Masters** | ~80 | Static | ✓ | Almodóvar, Buñuel, Erice |
+
+---
+
+### Film Festival Winners & Selections (P2)
+
+| Collection | Size | Update | Art House | Notes |
+|------------|------|--------|-----------|-------|
+| **Cannes Palme d'Or Winners** | ~75 | Annual | ✓ | Most prestigious film prize |
+| **Venice Golden Lion Winners** | ~80 | Annual | ✓ | Second-oldest festival |
+| **Berlin Golden Bear Winners** | ~75 | Annual | ✓ | Political/social focus |
+| **Sundance Grand Jury Prize** | ~40 | Annual | ✓ | American independent |
+| **Toronto TIFF People's Choice** | ~50 | Annual | Mixed | Oscar predictor |
+| **Locarno Golden Leopard** | ~70 | Annual | ✓ | Auteur discovery |
+| **Rotterdam Tiger Awards** | ~50 | Annual | ✓ | Experimental/avant-garde |
+| **Busan New Currents** | ~30 | Annual | ✓ | Asian cinema focus |
+| **Karlovy Vary Crystal Globe** | ~60 | Annual | Mixed | Central/Eastern European |
+
+---
+
+### Critics' Lists & Rankings (P2)
+
+| Collection | Size | Update | Art House | Notes |
+|------------|------|--------|-----------|-------|
+| **Sight & Sound Top 250** | 250 | Decade | ✓ | 2022 critics + directors poll |
+| **Roger Ebert Great Movies** | ~400 | Static | Mixed | Accessible canon |
+| **BFI Top 100 British Films** | 100 | Static | Mixed | National cinema |
+| **AFI Top 100 American Films** | 100 | Static | Mixed | Hollywood-centric |
+| **Metacritic Top by Decade** | ~500 | Ongoing | Mixed | 2020s, 2010s, 2000s, etc. |
+| **Letterboxd Official Top 250** | 250 | Annual | Mixed | Community-driven |
+| **TSPDT Top 1000** | 1,000 | Annual | ✓ | Aggregated critics lists |
+| **Cahiers du Cinéma Top 100** | 100 | Decade | ✓ | French critics perspective |
+
+---
+
+### National Film Archives (P3)
+
+| Collection | Size | Update | Art House | Notes |
+|------------|------|--------|-----------|-------|
+| **National Film Registry (US)** | ~850 | Annual | Mixed | Library of Congress preservation |
+| **BFI National Archive Highlights** | ~300 | Static | ✓ | British Film Institute |
+| **Cinémathèque Française Collection** | ~200 | Static | ✓ | Essential French cinema |
+| **Deutsche Kinemathek Classics** | ~150 | Static | ✓ | German film history |
+| **NFDC India Archive** | ~100 | Static | Mixed | Parallel cinema movement |
+
+---
+
+### Streaming Service Curations (P3)
+
+| Collection | Size | Update | Art House | Notes |
+|------------|------|--------|-----------|-------|
+| **MUBI Featured Collections** | ~200 | Monthly | ✓ | Rotating curated picks |
+| **Criterion Channel Monthly** | ~100 | Monthly | ✓ | Thematic collections |
+| **Kanopy Art House Collection** | ~500 | Ongoing | ✓ | Library streaming service |
+| **FilmStruck Archive** | ~300 | Static | ✓ | Historical (service defunct) |
+
+---
+
+### Phased Rollout Strategy
+
+**Phase 1 (POC):**
+- Criterion Collection
+
+**Phase 2 (Art House Core) - P1 Priority:**
+- A24 Films
+- MUBI Top 1000
+- French New Wave Essentials
+- Korean New Wave & Contemporary
+- Iranian Cinema
+
+**Phase 3 (International Expansion) - P1 Priority:**
+- Japanese Cinema Masters
+- Italian Neorealism
+- Latin American Cinema
+- Eastern European Art Cinema
+- German New Wave
+
+**Phase 4 (Festival Circuit) - P2 Priority:**
+- Cannes Palme d'Or
+- Venice Golden Lion
+- Berlin Golden Bear
+- Sundance Grand Jury
+- Locarno Golden Leopard
+- Rotterdam Tiger Awards
+
+**Phase 5 (Critics & Archives) - P2 Priority:**
+- Sight & Sound Top 250
+- Roger Ebert Great Movies
+- TSPDT Top 1000
+- Letterboxd Official Top 250
+
+**Phase 6 (Supplementary) - P3 Priority:**
+- National Film Registry
+- BFI Archive Highlights
+- Streaming curations
+
+---
+
+### Implementation Notes
+
+**For Scraper Development:**
+- Start with collections that have structured data (Criterion spine numbers, festival year/award)
+- Use TMDb keywords/collections when available (e.g., "Criterion Collection")
+- Consider Wikipedia/Wikidata for historical lists (festival winners)
+- Respect robots.txt and rate limits when scraping
+
+**Data Quality:**
+- Verify TMDb matching accuracy (especially for international films with multiple titles)
+- Manual curation may be needed for smaller/niche collections
+- Include original language titles for international films
+- Document data sources in collection metadata
+
+**Size Considerations:**
+- Total across all collections: ~10,000-15,000 films
+- Average enriched JSON size: ~0.3-0.5MB per 100 films
+- With lazy loading, bundle impact is minimal (only loaded collections)
+
+---
+
 ## Phase 3: Performance Optimizations
 
 ### Lazy Loading
