@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styles from './FilterBar.module.scss'
 
-function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy }) {
+function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, sortBy, onSortChange }) {
   const handleSearchChange = (e) => {
     onFiltersChange({ ...filters, search: e.target.value })
   }
@@ -75,6 +75,24 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy })
       </div>
 
       <div className={styles.toggles}>
+        <div className={styles.sortContainer}>
+          <label htmlFor="sort-select" className={styles.sortLabel}>Sort by:</label>
+          <select
+            id="sort-select"
+            value={sortBy}
+            onChange={(e) => onSortChange(e.target.value)}
+            className={styles.sortSelect}
+          >
+            <option value="rating-desc">Rating (High to Low)</option>
+            <option value="rating-asc">Rating (Low to High)</option>
+            <option value="runtime-asc">Runtime (Short to Long)</option>
+            <option value="runtime-desc">Runtime (Long to Short)</option>
+            <option value="year-desc">Year (Newest First)</option>
+            <option value="year-asc">Year (Oldest First)</option>
+            <option value="title-asc">Title (A-Z)</option>
+          </select>
+        </div>
+
         <button
           className={`${styles.toggle} ${filters.showFreeOnly ? styles.active : ''}`}
           onClick={handleFreeToggle}
@@ -189,7 +207,9 @@ FilterBar.propTypes = {
   onFiltersChange: PropTypes.func.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string),
   providers: PropTypes.arrayOf(PropTypes.string),
-  suggestedBy: PropTypes.arrayOf(PropTypes.string)
+  suggestedBy: PropTypes.arrayOf(PropTypes.string),
+  sortBy: PropTypes.string.isRequired,
+  onSortChange: PropTypes.func.isRequired
 }
 
 export default FilterBar

@@ -17,6 +17,7 @@ function App() {
     selectedProviders: [],
     selectedSuggestedBy: []
   })
+  const [sortBy, setSortBy] = useState('rating-desc')
 
   // Country selection state (no loading needed - all data is preloaded)
   const [selectedCountry, setSelectedCountry] = useState(() => {
@@ -120,18 +121,33 @@ function App() {
       return true
     })
 
-    // Sort by rating (highest first), films without rating go to end
+    // Sort based on selected sortBy option
     const sorted = result.sort((a, b) => {
-      const ratingA = a.tmdb_rating || 0
-      const ratingB = b.tmdb_rating || 0
-      return ratingB - ratingA
+      switch (sortBy) {
+        case 'rating-desc':
+          return (b.tmdb_rating || 0) - (a.tmdb_rating || 0)
+        case 'rating-asc':
+          return (a.tmdb_rating || 0) - (b.tmdb_rating || 0)
+        case 'runtime-asc':
+          return (a.runtime || 0) - (b.runtime || 0)
+        case 'runtime-desc':
+          return (b.runtime || 0) - (a.runtime || 0)
+        case 'year-desc':
+          return (parseInt(b.year) || 0) - (parseInt(a.year) || 0)
+        case 'year-asc':
+          return (parseInt(a.year) || 0) - (parseInt(b.year) || 0)
+        case 'title-asc':
+          return a.title.localeCompare(b.title)
+        default:
+          return (b.tmdb_rating || 0) - (a.tmdb_rating || 0)
+      }
     })
 
-    console.log(`📊 RESULT: ${sorted.length} of ${films.length} films`)
+    console.log(`📊 RESULT: ${sorted.length} of ${films.length} films (sorted by ${sortBy})`)
     console.log('📋 FILTERED FILMS:', sorted.map(f => `${f.title} (${f.tmdb_rating || 'N/A'})`))
 
     return sorted
-  }, [films, filters, selectedCountry])
+  }, [films, filters, selectedCountry, sortBy])
 
   const handleFilmClick = (film) => {
     setSelectedFilm(film)
@@ -192,6 +208,8 @@ function App() {
           genres={allGenres}
           providers={allProviders}
           suggestedBy={allSuggestedBy}
+          sortBy={sortBy}
+          onSortChange={setSortBy}
         />
 
         <FilmGrid films={filteredFilms} onFilmClick={handleFilmClick} selectedCountry={selectedCountry} />
