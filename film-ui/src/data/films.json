@@ -15,9 +15,11 @@
         "free_any": true
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "TCM"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [],
@@ -161,7 +163,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.37,
+    "tmdb_rating": 7.372,
     "runtime": 101,
     "genres": [
       "Documentary"
@@ -292,7 +294,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.2,
+    "tmdb_rating": 8.182,
     "runtime": 137,
     "genres": [
       "Science Fiction",
@@ -351,7 +353,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.578,
+    "tmdb_rating": 7.579,
     "runtime": 155,
     "genres": [
       "Crime",
@@ -605,7 +607,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.0,
+    "tmdb_rating": 8.003,
     "runtime": 122,
     "genres": [
       "Drama"
@@ -666,7 +668,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.0,
+    "tmdb_rating": 8.003,
     "runtime": 122,
     "genres": [
       "Drama"
@@ -728,7 +730,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.756,
+    "tmdb_rating": 7.8,
     "runtime": 127,
     "genres": [
       "Drama",
@@ -803,7 +805,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.6,
+    "tmdb_rating": 7.636,
     "runtime": 117,
     "genres": [
       "Comedy",
@@ -863,7 +865,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.27,
+    "tmdb_rating": 8.271,
     "runtime": 147,
     "genres": [
       "Drama",
@@ -923,7 +925,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.27,
+    "tmdb_rating": 8.271,
     "runtime": 147,
     "genres": [
       "Drama",
@@ -1046,7 +1048,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.251,
+    "tmdb_rating": 6.25,
     "runtime": 92,
     "genres": [
       "Fantasy",
@@ -1183,7 +1185,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.494,
+    "tmdb_rating": 7.493,
     "runtime": 166,
     "genres": [
       "Drama"
@@ -1214,9 +1216,11 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "TCM"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [],
@@ -1421,7 +1425,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.0,
+    "tmdb_rating": 5.951,
     "runtime": 83,
     "genres": [
       "Action",
@@ -1529,7 +1533,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.782,
+    "tmdb_rating": 6.784,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -1588,7 +1592,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.612,
+    "tmdb_rating": 7.611,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -1657,7 +1661,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.85,
+    "tmdb_rating": 6.848,
     "runtime": 109,
     "genres": [
       "War",
@@ -2100,9 +2104,12 @@
         "free_any": true
       },
       "AU": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "NZ": {
         "providers": [
@@ -2241,7 +2248,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.851,
+    "tmdb_rating": 7.852,
     "runtime": 98,
     "genres": [
       "Crime",
@@ -2524,7 +2531,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.463,
+    "tmdb_rating": 8.464,
     "runtime": 142,
     "genres": [
       "Comedy",
@@ -2819,7 +2826,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.3,
+    "tmdb_rating": 7.336,
     "runtime": 116,
     "genres": [
       "Crime",
@@ -3010,7 +3017,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.895,
+    "tmdb_rating": 6.9,
     "runtime": 113,
     "genres": [
       "Drama",
@@ -3638,7 +3645,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.734,
+    "tmdb_rating": 7.7,
     "runtime": 82,
     "genres": [
       "Documentary"
@@ -3821,7 +3828,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.803,
     "runtime": 138,
     "genres": [
       "Crime",
@@ -3886,7 +3893,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.898,
+    "tmdb_rating": 7.897,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -4009,7 +4016,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.019,
+    "tmdb_rating": 7.0,
     "runtime": 116,
     "genres": [
       "Action",
@@ -4112,7 +4119,7 @@
           "Amazon Prime Video",
           "fuboTV",
           "Peacock Premium",
-          "Philo",
+          "TCM",
           "Amazon Prime Video with Ads",
           "Peacock Premium Plus",
           "Shout! Factory Amazon Channel",
@@ -4277,7 +4284,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.4,
+    "tmdb_rating": 8.425,
     "runtime": 179,
     "genres": [
       "Adventure",
@@ -4285,7 +4292,7 @@
       "Action"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/z51Wzj94hvAIsWfknifKTqKJRwp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=CbYmZOV3G-Q",
     "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
     "release_date": "2001-12-18",
@@ -4402,7 +4409,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.724,
+    "tmdb_rating": 7.725,
     "runtime": 189,
     "genres": [
       "Drama"
@@ -4669,11 +4676,9 @@
         "free_any": true
       },
       "NZ": {
-        "providers": [
-          "TVNZ+"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       }
     },
     "tmdb_rating": 7.153,
@@ -4729,7 +4734,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.237,
+    "tmdb_rating": 7.2,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -4913,7 +4918,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.05,
+    "tmdb_rating": 7.051,
     "runtime": 118,
     "genres": [
       "Crime",
@@ -4977,7 +4982,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.402,
+    "tmdb_rating": 6.408,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -5116,7 +5121,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.184,
+    "tmdb_rating": 7.185,
     "runtime": 108,
     "genres": [
       "Drama"
@@ -5300,7 +5305,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.774,
+    "tmdb_rating": 7.773,
     "runtime": 124,
     "genres": [
       "Drama"
@@ -5363,7 +5368,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.746,
+    "tmdb_rating": 7.745,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -5489,6 +5494,7 @@
         "providers": [
           "AMC Plus Apple TV Channel ",
           "AMC+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
           "AMC+ Roku Premium Channel",
           "AMC+",
           "AMC",
@@ -5610,7 +5616,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.0,
+    "tmdb_rating": 8.013,
     "runtime": 102,
     "genres": [
       "Crime",
@@ -5638,8 +5644,6 @@
     "availability": {
       "GB": {
         "providers": [
-          "Netflix",
-          "Netflix Standard with Ads",
           "ITVX Premium"
         ],
         "prime": false,
@@ -6115,7 +6119,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.935,
+    "tmdb_rating": 6.936,
     "runtime": 97,
     "genres": [
       "Science Fiction",
@@ -6621,7 +6625,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.454,
+    "tmdb_rating": 7.5,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -6657,7 +6661,6 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
           "Peacock Premium",
           "TCM",
           "Peacock Premium Plus",
@@ -6668,11 +6671,9 @@
         "free_any": true
       },
       "CA": {
-        "providers": [
-          "fuboTV"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "AU": {
         "providers": [],
@@ -6745,7 +6746,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.381,
+    "tmdb_rating": 7.382,
     "runtime": 116,
     "genres": [
       "Drama"
@@ -6947,7 +6948,6 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
           "FlixFling",
           "IndieFlix",
           "IndieFlix Shorts Amazon Channel",
@@ -7041,7 +7041,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.782,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -7178,7 +7178,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.8,
+    "tmdb_rating": 6.632,
     "runtime": 93,
     "genres": [
       "Horror",
@@ -7233,7 +7233,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.381,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -7523,11 +7523,9 @@
         "free_any": true
       },
       "US": {
-        "providers": [
-          "fuboTV"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "CA": {
         "providers": [
@@ -7623,7 +7621,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.371,
+    "tmdb_rating": 7.4,
     "runtime": 121,
     "genres": [
       "Drama"
@@ -7945,7 +7943,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.538,
+    "tmdb_rating": 7.539,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -8015,7 +8013,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.6,
+    "tmdb_rating": 7.594,
     "runtime": 130,
     "genres": [
       "Drama",
@@ -8087,7 +8085,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.075,
     "runtime": 158,
     "genres": [
       "Drama"
@@ -8316,7 +8314,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.0,
+    "tmdb_rating": 7.961,
     "runtime": 94,
     "genres": [
       "Drama",
@@ -8379,7 +8377,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.909,
+    "tmdb_rating": 7.9,
     "runtime": 130,
     "genres": [
       "Western"
@@ -8430,7 +8428,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.099,
+    "tmdb_rating": 7.1,
     "runtime": 111,
     "genres": [
       "Drama",
@@ -8485,7 +8483,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.899,
     "runtime": 132,
     "genres": [
       "Action",
@@ -8614,7 +8612,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.594,
+    "tmdb_rating": 6.593,
     "runtime": 114,
     "genres": [
       "Comedy",
