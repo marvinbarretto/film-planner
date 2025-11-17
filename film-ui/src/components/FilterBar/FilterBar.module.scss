@@ -160,6 +160,48 @@
   }
 }
 
+.surpriseMe {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-md);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover:not(:disabled) {
+    background: transparent;
+    color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  @include mobile {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+.surpriseIcon {
+  font-size: 1rem;
+  transition: transform var(--transition-fast);
+
+  .surpriseMe:hover:not(:disabled) & {
+    transform: rotate(180deg);
+  }
+}
+
 .toggleIcon {
   font-size: 1rem;
   transition: transform var(--transition-fast);

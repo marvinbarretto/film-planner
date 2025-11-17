@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styles from './FilterBar.module.scss'
 
-function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, sortBy, onSortChange }) {
+function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, sortBy, onSortChange, onSurpriseMe, hasFilms }) {
   const handleSearchChange = (e) => {
     onFiltersChange({ ...filters, search: e.target.value })
   }
@@ -99,6 +99,16 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
         >
           <span className={styles.toggleIcon}>🆓</span>
           Free Only
+        </button>
+
+        <button
+          className={styles.surpriseMe}
+          onClick={onSurpriseMe}
+          disabled={!hasFilms}
+          title={hasFilms ? 'Pick a random film from current filters' : 'No films available'}
+        >
+          <span className={styles.surpriseIcon}>🎲</span>
+          Surprise Me
         </button>
       </div>
 
@@ -209,7 +219,9 @@ FilterBar.propTypes = {
   providers: PropTypes.arrayOf(PropTypes.string),
   suggestedBy: PropTypes.arrayOf(PropTypes.string),
   sortBy: PropTypes.string.isRequired,
-  onSortChange: PropTypes.func.isRequired
+  onSortChange: PropTypes.func.isRequired,
+  onSurpriseMe: PropTypes.func.isRequired,
+  hasFilms: PropTypes.bool.isRequired
 }
 
 export default FilterBar

@@ -153,6 +153,12 @@ function App() {
     setSelectedFilm(film)
   }
 
+  const handleSurpriseMe = () => {
+    if (filteredFilms.length === 0) return
+    const randomIndex = Math.floor(Math.random() * filteredFilms.length)
+    setSelectedFilm(filteredFilms[randomIndex])
+  }
+
   // Count real Prime films for selected country
   const realPrimeCount = useMemo(() => {
     return films.filter(film => {
@@ -210,6 +216,8 @@ function App() {
           suggestedBy={allSuggestedBy}
           sortBy={sortBy}
           onSortChange={setSortBy}
+          onSurpriseMe={handleSurpriseMe}
+          hasFilms={filteredFilms.length > 0}
         />
 
         <FilmGrid films={filteredFilms} onFilmClick={handleFilmClick} selectedCountry={selectedCountry} />
