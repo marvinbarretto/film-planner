@@ -1,15 +1,23 @@
 // CSS Custom Properties (CSS Variables)
 :root {
-  // Colors
-  --primary: #e50914;           // Netflix-style red
-  --primary-dark: #b20710;
-  --secondary: #0f0f0f;
+  // Colors - Calm & Elegant Pastel Palette
+  --primary: #C4A1D6;           // Soft lavender (main accent)
+  --primary-dark: #9F7BB3;      // Deeper lavender for hover
+  --secondary-accent: #B8CDB8;  // Sage green (secondary)
+  --tertiary-accent: #D4A5A5;   // Dusty rose (tertiary)
+  --secondary: #2a2a2a;         // Subtle borders/dividers
   --background: #141414;
   --background-light: #1f1f1f;
   --text-primary: #ffffff;
   --text-secondary: #b3b3b3;
-  --success: #46d369;           // Available/Prime badge
-  --info: #0080ff;              // Other platforms badge
+
+  // Accent backgrounds (subtle washes)
+  --accent-lavender-bg: rgba(196, 161, 214, 0.15);
+  --accent-sage-bg: rgba(184, 205, 184, 0.15);
+  --accent-rose-bg: rgba(212, 165, 165, 0.15);
+
+  // Rating star (muted gold)
+  --rating-star: #D4AF37;
 
   // Spacing
   --spacing-xs: 0.25rem;
@@ -23,6 +31,7 @@
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
+  --radius-full: 9999px;
 
   // Transitions
   --transition-fast: 0.15s ease;

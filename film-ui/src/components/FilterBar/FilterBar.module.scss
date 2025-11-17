@@ -32,15 +32,15 @@
   padding: var(--spacing-sm) var(--spacing-md);
   padding-right: 2.5rem;
   background: var(--background);
-  border: 2px solid transparent;
+  border: none;
   border-radius: var(--radius-md);
   color: var(--text-primary);
   font-size: 1rem;
-  transition: border-color var(--transition-fast);
+  transition: background var(--transition-fast);
 
   &:focus {
     outline: none;
-    border-color: var(--primary);
+    background: var(--accent-lavender-bg);
   }
 
   &::placeholder {
@@ -102,7 +102,7 @@
 .sortSelect {
   padding: var(--spacing-sm) var(--spacing-md);
   background: var(--background);
-  border: 2px solid var(--secondary);
+  border: none;
   border-radius: var(--radius-md);
   color: var(--text-primary);
   font-size: 0.9rem;
@@ -111,12 +111,12 @@
   transition: all var(--transition-fast);
 
   &:hover {
-    border-color: var(--primary);
+    background: var(--accent-lavender-bg);
   }
 
   &:focus {
     outline: none;
-    border-color: var(--primary);
+    background: var(--accent-lavender-bg);
   }
 
   @include mobile {
@@ -127,7 +127,7 @@
 .toggle {
   padding: var(--spacing-sm) var(--spacing-md);
   background: var(--background);
-  border: 2px solid var(--secondary);
+  border: none;
   border-radius: var(--radius-md);
   color: var(--text-secondary);
   font-size: 0.9rem;
@@ -140,14 +140,13 @@
   white-space: nowrap;
 
   &:hover {
-    border-color: var(--primary);
+    background: var(--accent-sage-bg);
     color: var(--text-primary);
   }
 
   &.active {
-    background: var(--primary);
-    border-color: var(--primary);
-    color: white;
+    background: var(--secondary-accent);
+    color: var(--background);
   }
 
   @include mobile {
@@ -159,9 +158,9 @@
 .surpriseMe {
   padding: var(--spacing-sm) var(--spacing-md);
   background: var(--primary);
-  border: 2px solid var(--primary);
+  border: none;
   border-radius: var(--radius-md);
-  color: white;
+  color: var(--background);
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -172,10 +171,8 @@
   white-space: nowrap;
 
   &:hover:not(:disabled) {
-    background: transparent;
-    color: var(--primary);
+    background: var(--primary-dark);
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   &:disabled {
@@ -193,9 +190,9 @@
 .clearAll {
   padding: var(--spacing-sm) var(--spacing-md);
   background: transparent;
-  border: 2px solid var(--text-secondary);
+  border: none;
   border-radius: var(--radius-md);
-  color: var(--text-secondary);
+  color: var(--tertiary-accent);
   font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
@@ -203,8 +200,8 @@
   white-space: nowrap;
 
   &:hover {
-    border-color: var(--primary);
-    color: var(--primary);
+    background: var(--accent-rose-bg);
+    color: var(--text-primary);
   }
 
   @include mobile {
@@ -214,9 +211,7 @@
 
 .runtimeSection {
   width: 100%;
-  margin-top: var(--spacing-md);
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--secondary);
+  margin-top: var(--spacing-2xl);
 
   h4 {
     font-size: 0.9rem;
@@ -237,7 +232,7 @@
 .runtimeChip {
   padding: var(--spacing-xs) var(--spacing-md);
   background: var(--background);
-  border: 1px solid var(--secondary);
+  border: none;
   border-radius: var(--radius-full);
   color: var(--text-secondary);
   font-size: 0.85rem;
@@ -247,23 +242,19 @@
   white-space: nowrap;
 
   &:hover {
-    border-color: var(--primary);
+    background: var(--accent-rose-bg);
     color: var(--text-primary);
-    transform: translateY(-1px);
   }
 
   &.active {
-    background: var(--primary);
-    border-color: var(--primary);
-    color: white;
+    background: var(--tertiary-accent);
+    color: var(--background);
   }
 }
 
 .genresSection {
   width: 100%;
-  margin-top: var(--spacing-md);
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--secondary);
+  margin-top: var(--spacing-2xl);
 }
 
 .genreChips {
@@ -275,7 +266,7 @@
 .genreChip {
   padding: var(--spacing-xs) var(--spacing-md);
   background: var(--background);
-  border: 1px solid var(--secondary);
+  border: none;
   border-radius: var(--radius-full);
   color: var(--text-secondary);
   font-size: 0.85rem;
@@ -285,23 +276,19 @@
   white-space: nowrap;
 
   &:hover {
-    border-color: var(--primary);
+    background: var(--accent-lavender-bg);
     color: var(--text-primary);
-    transform: translateY(-1px);
   }
 
   &.active {
     background: var(--primary);
-    border-color: var(--primary);
-    color: white;
+    color: var(--background);
   }
 }
 
 .providersSection {
   width: 100%;
-  margin-top: var(--spacing-md);
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--secondary);
+  margin-top: var(--spacing-2xl);
 
   &[open] .chevron {
     transform: rotate(180deg);
@@ -359,7 +346,7 @@
 .providerChip {
   padding: var(--spacing-xs) var(--spacing-md);
   background: var(--background);
-  border: 1px solid var(--secondary);
+  border: none;
   border-radius: var(--radius-full);
   color: var(--text-secondary);
   font-size: 0.85rem;
@@ -369,30 +356,22 @@
   white-space: nowrap;
 
   &:hover {
-    border-color: var(--info);
+    background: var(--accent-sage-bg);
     color: var(--text-primary);
-    transform: translateY(-1px);
   }
 
   &.active {
-    background: var(--info);
-    border-color: var(--info);
-    color: white;
+    background: var(--secondary-accent);
+    color: var(--background);
   }
 
-  // Preset providers stand out more
+  // Preset providers have slightly bolder weight
   &.preset {
-    border-width: 2px;
     font-weight: 600;
     background: var(--background-light);
 
-    &:hover {
-      border-color: var(--success);
-    }
-
     &.active {
-      background: var(--success);
-      border-color: var(--success);
+      background: var(--secondary-accent);
     }
   }
 }
@@ -407,9 +386,7 @@
 
 .suggestedBySection {
   width: 100%;
-  margin-top: var(--spacing-md);
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--secondary);
+  margin-top: var(--spacing-2xl);
 
   h4 {
     font-size: 0.9rem;
@@ -433,7 +410,7 @@
 .suggestedByChip {
   padding: var(--spacing-xs) var(--spacing-md);
   background: var(--background);
-  border: 1px solid var(--secondary);
+  border: none;
   border-radius: var(--radius-full);
   color: var(--text-secondary);
   font-size: 0.85rem;
@@ -443,14 +420,12 @@
   white-space: nowrap;
 
   &:hover {
-    border-color: var(--success);
+    background: var(--accent-lavender-bg);
     color: var(--text-primary);
-    transform: translateY(-1px);
   }
 
   &.active {
-    background: linear-gradient(135deg, var(--info), var(--primary));
-    border-color: transparent;
-    color: white;
+    background: var(--primary);
+    color: var(--background);
   }
 }

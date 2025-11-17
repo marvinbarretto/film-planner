@@ -12,8 +12,8 @@
   min-height: 120px;
 
   &:hover {
-    transform: translateX(4px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   }
 
   @include mobile {
@@ -65,13 +65,13 @@
 }
 
 .prime {
-  background: var(--success);
+  background: var(--secondary-accent);
   color: var(--background);
 }
 
 .free {
-  background: var(--info);
-  color: white;
+  background: var(--tertiary-accent);
+  color: var(--background);
 }
 
 .notFound {
@@ -92,7 +92,7 @@
 }
 
 .star {
-  color: #ffd700;
+  color: var(--rating-star);
   font-size: 0.9rem;
 }
 
