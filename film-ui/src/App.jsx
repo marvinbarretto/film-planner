@@ -15,7 +15,8 @@ function App() {
     showFreeOnly: false,
     selectedGenres: [],
     selectedProviders: [],
-    selectedSuggestedBy: []
+    selectedSuggestedBy: [],
+    selectedRuntimeRange: 'all' // 'all', 'under90', '90-120', '120-180', 'over180'
   })
   const [sortBy, setSortBy] = useState('rating-desc')
 
@@ -115,6 +116,34 @@ function App() {
           !filters.selectedSuggestedBy.includes(film.suggested_by)) {
         console.log(`❌ SUGGESTED: "${film.title}" suggested by "${film.suggested_by}" not in [${filters.selectedSuggestedBy.join(', ')}]`)
         return false
+      }
+
+      // Runtime filter
+      if (filters.selectedRuntimeRange !== 'all' && film.runtime) {
+        const runtime = film.runtime
+        let inRange = false
+
+        switch (filters.selectedRuntimeRange) {
+          case 'under90':
+            inRange = runtime < 90
+            break
+          case '90-120':
+            inRange = runtime >= 90 && runtime < 120
+            break
+          case '120-180':
+            inRange = runtime >= 120 && runtime < 180
+            break
+          case 'over180':
+            inRange = runtime >= 180
+            break
+          default:
+            inRange = true
+        }
+
+        if (!inRange) {
+          console.log(`❌ RUNTIME: "${film.title}" runtime ${runtime}min not in range ${filters.selectedRuntimeRange}`)
+          return false
+        }
       }
 
       console.log(`✅ PASS: "${film.title}"`)

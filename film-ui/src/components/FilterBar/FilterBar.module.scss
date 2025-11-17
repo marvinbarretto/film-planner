@@ -229,6 +229,53 @@
   }
 }
 
+.runtimeSection {
+  width: 100%;
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--secondary);
+
+  h4 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+.runtimeChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.runtimeChip {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--background);
+  border: 1px solid var(--secondary);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover {
+    border-color: var(--primary);
+    color: var(--text-primary);
+    transform: translateY(-1px);
+  }
+
+  &.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+  }
+}
+
 .genresSection {
   width: 100%;
   margin-top: var(--spacing-md);

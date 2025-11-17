@@ -37,13 +37,21 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
     })
   }
 
+  const handleRuntimeClick = (range) => {
+    onFiltersChange({
+      ...filters,
+      selectedRuntimeRange: filters.selectedRuntimeRange === range ? 'all' : range
+    })
+  }
+
   const handleClearFilters = () => {
     onFiltersChange({
       search: '',
       showFreeOnly: false,
       selectedGenres: [],
       selectedProviders: [],
-      selectedSuggestedBy: []
+      selectedSuggestedBy: [],
+      selectedRuntimeRange: 'all'
     })
   }
 
@@ -51,7 +59,8 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
     filters.showFreeOnly ||
     filters.selectedGenres.length > 0 ||
     filters.selectedProviders.length > 0 ||
-    filters.selectedSuggestedBy.length > 0
+    filters.selectedSuggestedBy.length > 0 ||
+    filters.selectedRuntimeRange !== 'all'
 
   return (
     <div className={styles.filterBar}>
@@ -117,6 +126,37 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
           Clear All
         </button>
       )}
+
+      {/* Runtime Filter */}
+      <div className={styles.runtimeSection}>
+        <h4 className={styles.sectionTitle}>Runtime</h4>
+        <div className={styles.runtimeChips}>
+          <button
+            className={`${styles.runtimeChip} ${filters.selectedRuntimeRange === 'under90' ? styles.active : ''}`}
+            onClick={() => handleRuntimeClick('under90')}
+          >
+            Under 90 min
+          </button>
+          <button
+            className={`${styles.runtimeChip} ${filters.selectedRuntimeRange === '90-120' ? styles.active : ''}`}
+            onClick={() => handleRuntimeClick('90-120')}
+          >
+            90-120 min
+          </button>
+          <button
+            className={`${styles.runtimeChip} ${filters.selectedRuntimeRange === '120-180' ? styles.active : ''}`}
+            onClick={() => handleRuntimeClick('120-180')}
+          >
+            2-3 hours
+          </button>
+          <button
+            className={`${styles.runtimeChip} ${filters.selectedRuntimeRange === 'over180' ? styles.active : ''}`}
+            onClick={() => handleRuntimeClick('over180')}
+          >
+            3+ hours
+          </button>
+        </div>
+      </div>
 
       {genres && genres.length > 0 && (
         <div className={styles.genresSection}>
@@ -212,7 +252,8 @@ FilterBar.propTypes = {
     showFreeOnly: PropTypes.bool,
     selectedGenres: PropTypes.arrayOf(PropTypes.string),
     selectedProviders: PropTypes.arrayOf(PropTypes.string),
-    selectedSuggestedBy: PropTypes.arrayOf(PropTypes.string)
+    selectedSuggestedBy: PropTypes.arrayOf(PropTypes.string),
+    selectedRuntimeRange: PropTypes.string
   }).isRequired,
   onFiltersChange: PropTypes.func.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string),
