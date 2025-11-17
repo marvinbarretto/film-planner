@@ -215,7 +215,7 @@ function App() {
       <div className={styles.container}>
         <header className={styles.header}>
           <div className={styles.headerTop}>
-            <h1>🎬 Film Planner</h1>
+            <h1>Film Planner</h1>
             <div className={styles.headerControls}>
               <CountrySelector
                 selectedCountry={selectedCountry}
@@ -228,7 +228,7 @@ function App() {
                 className={styles.editLink}
                 title="Edit film list"
               >
-                ✏️ THE LIST
+                Edit List
               </a>
             </div>
           </div>

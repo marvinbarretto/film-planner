@@ -106,7 +106,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
           className={`${styles.toggle} ${filters.showFreeOnly ? styles.active : ''}`}
           onClick={handleFreeToggle}
         >
-          <span className={styles.toggleIcon}>🆓</span>
           Free Only
         </button>
 
@@ -116,7 +115,6 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
           disabled={!hasFilms}
           title={hasFilms ? 'Pick a random film from current filters' : 'No films available'}
         >
-          <span className={styles.surpriseIcon}>🎲</span>
           Surprise Me
         </button>
       </div>

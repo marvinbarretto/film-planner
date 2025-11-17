@@ -148,10 +148,6 @@
     background: var(--primary);
     border-color: var(--primary);
     color: white;
-
-    .toggleIcon {
-      transform: scale(1.2);
-    }
   }
 
   @include mobile {
@@ -193,19 +189,6 @@
   }
 }
 
-.surpriseIcon {
-  font-size: 1rem;
-  transition: transform var(--transition-fast);
-
-  .surpriseMe:hover:not(:disabled) & {
-    transform: rotate(180deg);
-  }
-}
-
-.toggleIcon {
-  font-size: 1rem;
-  transition: transform var(--transition-fast);
-}
 
 .clearAll {
   padding: var(--spacing-sm) var(--spacing-md);
