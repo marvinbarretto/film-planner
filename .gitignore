@@ -2,3 +2,7 @@
 results.json
 results_summary.csv
 .env
+
+*_raw.json
+*_enriched.json
+test_films.csv

@@ -6,29 +6,68 @@ import FilterBar from '@components/FilterBar/FilterBar'
 import TrailerModal from '@components/TrailerModal/TrailerModal'
 import CountrySelector from '@components/CountrySelector/CountrySelector'
 
-function App() {
-  const [films, setFilms] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [selectedFilm, setSelectedFilm] = useState(null)
-  const [filters, setFilters] = useState({
+// Default user preferences
+const DEFAULT_PREFERENCES = {
+  filters: {
     search: '',
     showFreeOnly: false,
     selectedGenres: [],
     selectedProviders: [],
     selectedSuggestedBy: [],
-    selectedRuntimeRange: 'all' // 'all', 'under90', '90-120', '120-180', 'over180'
-  })
-  const [sortBy, setSortBy] = useState('rating-desc')
+    selectedRuntimeRange: 'all'
+  },
+  sortBy: 'rating-desc',
+  selectedCollections: ['personal'],
+  selectedCountry: 'GB'
+}
+
+// Load preferences from localStorage with validation
+function getInitialPreferences() {
+  try {
+    const stored = localStorage.getItem('filmPlannerPreferences')
+
+    if (!stored) {
+      // Check for old single-key format (migration)
+      const oldCountry = localStorage.getItem('selectedCountry')
+      if (oldCountry) {
+        const migrated = { ...DEFAULT_PREFERENCES, selectedCountry: oldCountry }
+        localStorage.removeItem('selectedCountry') // Clean up old key
+        return migrated
+      }
+      return DEFAULT_PREFERENCES
+    }
+
+    const parsed = JSON.parse(stored)
+
+    // Merge with defaults to handle schema evolution
+    return {
+      filters: { ...DEFAULT_PREFERENCES.filters, ...parsed.filters },
+      sortBy: parsed.sortBy || DEFAULT_PREFERENCES.sortBy,
+      selectedCollections: Array.isArray(parsed.selectedCollections)
+        ? parsed.selectedCollections
+        : DEFAULT_PREFERENCES.selectedCollections,
+      selectedCountry: parsed.selectedCountry || DEFAULT_PREFERENCES.selectedCountry
+    }
+  } catch (error) {
+    console.error('Failed to load preferences from localStorage:', error)
+    return DEFAULT_PREFERENCES
+  }
+}
+
+function App() {
+  const [films, setFilms] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [selectedFilm, setSelectedFilm] = useState(null)
+
+  // User preferences (persisted to localStorage)
+  const [filters, setFilters] = useState(() => getInitialPreferences().filters)
+  const [sortBy, setSortBy] = useState(() => getInitialPreferences().sortBy)
+  const [selectedCollections, setSelectedCollections] = useState(() => getInitialPreferences().selectedCollections)
+  const [selectedCountry, setSelectedCountry] = useState(() => getInitialPreferences().selectedCountry)
 
   // Collections state
-  const [selectedCollections, setSelectedCollections] = useState(['personal'])
   const [collectionData, setCollectionData] = useState({})
   const [collectionsLoading, setCollectionsLoading] = useState(false)
-
-  // Country selection state (no loading needed - all data is preloaded)
-  const [selectedCountry, setSelectedCountry] = useState(() => {
-    return localStorage.getItem('selectedCountry') || 'GB'
-  })
 
   useEffect(() => {
     // Load films data once on mount
@@ -57,10 +96,28 @@ function App() {
     loadCollections()
   }, [selectedCollections, collectionData])
 
-  // Handle country change - just update state, data is already loaded
+  // Persist user preferences to localStorage whenever they change
+  useEffect(() => {
+    try {
+      const preferences = {
+        filters,
+        sortBy,
+        selectedCollections,
+        selectedCountry
+      }
+      localStorage.setItem('filmPlannerPreferences', JSON.stringify(preferences))
+    } catch (error) {
+      if (error.name === 'QuotaExceededError') {
+        console.warn('localStorage quota exceeded, preferences not saved')
+      } else {
+        console.error('Failed to save preferences:', error)
+      }
+    }
+  }, [filters, sortBy, selectedCollections, selectedCountry])
+
+  // Handle country change
   const handleCountryChange = (newCountry) => {
     setSelectedCountry(newCountry)
-    localStorage.setItem('selectedCountry', newCountry)
     console.log(`🌍 Switched to ${newCountry}`)
   }
 
