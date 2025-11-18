@@ -429,3 +429,61 @@
     color: var(--background);
   }
 }
+
+// Collections Section
+.collectionsSection {
+  width: 100%;
+  margin-top: var(--spacing-2xl);
+
+  h4 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+.collectionChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.collectionChip {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--background);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover:not(:disabled) {
+    background: var(--accent-lavender-bg);
+    color: var(--text-primary);
+  }
+
+  &.active {
+    background: var(--primary);
+    color: var(--background);
+  }
+
+  &.personal {
+    font-weight: 600;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+
+    &:hover {
+      background: var(--primary);  // Keep active background when disabled
+      color: var(--background);
+    }
+  }
+}

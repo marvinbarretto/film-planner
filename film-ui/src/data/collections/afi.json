@@ -1,0 +1,6629 @@
+[
+  {
+    "title": "Citizen Kane",
+    "year": "1941",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "1",
+      "director": "Orson Welles"
+    },
+    "tmdb_id": 15,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "BFI Player",
+          "BFI Player Amazon Channel",
+          "BFI Player Apple TV Channel",
+          "BBC iPlayer"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Hollywood Suite Amazon Channel",
+          "Amazon Prime Video with Ads",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.999,
+    "runtime": 119,
+    "genres": [
+      "Mystery",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ruF3Lmd4A8MHbnEBE6lxPMbsHGL.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=sP6oYa_icqU",
+    "overview": "Newspaper magnate Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+    "release_date": "1941-04-17",
+    "cast": [
+      "Orson Welles",
+      "Joseph Cotten",
+      "Dorothy Comingore"
+    ]
+  },
+  {
+    "title": "The Godfather",
+    "year": "1972",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "2",
+      "director": "Francis Ford Coppola"
+    },
+    "tmdb_id": 238,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Sky Go",
+          "Now TV Cinema",
+          "Paramount+ Amazon Channel",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Crave",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Stan",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.7,
+    "runtime": 175,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/jdHsptJbtalEuVhCV5i7kSC3g0x.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Ew9ngL1GZvs",
+    "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "release_date": "1972-03-14",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ]
+  },
+  {
+    "title": "Casablanca",
+    "year": "1942",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "3",
+      "director": "Michael Curtiz"
+    },
+    "tmdb_id": 289,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Cinemax Amazon Channel",
+          "TCM",
+          "Cinemax Apple TV Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.156,
+    "runtime": 103,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oyGRZVIthHJjc98ekKpeWpDh8Ws.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/87wqeMeUeMRLjsE1IWNKJcPlpuC.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=MF7JH_54d8c",
+    "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+    "release_date": "1943-01-15",
+    "cast": [
+      "Humphrey Bogart",
+      "Ingrid Bergman",
+      "Paul Henreid"
+    ]
+  },
+  {
+    "title": "Raging Bull",
+    "year": "1980",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "4",
+      "director": "Martin Scorsese"
+    },
+    "tmdb_id": 1578,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "MGM Amazon Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.921,
+    "runtime": 129,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1WV7WlTS8LI1L5NkCgjWT9GSW3O.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/tvNuhRlpRozDgsX1zR9gQ2aHv1X.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=G5RHRg6zEhY",
+    "overview": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+    "release_date": "1980-11-14",
+    "cast": [
+      "Robert De Niro",
+      "Cathy Moriarty",
+      "Joe Pesci"
+    ]
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": "1952",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "5",
+      "director": "Gene Kelly, Stanley Donen"
+    },
+    "tmdb_id": 872,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Cinemax Amazon Channel",
+          "TCM",
+          "Cinemax Apple TV Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Hollywood Suite Amazon Channel",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.142,
+    "runtime": 103,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/w03EiJVHP8Un77boQeE7hg9DVdU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/6qOyw4yfzbzTp5YsCX26C28Do0S.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=7gQTEyVwwwo",
+    "overview": "In 1927 Hollywood, a silent film star falls for a chorus girl just as he and his paranoid screen partner struggle to make the difficult transition to talking pictures.",
+    "release_date": "1952-04-10",
+    "cast": [
+      "Gene Kelly",
+      "Donald O'Connor",
+      "Debbie Reynolds"
+    ]
+  },
+  {
+    "title": "Gone with the Wind",
+    "year": "1939",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "6",
+      "director": "Victor Fleming"
+    },
+    "tmdb_id": 770,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Cinemax Amazon Channel",
+          "Cinemax Apple TV Channel",
+          "FlixHouse"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.925,
+    "runtime": 233,
+    "genres": [
+      "Drama",
+      "War",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lNz2Ow0wGCAvzckW7EOjE03KcYv.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ft8WRF2xqEwwGWa59naDUybKTAx.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=KIZ3stUnFiE",
+    "overview": "The spoiled daughter of a Georgia plantation owner conducts a tumultuous romance with a cynical profiteer during the American Civil War and Reconstruction Era.",
+    "release_date": "1939-12-15",
+    "cast": [
+      "Vivien Leigh",
+      "Clark Gable",
+      "Olivia de Havilland"
+    ]
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "year": "1962",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "7",
+      "director": "David Lean"
+    },
+    "tmdb_id": 947,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Foxtel Now",
+          "BINGE"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.996,
+    "runtime": 228,
+    "genres": [
+      "Adventure",
+      "History",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nKwGUiqPdNf47XFjlbR5IFwAaOL.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=KR1yTI8zFJk",
+    "overview": "During World War I, English officer Thomas Edward 'T.E.' Lawrence sets out to unite and lead the diverse, often warring, Arab tribes to fight the Turks.",
+    "release_date": "1962-12-11",
+    "cast": [
+      "Peter O'Toole",
+      "Alec Guinness",
+      "Omar Sharif"
+    ]
+  },
+  {
+    "title": "Schindler's List",
+    "year": "1993",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "8",
+      "director": "Steven Spielberg"
+    },
+    "tmdb_id": 424,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.566,
+    "runtime": 195,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=v0RB-3sWbBA",
+    "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+    "release_date": "1993-12-15",
+    "cast": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes"
+    ]
+  },
+  {
+    "title": "Vertigo",
+    "year": "1958",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "9",
+      "director": "Alfred Hitchcock"
+    },
+    "tmdb_id": 426,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.2,
+    "runtime": 128,
+    "genres": [
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/77aHwg1SCy89rfvQtiruPU58qEV.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=nA2ZcD_XAuY",
+    "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+    "release_date": "1958-05-28",
+    "cast": [
+      "James Stewart",
+      "Kim Novak",
+      "Barbara Bel Geddes"
+    ]
+  },
+  {
+    "title": "The Wizard of Oz",
+    "year": "1939",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "10",
+      "director": "Victor Fleming"
+    },
+    "tmdb_id": 630,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "TCM"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Stan",
+          "BINGE",
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.59,
+    "runtime": 102,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pfAZFD7I2hxW9HCChTuAzsdE6UX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nRsr98MFztBGm532hCVMGXV6qOp.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=nk8pDLHf-a0",
+    "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+    "release_date": "1939-08-15",
+    "cast": [
+      "Judy Garland",
+      "Ray Bolger",
+      "Jack Haley"
+    ]
+  },
+  {
+    "title": "City Lights",
+    "year": "1931",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "11",
+      "director": "Charlie Chaplin"
+    },
+    "tmdb_id": 901,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Now TV",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Criterion Channel",
+          "Amazon Prime Video with Ads",
+          "Hoopla",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Criterion Channel",
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Beamafilm"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Beamafilm"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.3,
+    "runtime": 87,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ugmakEL5y294I5bXgiBqApuZpwc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/Ma7mQsldFCaQpsZbm8zolgLfmV.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=7vl7F8S4cpQ",
+    "overview": "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl's benefactor and suitor.",
+    "release_date": "1931-02-06",
+    "cast": [
+      "Charlie Chaplin",
+      "Virginia Cherrill",
+      "Florence Lee"
+    ]
+  },
+  {
+    "title": "The Searchers",
+    "year": "1956",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "12",
+      "director": "John Ford"
+    },
+    "tmdb_id": 3114,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.696,
+    "runtime": 119,
+    "genres": [
+      "Western"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jLBmgW0epNzJ1N9uzaVCjbyT94v.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fik1HN9kxpD4CtEOXA4WUruwsg1.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=pJXgjw_5erE",
+    "overview": "As a Civil War veteran spends years searching for a young niece captured by Indians, his motivation becomes increasingly questionable.",
+    "release_date": "1956-05-16",
+    "cast": [
+      "John Wayne",
+      "Jeffrey Hunter",
+      "Vera Miles"
+    ]
+  },
+  {
+    "title": "Star Wars",
+    "year": "1977",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "13",
+      "director": "George Lucas"
+    },
+    "tmdb_id": 11,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus",
+          "ITVX Premium"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Disney Plus",
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
+          "AMC+ Roku Premium Channel",
+          "AMC+",
+          "AMC",
+          "Philo"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.204,
+    "runtime": 121,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2w4xG178RpB4MDAIfTkqAuSJzec.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=XsS1yE2f-hE",
+    "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+    "release_date": "1977-05-25",
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ]
+  },
+  {
+    "title": "Psycho",
+    "year": "1960",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "14",
+      "director": "Alfred Hitchcock"
+    },
+    "tmdb_id": 539,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Foxtel Now",
+          "BINGE"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.421,
+    "runtime": 109,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Mystery"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=D90QhegiVvo",
+    "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+    "release_date": "1960-06-22",
+    "cast": [
+      "Anthony Perkins",
+      "Janet Leigh",
+      "Vera Miles"
+    ]
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "year": "1968",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "15",
+      "director": "Stanley Kubrick"
+    },
+    "tmdb_id": 62,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Cinemax Amazon Channel",
+          "Cinemax Apple TV Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.1,
+    "runtime": 149,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kXluiwt2DIIqoiEGR5AMA0QobCt.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=kR2r-A9H3Kg",
+    "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+    "release_date": "1968-04-02",
+    "cast": [
+      "Keir Dullea",
+      "Gary Lockwood",
+      "William Sylvester"
+    ]
+  },
+  {
+    "title": "Sunset Boulevard",
+    "year": "1950",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "16",
+      "director": "Billy Wilder"
+    },
+    "tmdb_id": 599,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "MGM Plus",
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.3,
+    "runtime": 110,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oOZIN0sbRNLKQC4RRCQnmAx1PlV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/p47ihFj4A7EpBjmPHdTj4ipyq1S.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=p32W7uJl3G4",
+    "overview": "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
+    "release_date": "1950-08-10",
+    "cast": [
+      "William Holden",
+      "Gloria Swanson",
+      "Erich von Stroheim"
+    ]
+  },
+  {
+    "title": "The Graduate",
+    "year": "1967",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "17",
+      "director": "Mike Nichols"
+    },
+    "tmdb_id": 37247,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MUBI",
+          "MUBI Amazon Channel",
+          "STUDIOCANAL PRESENTS Apple TV Channel",
+          "Studiocanal Presents Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "MovieSphere+ Amazon Channel",
+          "Kanopy",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.634,
+    "runtime": 106,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/z1Z1tZMR66RxcNeHbwoEhYeqOlP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lIY8ZTp6OJTAMfiorDGsPsJ5LT.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=KVNFaxJspMQ",
+    "overview": "A disillusioned college graduate finds himself torn between his older lover and her daughter.",
+    "release_date": "1967-12-21",
+    "cast": [
+      "Dustin Hoffman",
+      "Anne Bancroft",
+      "Katharine Ross"
+    ]
+  },
+  {
+    "title": "The General",
+    "year": "1926",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "18",
+      "director": "Buster Keaton, Clyde Bruckman"
+    },
+    "tmdb_id": 961,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
+          "Criterion Channel",
+          "MGM Plus",
+          "Philo",
+          "FlixFling",
+          "Cohen Media Amazon Channel",
+          "Kino Film Collection",
+          "Kanopy",
+          "Hoopla",
+          "JustWatchTV",
+          "FlixHouse",
+          "Plex",
+          "Plex Channel",
+          "Darkroom",
+          "Public Domain Movies",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Criterion Channel",
+          "FlixFling",
+          "Amazon Prime Video with Ads",
+          "Hoopla",
+          "Plex",
+          "JustWatchTV"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Beamafilm",
+          "Amazon Prime Video with Ads",
+          "JustWatchTV",
+          "Plex",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video",
+          "Beamafilm",
+          "JustWatchTV",
+          "Plex",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.93,
+    "runtime": 79,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "War",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nIp4gIXogCjfB1QABNsWwa9gSca.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/dYocWQoWk3Y6vBa0pGc0OQ8GLqn.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=7EcZPcFfjqY",
+    "overview": "During America\u2019s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'\u2014with Johnnie's lady love aboard an attached boxcar\u2014and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
+    "release_date": "1926-12-25",
+    "cast": [
+      "Buster Keaton",
+      "Marion Mack",
+      "Glen Cavender"
+    ]
+  },
+  {
+    "title": "On the Waterfront",
+    "year": "1954",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "19",
+      "director": "Elia Kazan"
+    },
+    "tmdb_id": 654,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.9,
+    "runtime": 108,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fKjLZy9W8VxMOp5OoyWojmLVCQw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/pxkQAIhC7LXN5s5B23lnvCMgva5.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=boekTHsOIY8",
+    "overview": "A prizefighter-turned-longshoreman with a conscience goes up against labor leaders to expose corruption, extortion, and murder among the union ranks.",
+    "release_date": "1954-06-22",
+    "cast": [
+      "Marlon Brando",
+      "Karl Malden",
+      "Lee J. Cobb"
+    ]
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "year": "1946",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "20",
+      "director": "Frank Capra"
+    },
+    "tmdb_id": 1585,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Sky Go",
+          "Now TV Cinema",
+          "Amazon Prime Video with Ads",
+          "Plex"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "Amazon Prime Video with Ads",
+          "Hoopla",
+          "Plex",
+          "Plex Channel",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hoopla",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Stan",
+          "Beamafilm",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Beamafilm",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.275,
+    "runtime": 130,
+    "genres": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=S2N_OI3Gufg",
+    "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.",
+    "release_date": "1946-12-20",
+    "cast": [
+      "James Stewart",
+      "Donna Reed",
+      "Lionel Barrymore"
+    ]
+  },
+  {
+    "title": "Chinatown",
+    "year": "1974",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "21",
+      "director": "Roman Polanski"
+    },
+    "tmdb_id": 829,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.917,
+    "runtime": 130,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kZRSP3FmOcq0xnBulqpUQngJUXY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/eJ6kPtua2rEvjxHdCtnIobXJZSf.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=RKdXf-fiBcw",
+    "overview": "Private eye Jake Gittes lives off of the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+    "release_date": "1974-06-20",
+    "cast": [
+      "Jack Nicholson",
+      "Faye Dunaway",
+      "John Huston"
+    ]
+  },
+  {
+    "title": "Some Like It Hot",
+    "year": "1959",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "22",
+      "director": "Billy Wilder"
+    },
+    "tmdb_id": 239,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "YouTube TV",
+          "Amazon Prime Video with Ads",
+          "Kanopy",
+          "Hoopla",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Stan",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.092,
+    "runtime": 122,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5zTwAcnI3zCJ0mucPPnoBtkSWEV.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=97TYs2YXbJw",
+    "overview": "Two musicians witness a mob hit and need to quickly find a way out of Chicago. Their only opportunity comes in the form of joining an all-girl band as they prepare to leave on a tour. The two disguise themselves as women and struggle to keep their identities secret as the gangsters close in.",
+    "release_date": "1959-03-19",
+    "cast": [
+      "Tony Curtis",
+      "Jack Lemmon",
+      "Marilyn Monroe"
+    ]
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "year": "1940",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "23",
+      "director": "John Ford"
+    },
+    "tmdb_id": 596,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.815,
+    "runtime": 129,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eUcxMVBIA0Jg8l1RGUqycrc3eIQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/eMgflonfRY89Zj4LZykJKPpG4wg.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=e8C_eK2ra3s",
+    "overview": "Tom Joad returns to his home after a jail sentence to find his family kicked out of their farm due to foreclosure. He catches up with them on his Uncle\u2019s farm, and joins them the next day as they head for California and a new life... Hopefully.",
+    "release_date": "1940-03-15",
+    "cast": [
+      "Henry Fonda",
+      "Jane Darwell",
+      "John Carradine"
+    ]
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "year": "1982",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "24",
+      "director": "Steven Spielberg"
+    },
+    "tmdb_id": 601,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Netflix",
+          "Netflix Kids",
+          "Netflix Standard with Ads"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Crave",
+          "Starz Amazon Channel",
+          "Netflix Standard with Ads",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix",
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.512,
+    "runtime": 115,
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mXLVA0YL6tcXi6SJSuAh9ONXFj5.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=NsvdZ_z56c0",
+    "overview": "An alien is left behind on Earth and saved by the 10-year-old Elliott who decides to keep him hidden in his home. While a task force hunts for the extra-terrestrial, Elliott, his brother, and his little sister Gertie form an emotional bond with their new friend, and try to help him find his way home.",
+    "release_date": "1982-06-11",
+    "cast": [
+      "Henry Thomas",
+      "Drew Barrymore",
+      "Robert MacNaughton"
+    ]
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "year": "1962",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "25",
+      "director": "Robert Mulligan"
+    },
+    "tmdb_id": 595,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Hoopla",
+          "Plex Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Beamafilm"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Beamafilm"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.993,
+    "runtime": 129,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gZycFUMLx2110dzK3nBNai7gfpM.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/zP6pqpSRRiOCjjC5oWKZKkHqoSB.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=d1QEZoSARxY",
+    "overview": "Scout Finch, 6, and her older brother Jem live in sleepy Maycomb, Alabama, spending much of their time with their friend Dill and spying on their reclusive and mysterious neighbor, Boo Radley. When Atticus, their widowed father and a respected lawyer, defends a black man named Tom Robinson against fabricated rape charges, the trial and tangent events expose the children to evils of racism and stereotyping.",
+    "release_date": "1962-12-20",
+    "cast": [
+      "Mary Badham",
+      "Gregory Peck",
+      "Phillip Alford"
+    ]
+  },
+  {
+    "title": "Mr. Smith Goes to Washington",
+    "year": "1939",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "26",
+      "director": "Frank Capra"
+    },
+    "tmdb_id": 3083,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.845,
+    "runtime": 130,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nDjg1fbNyq15excNDl3acd2IqAk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9AjG0YJLgDUtHl5KgrThHPhNNwZ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=bXoF7w6IWAc",
+    "overview": "After the death of a United States Senator, idealistic Jefferson Smith is appointed as his replacement in Washington. Soon, the naive and earnest new senator has to battle political corruption.",
+    "release_date": "1939-10-19",
+    "cast": [
+      "James Stewart",
+      "Jean Arthur",
+      "Claude Rains"
+    ]
+  },
+  {
+    "title": "High Noon",
+    "year": "1952",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "27",
+      "director": "Fred Zinnemann"
+    },
+    "tmdb_id": 288,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
+          "MGM Plus"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.655,
+    "runtime": 85,
+    "genres": [
+      "Western",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qETSMQ4IXBSAS409Z9OL0ppXWTW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/6S4gjpkd359UuMLfrnUV1M695DF.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=vFRm6xPDLFc",
+    "overview": "Will Kane, the sheriff of a small town in New Mexico, learns a notorious outlaw he put in jail has been freed, and will be arriving on the noon train. Knowing the outlaw and his gang are coming to kill him, Kane is determined to stand his ground, so he attempts to gather a posse from among the local townspeople.",
+    "release_date": "1952-06-09",
+    "cast": [
+      "Gary Cooper",
+      "Thomas Mitchell",
+      "Lloyd Bridges"
+    ]
+  },
+  {
+    "title": "All About Eve",
+    "year": "1950",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "28",
+      "director": "Joseph L. Mankiewicz"
+    },
+    "tmdb_id": 705,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Broadway HD Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.08,
+    "runtime": 139,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/blBzZaatPWVuWpXEnPscMA4Xp6m.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/zAL3LOswagN9onjN8DPcNFTqKuD.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=MILphnfj2mo",
+    "overview": "From the moment she glimpses her idol at the stage door, Eve Harrington is determined to take the reins of power away from the great actress Margo Channing. Eve maneuvers her way into Margo's Broadway role, becomes a sensation and even causes turmoil in the lives of Margo's director boyfriend, her playwright and his wife. Only the cynical drama critic sees through Eve, admiring her audacity and perfect pattern of deceit.",
+    "release_date": "1950-11-09",
+    "cast": [
+      "Bette Davis",
+      "Anne Baxter",
+      "George Sanders"
+    ]
+  },
+  {
+    "title": "Double Indemnity",
+    "year": "1944",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "29",
+      "director": "Billy Wilder"
+    },
+    "tmdb_id": 996,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Foxtel Now",
+          "BINGE"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.104,
+    "runtime": 107,
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rVNYZZgfhwqVMMWlBmxOfWqnwCj.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/byQdu1nzQLI9t1VeoP1xuQfru3L.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=9oxVkwB05rU",
+    "overview": "A seductive housewife draws an insurance salesman into a plot of adultery and crime to collect on her husband's life insurance.",
+    "release_date": "1944-07-06",
+    "cast": [
+      "Fred MacMurray",
+      "Barbara Stanwyck",
+      "Edward G. Robinson"
+    ]
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": "1979",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "30",
+      "director": "Francis Ford Coppola"
+    },
+    "tmdb_id": 28,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Studiocanal Presents Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Stan"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.271,
+    "runtime": 147,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9Qs9oyn4iE8QtQjGZ0Hp2WyYNXT.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=9l-ViOOFH-s",
+    "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+    "release_date": "1979-05-19",
+    "cast": [
+      "Martin Sheen",
+      "Marlon Brando",
+      "Frederic Forrest"
+    ]
+  },
+  {
+    "title": "The Maltese Falcon",
+    "year": "1941",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "31",
+      "director": "John Huston"
+    },
+    "tmdb_id": 963,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "TCM"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.707,
+    "runtime": 100,
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bf4o6Uzw5wqLjdKwRuiDrN1xyvl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9xzVKUGbVKrrgwlmshJ8SxI5mL7.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Yv-BPuqhW9U",
+    "overview": "A private detective takes on a case that involves him with three eccentric criminals, a beautiful liar, and their quest for a priceless statuette.",
+    "release_date": "1941-10-18",
+    "cast": [
+      "Humphrey Bogart",
+      "Mary Astor",
+      "Gladys George"
+    ]
+  },
+  {
+    "title": "The Godfather Part II",
+    "year": "1974",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "32",
+      "director": "Francis Ford Coppola"
+    },
+    "tmdb_id": 240,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Sky Go",
+          "Now TV Cinema",
+          "Paramount+ Amazon Channel",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Stan",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.571,
+    "runtime": 202,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=7pfqivkYUlE",
+    "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+    "release_date": "1974-12-20",
+    "cast": [
+      "Al Pacino",
+      "Robert Duvall",
+      "Diane Keaton"
+    ]
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": "1975",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "33",
+      "director": "Milo\u0161 Forman"
+    },
+    "tmdb_id": 510,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.413,
+    "runtime": 133,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/6Oa3zTiluBz2W8D2ou1MY16dUiF.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=F4da9uRIg8c",
+    "overview": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients\u2014and an enemy to the cruel, domineering nurse who runs the ward.",
+    "release_date": "1975-11-19",
+    "cast": [
+      "Jack Nicholson",
+      "Brad Dourif",
+      "Louise Fletcher"
+    ]
+  },
+  {
+    "title": "Snow White and the Seven Dwarfs",
+    "year": "1937",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "34",
+      "director": "David Hand"
+    },
+    "tmdb_id": 408,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.124,
+    "runtime": 83,
+    "genres": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3VAHfuNb6Z7UiW12iYKANSPBl8m.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/wmSxNVGZOV1A51Yx6ChDXk3NVVi.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=P4YE-s_8L1Q",
+    "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+    "release_date": "1938-01-14",
+    "cast": [
+      "Adriana Caselotti",
+      "Lucille La Verne",
+      "Harry Stockwell"
+    ]
+  },
+  {
+    "title": "Annie Hall",
+    "year": "1977",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "35",
+      "director": "Woody Allen"
+    },
+    "tmdb_id": 703,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.737,
+    "runtime": 93,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gBo4G0p8iVS998aYvXS656jbsH2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/8n9dYsTbXTykzm2Nuy7R2ftapXQ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=H19okah-uCw",
+    "overview": "New York comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+    "release_date": "1977-04-19",
+    "cast": [
+      "Woody Allen",
+      "Diane Keaton",
+      "Tony Roberts"
+    ]
+  },
+  {
+    "title": "The Bridge on the River Kwai",
+    "year": "1957",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "36",
+      "director": "David Lean"
+    },
+    "tmdb_id": 826,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Britbox Apple TV Channel "
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.82,
+    "runtime": 161,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7paXMt2e3Tr5dLmEZOGgFEn2Vo7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/EcQKZcVYZ8EjK3eN1quPvkMrL9.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=B0FkqP8ipNY",
+    "overview": "The classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson, the commander who supervised the bridge's construction, has acquired a sense of pride in his creation and tries to foil their plans.",
+    "release_date": "1957-10-11",
+    "cast": [
+      "William Holden",
+      "Alec Guinness",
+      "Jack Hawkins"
+    ]
+  },
+  {
+    "title": "The Best Years of Our Lives",
+    "year": "1946",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "37",
+      "director": "William Wyler"
+    },
+    "tmdb_id": 887,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "TCM",
+          "Amazon Prime Video with Ads",
+          "Kanopy",
+          "Hoopla",
+          "Plex",
+          "Plex Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.786,
+    "runtime": 171,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gd5EoAU4MM57sW3vlWxJ0NMM8cV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nCl5KzxUs4rVVlAdixDf4r5AbbZ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=X9lufYAOxes",
+    "overview": "It's the hope that sustains the spirit of every GI: the dream of the day when he will finally return home. For three WWII veterans, the day has arrived. But for each man, the dream is about to become a nightmare.",
+    "release_date": "1946-12-25",
+    "cast": [
+      "Dana Andrews",
+      "Fredric March",
+      "Harold Russell"
+    ]
+  },
+  {
+    "title": "The Treasure of the Sierra Madre",
+    "year": "1948",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "38",
+      "director": "John Huston"
+    },
+    "tmdb_id": 3090,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.953,
+    "runtime": 126,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pWcst7zVbi8Z8W6GFrdNE7HHRxL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sj5R5SGor3YMFBuabMj8gPbyBmh.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=07NGhi1qXFc",
+    "overview": "Two jobless Americans convince a prospector to travel to the mountains of Mexico with them in search of gold. But the hostile wilderness, local bandits, and greed all get in the way of their journey.",
+    "release_date": "1948-01-15",
+    "cast": [
+      "Humphrey Bogart",
+      "Walter Huston",
+      "Tim Holt"
+    ]
+  },
+  {
+    "title": "Dr. Strangelove",
+    "year": "1964",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "39",
+      "director": "Stanley Kubrick"
+    },
+    "tmdb_id": 935,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Kanopy"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.125,
+    "runtime": 95,
+    "genres": [
+      "Comedy",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7SixLzxcqezkZEYU8pcHZgbkmjp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sTp8K0SfcC2RQef1Tu160z3niHO.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Ja3n2Mxf21s",
+    "overview": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
+    "release_date": "1964-01-29",
+    "cast": [
+      "Peter Sellers",
+      "George C. Scott",
+      "Sterling Hayden"
+    ]
+  },
+  {
+    "title": "The Sound of Music",
+    "year": "1965",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "40",
+      "director": "Robert Wise"
+    },
+    "tmdb_id": 15121,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Disney Plus",
+          "Hulu",
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
+          "AMC+ Roku Premium Channel",
+          "AMC",
+          "Philo"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.724,
+    "runtime": 174,
+    "genres": [
+      "Drama",
+      "Family",
+      "Music",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/c6CrUZypAsBCaRWX0M3RVRDbhNS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/y9M9xO78SHf43pK5TOgfOeQRHXj.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Q7wZClqWm_o",
+    "overview": "In the years before World War II, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children, and brings a new love of life and music into the home.",
+    "release_date": "1965-03-29",
+    "cast": [
+      "Julie Andrews",
+      "Christopher Plummer",
+      "Eleanor Parker"
+    ]
+  },
+  {
+    "title": "King Kong",
+    "year": "1933",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "41",
+      "director": "Merian C. Cooper, Ernest B. Schoedsack"
+    },
+    "tmdb_id": 244,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "BBC iPlayer"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Hollywood Suite",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.601,
+    "runtime": 104,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Horror"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lYfHa1AtkUMtplrKx7SRLHpwonW.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=I8P7RzqOU_M",
+    "overview": "Adventurous filmmaker Carl Denham sets out to produce a motion picture unlike anything the world has seen before. Alongside his leading lady Ann Darrow and his first mate Jack Driscoll, they arrive on an island and discover a legendary creature said to be neither beast nor man. Denham captures the monster to be displayed on Broadway as King Kong, the eighth wonder of the world.",
+    "release_date": "1933-03-15",
+    "cast": [
+      "Robert Armstrong",
+      "Fay Wray",
+      "Bruce Cabot"
+    ]
+  },
+  {
+    "title": "Bonnie and Clyde",
+    "year": "1967",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "42",
+      "director": "Arthur Penn"
+    },
+    "tmdb_id": 475,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.484,
+    "runtime": 111,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sCSQFK9kMsprT4jgWqgw82dT6WI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fyzSiE8IWezmd3ls1amHNeOkrEf.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=dJsnF6Of2G4",
+    "overview": "In the 1930s, bored European-American waitress Bonnie Parker falls in love with a European-American ex-con named Clyde Barrow and together they start a violent crime spree through the country, stealing cars and robbing banks.",
+    "release_date": "1967-08-13",
+    "cast": [
+      "Warren Beatty",
+      "Faye Dunaway",
+      "Michael J. Pollard"
+    ]
+  },
+  {
+    "title": "Midnight Cowboy",
+    "year": "1969",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "43",
+      "director": "John Schlesinger"
+    },
+    "tmdb_id": 3116,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "MGM Amazon Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.501,
+    "runtime": 113,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ckklq45UxUkwgHve9xItXqXr06r.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mRVzzlXswVmXWqCPni9JIla5fmj.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=o29GST0Lj28",
+    "overview": "Joe Buck is a wide-eyed hustler from Texas hoping to score big with wealthy New York City women; he finds a companion in Enrico \"Ratso\" Rizzo, an ailing swindler with a bum leg and a quixotic fantasy of escaping to Florida.",
+    "release_date": "1969-05-25",
+    "cast": [
+      "Jon Voight",
+      "Dustin Hoffman",
+      "Sylvia Miles"
+    ]
+  },
+  {
+    "title": "The Philadelphia Story",
+    "year": "1940",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "44",
+      "director": "George Cukor"
+    },
+    "tmdb_id": 981,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.593,
+    "runtime": 113,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dKUubjvxO78XDts6VP1Ggcp4R9O.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/iItypZVpdnxTFgA0iv345AzMUqk.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=EQ9tK-XHZrg",
+    "overview": "When a rich woman's ex-husband and a tabloid-type reporter turn up just before her planned remarriage, she begins to learn the truth about herself.",
+    "release_date": "1940-12-05",
+    "cast": [
+      "Cary Grant",
+      "Katharine Hepburn",
+      "James Stewart"
+    ]
+  },
+  {
+    "title": "Shane",
+    "year": "1953",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "45",
+      "director": "George Stevens"
+    },
+    "tmdb_id": 3110,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Kanopy",
+          "Hoopla",
+          "Fawesome"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.4,
+    "runtime": 118,
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/svr5ADpjXTCOQv8hmuJnB7I14Qv.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mPzUzA0iK50gBdMuux4Dojb7VQL.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=9R16fkT71dM",
+    "overview": "A weary gunfighter attempts to settle down with a homestead family, but a smouldering settler and rancher conflict forces him to act.",
+    "release_date": "1953-04-23",
+    "cast": [
+      "Alan Ladd",
+      "Jean Arthur",
+      "Van Heflin"
+    ]
+  },
+  {
+    "title": "It Happened One Night",
+    "year": "1934",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "46",
+      "director": "Frank Capra"
+    },
+    "tmdb_id": 3078,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Criterion Channel",
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.824,
+    "runtime": 105,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2PNUGWAflH6UUumas0POMmokHlc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hmiC0MsI0PDd1TJXC62xyw0tX0s.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=FUAxNS_31So",
+    "overview": "A runaway heiress makes a deal with the rogue reporter trailing her but the mismatched pair end up stuck with each other when their bus leaves them behind.",
+    "release_date": "1934-02-22",
+    "cast": [
+      "Clark Gable",
+      "Claudette Colbert",
+      "Walter Connolly"
+    ]
+  },
+  {
+    "title": "A Streetcar Named Desire",
+    "year": "1951",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "47",
+      "director": "Elia Kazan"
+    },
+    "tmdb_id": 702,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.6,
+    "runtime": 125,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aicdlO5vt7z2ARm279eGzJeYCLQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/or90vNrOVnYwi07fYYpQ3pbnjxP.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=U3CXLHLFvyM",
+    "overview": "A disturbed, aging Southern belle moves in with her sister for solace \u2014 but being face-to-face with her brutish brother-in-law accelerates her downward spiral.",
+    "release_date": "1951-09-19",
+    "cast": [
+      "Vivien Leigh",
+      "Marlon Brando",
+      "Kim Hunter"
+    ]
+  },
+  {
+    "title": "Rear Window",
+    "year": "1954",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "48",
+      "director": "Alfred Hitchcock"
+    },
+    "tmdb_id": 567,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.3,
+    "runtime": 112,
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/qt01wUC460FCWfogDqe3UO00T3g.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=5czfrlJk954",
+    "overview": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+    "release_date": "1954-08-01",
+    "cast": [
+      "James Stewart",
+      "Grace Kelly",
+      "Wendell Corey"
+    ]
+  },
+  {
+    "title": "Intolerance",
+    "year": "1916",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "49",
+      "director": "D.W. Griffith"
+    },
+    "tmdb_id": 3059,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "MGM Plus Roku Premium Channel",
+          "MGM Plus",
+          "FlixFling",
+          "Cohen Media Amazon Channel",
+          "Amazon Prime Video with Ads",
+          "JustWatchTV",
+          "Plex",
+          "Plex Channel",
+          "Darkroom",
+          "Public Domain Movies",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "FlixFling",
+          "Plex",
+          "JustWatchTV"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.072,
+    "runtime": 197,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lJCabs4TMOsKfnl0BmA5Hf16Ezb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5s5Vau1tCvoQaaTTTGk4Qux8CcH.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=f0yEkRCpCmw",
+    "overview": "The story of a poor young woman, separated by prejudice from her husband and baby, is interwoven with tales of intolerance from throughout history.",
+    "release_date": "1916-09-04",
+    "cast": [
+      "Lillian Gish",
+      "Mae Marsh",
+      "Robert Harron"
+    ]
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": "2001",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "50",
+      "director": "Peter Jackson"
+    },
+    "tmdb_id": 120,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Stan",
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.425,
+    "runtime": 179,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=CbYmZOV3G-Q",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "release_date": "2001-12-18",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ]
+  },
+  {
+    "title": "West Side Story",
+    "year": "1961",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "51",
+      "director": "Jerome Robbins, Robert Wise"
+    },
+    "tmdb_id": 1725,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.2,
+    "runtime": 153,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nzCMu6D5q60i2bVrIQ0DxlRSgCZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/bkahbHkwBSbIDtTm667Tu1ba2bu.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=HpKbrpPiExA",
+    "overview": "In the slums of the upper West Side of Manhattan, tensions are high as a gang of Polish-Americans compete against a gang of recently immigrated Puerto Ricans, but this doesn't stop two romantics from each gang falling in love.",
+    "release_date": "1961-12-13",
+    "cast": [
+      "Natalie Wood",
+      "Richard Beymer",
+      "Russ Tamblyn"
+    ]
+  },
+  {
+    "title": "Taxi Driver",
+    "year": "1976",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "52",
+      "director": "Martin Scorsese"
+    },
+    "tmdb_id": 103,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Netflix",
+          "Criterion Channel",
+          "Netflix Standard with Ads"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Criterion Channel",
+          "Starz Amazon Channel",
+          "Netflix Standard with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.133,
+    "runtime": 114,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5MVSXJieOhbyZudCnV1H4YJpfPV.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=zdqCqDSTVNI",
+    "overview": "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city.",
+    "release_date": "1976-02-09",
+    "cast": [
+      "Robert De Niro",
+      "Jodie Foster",
+      "Cybill Shepherd"
+    ]
+  },
+  {
+    "title": "The Deer Hunter",
+    "year": "1978",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "53",
+      "director": "Michael Cimino"
+    },
+    "tmdb_id": 11778,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Studiocanal Presents Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [
+          "TVNZ+"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.983,
+    "runtime": 183,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bbGtogDZOg09bm42KIpCXUXICkh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ojG57hVx69vhk5DDGPIcfyRR55I.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=g7q1SjVdsNk",
+    "overview": "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return.",
+    "release_date": "1978-12-08",
+    "cast": [
+      "Robert De Niro",
+      "Christopher Walken",
+      "John Cazale"
+    ]
+  },
+  {
+    "title": "M*A*S*H",
+    "year": "1970",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "54",
+      "director": "Robert Altman"
+    },
+    "tmdb_id": 651,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus",
+          "Criterion Channel",
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 6.96,
+    "runtime": 116,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/on8Q9LhtHYNhmITjUMpgOUkIG8o.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/3YWL6rZmvZxCQw2qEwxPGrqhYku.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=62R01V7tV-M",
+    "overview": "The staff of a Korean War field hospital use humor and hijinks to keep their sanity in the face of the horror of war.",
+    "release_date": "1970-02-18",
+    "cast": [
+      "Donald Sutherland",
+      "Elliott Gould",
+      "Tom Skerritt"
+    ]
+  },
+  {
+    "title": "North by Northwest",
+    "year": "1959",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "55",
+      "director": "Alfred Hitchcock"
+    },
+    "tmdb_id": 213,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "TCM"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Britbox Apple TV Channel "
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.98,
+    "runtime": 136,
+    "genres": [
+      "Thriller",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fONtQBk12LGjQo4q6bXDROVQmTy.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=cPNiwc3ogIo",
+    "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+    "release_date": "1959-08-06",
+    "cast": [
+      "Cary Grant",
+      "Eva Marie Saint",
+      "James Mason"
+    ]
+  },
+  {
+    "title": "Jaws",
+    "year": "1975",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "56",
+      "director": "Steven Spielberg"
+    },
+    "tmdb_id": 578,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Netflix",
+          "Disney Plus",
+          "Amazon Prime Video",
+          "Sky Go",
+          "Now TV Cinema",
+          "Netflix Standard with Ads",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Disney Plus",
+          "Amazon Prime Video",
+          "Crave",
+          "Starz Amazon Channel",
+          "Netflix Standard with Ads",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus",
+          "Netflix",
+          "Foxtel Now",
+          "Netflix Standard with Ads",
+          "BINGE"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus",
+          "Netflix"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.681,
+    "runtime": 124,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kJMLPj5enrZti8udTVeULlM70mz.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=N9hzLQUGr34",
+    "overview": "When the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled shark hunter embark on a desperate quest to kill the beast before it strikes again.",
+    "release_date": "1975-06-20",
+    "cast": [
+      "Roy Scheider",
+      "Robert Shaw",
+      "Richard Dreyfuss"
+    ]
+  },
+  {
+    "title": "Rocky",
+    "year": "1976",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "57",
+      "director": "John G. Avildsen"
+    },
+    "tmdb_id": 1366,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
+          "YouTube TV",
+          "MGM Plus",
+          "Philo"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Stan",
+          "MGM Amazon Channel",
+          "HBO Max"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.8,
+    "runtime": 120,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hEjK9A9BkNXejFW4tfacVAEHtkn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/bacOuUnRBoAO1NjMfsAGX2EKRrS.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=0ot29g_rkDA",
+    "overview": "Rocky Balboa is a Philadelphia club fighter who seems to be going nowhere. But when a stroke of fate puts him in the ring with a world heavyweight champion, Rocky knows that it's his one shot at the big time \u2014 a once-in-a-lifetime opportunity to go the distance and come out a winner!",
+    "release_date": "1976-11-20",
+    "cast": [
+      "Sylvester Stallone",
+      "Talia Shire",
+      "Burt Young"
+    ]
+  },
+  {
+    "title": "The Gold Rush",
+    "year": "1925",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "58",
+      "director": "Charlie Chaplin"
+    },
+    "tmdb_id": 962,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Now TV",
+          "FilmBox Live Amazon Channel",
+          "Amazon Prime Video with Ads",
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Criterion Channel",
+          "History Vault",
+          "Eternal Family",
+          "Amazon Prime Video with Ads",
+          "FilmBox Live Amazon Channel",
+          "Hoopla",
+          "JustWatchTV",
+          "FlixHouse",
+          "Plex",
+          "Plex Channel",
+          "Darkroom",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Criterion Channel",
+          "Amazon Prime Video with Ads",
+          "Hoopla",
+          "Plex",
+          "JustWatchTV"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "JustWatchTV",
+          "Plex",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video",
+          "JustWatchTV",
+          "Plex",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.985,
+    "runtime": 95,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eQRFo1qwRREYwj47Yoe1PisgOle.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hZHeDPQGNKN9NN9GuW7qVbM2tDx.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=DJwOpY84Oq4",
+    "overview": "A gold prospector in Alaska struggles to survive the elements and win the heart of a dance hall girl.",
+    "release_date": "1925-07-13",
+    "cast": [
+      "Charlie Chaplin",
+      "Mack Swain",
+      "Tom Murray"
+    ]
+  },
+  {
+    "title": "Nashville",
+    "year": "1975",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "59",
+      "director": "Robert Altman"
+    },
+    "tmdb_id": 3121,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.254,
+    "runtime": 160,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Music"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/twl4ovyjb8muFKvZmcCDzPR0hy1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lHH8o3YWBjoteijAI8yTxG3qqpX.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Ty3oclCA-uM",
+    "overview": "The intersecting stories of twenty-four characters\u2014from country star to wannabe to reporter to waitress\u2014connect to the music business in Nashville, Tennessee.",
+    "release_date": "1975-06-11",
+    "cast": [
+      "David Arkin",
+      "Barbara Baxley",
+      "Ned Beatty"
+    ]
+  },
+  {
+    "title": "Duck Soup",
+    "year": "1933",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "60",
+      "director": "Leo McCarey"
+    },
+    "tmdb_id": 3063,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.3,
+    "runtime": 68,
+    "genres": [
+      "Comedy",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/31t63plEGKHhYuuCpC9bFWO9SBS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nVpp3ZcIFtJJ3fJp65eJczehIN8.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=MSMTkUYyKYU",
+    "overview": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+    "release_date": "1933-11-12",
+    "cast": [
+      "Groucho Marx",
+      "Harpo Marx",
+      "Chico Marx"
+    ]
+  },
+  {
+    "title": "Sullivan's Travels",
+    "year": "1941",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "61",
+      "director": "Preston Sturges"
+    },
+    "tmdb_id": 16305,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.4,
+    "runtime": 91,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/z5cqIM0ysVjkCmaDfyTQnlozdIp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/7E4b9mXU9psvGbqCbI0aGEGI1oO.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=kIrdtdpPQHY",
+    "overview": "Successful movie director John L. Sullivan, convinced he won't be able to film his ambitious masterpiece until he has suffered, dons a hobo disguise and sets off on a journey, aiming to \"know trouble\" first-hand. When all he finds is a train ride back to Hollywood and a beautiful blonde companion, he redoubles his efforts, managing to land himself in more trouble than he bargained for when he loses his memory and ends up a prisoner on a chain gang.",
+    "release_date": "1941-11-30",
+    "cast": [
+      "Joel McCrea",
+      "Veronica Lake",
+      "Robert Warwick"
+    ]
+  },
+  {
+    "title": "American Graffiti",
+    "year": "1973",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "62",
+      "director": "George Lucas"
+    },
+    "tmdb_id": 838,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Foxtel Now",
+          "BINGE"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.029,
+    "runtime": 110,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1tjLivPad2PX8FAzWko7FPIb8d2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xdofxnT2FADbSFOJflOTLnCoZe9.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=hH0FXaU3e-A",
+    "overview": "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
+    "release_date": "1973-08-11",
+    "cast": [
+      "Richard Dreyfuss",
+      "Ron Howard",
+      "Paul Le Mat"
+    ]
+  },
+  {
+    "title": "Cabaret",
+    "year": "1972",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "63",
+      "director": "Bob Fosse"
+    },
+    "tmdb_id": 10784,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Starz Amazon Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.42,
+    "runtime": 124,
+    "genres": [
+      "Music",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fMhOeJ2TvuY46iYGmsowhgRXfnr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/yInvVRrCmEypIt5hm0WvXkjxsQX.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=6DZ2wtichOM",
+    "overview": "Inside the Kit Kat Club of 1931 Berlin, starry-eyed singer Sally Bowles and an impish emcee sound the clarion call to decadent fun, while outside a certain political party grows into a brutal force.",
+    "release_date": "1972-02-13",
+    "cast": [
+      "Liza Minnelli",
+      "Michael York",
+      "Helmut Griem"
+    ]
+  },
+  {
+    "title": "Network",
+    "year": "1976",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "64",
+      "director": "Sidney Lumet"
+    },
+    "tmdb_id": 10774,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.8,
+    "runtime": 122,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gZ8hhuVEQ78CLND09trZJ45Eiy8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/m4Iyzh9YVOh0ra7UwdMoJcrjxkx.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=T-PyQ1gMT6o",
+    "overview": "When veteran anchorman Howard Beale is forced to retire his 25-year post because of his age, he announces to viewers that he will kill himself during his farewell broadcast. Network executives rethink their decision when his fanatical tirade results in a spike in ratings.",
+    "release_date": "1976-11-19",
+    "cast": [
+      "Faye Dunaway",
+      "William Holden",
+      "Peter Finch"
+    ]
+  },
+  {
+    "title": "The African Queen",
+    "year": "1951",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "65",
+      "director": "John Huston"
+    },
+    "tmdb_id": 488,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Philo",
+          "Kanopy"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.3,
+    "runtime": 105,
+    "genres": [
+      "Romance",
+      "Adventure",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2Ypg0KhQfFYWILelvHGtSHHR0dk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/doTKdtLfn2b7ZmeElmT6ZDW3XIk.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=sFVu74-A6kI",
+    "overview": "At the start of the First World War, in the middle of Africa\u2019s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+    "release_date": "1952-01-07",
+    "cast": [
+      "Humphrey Bogart",
+      "Katharine Hepburn",
+      "Robert Morley"
+    ]
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "year": "1981",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "66",
+      "director": "Steven Spielberg"
+    },
+    "tmdb_id": 85,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema",
+          "Channel 4 Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "TCM",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Stan",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.9,
+    "runtime": 115,
+    "genres": [
+      "Adventure",
+      "Action"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/ueDw7djPgKPZfph0vC43aD2EMyF.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=w9YcGbOupgw",
+    "overview": "When Dr. Indiana Jones \u2013 the tweed-suited professor who just happens to be a celebrated archaeologist \u2013 is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+    "release_date": "1981-06-12",
+    "cast": [
+      "Harrison Ford",
+      "Karen Allen",
+      "Paul Freeman"
+    ]
+  },
+  {
+    "title": "Who's Afraid of Virginia Woolf?",
+    "year": "1966",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "67",
+      "director": "Mike Nichols"
+    },
+    "tmdb_id": 396,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "TCM",
+          "Kanopy"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.72,
+    "runtime": 131,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wF7ihB5V5gSm6zxjv3ZhHOpgREI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sZxPKiNCK8piKBtXAbm3Ucj6RQk.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=EOR5mzZyyNw",
+    "overview": "A history professor and his wife entertain a young couple who are new to the university's faculty. As the drinks flow, secrets come to light, and the middle-aged couple unload onto their guests the full force of the bitterness, dysfunction, and animosity that defines their marriage.",
+    "release_date": "1966-06-22",
+    "cast": [
+      "Elizabeth Taylor",
+      "Richard Burton",
+      "George Segal"
+    ]
+  },
+  {
+    "title": "Unforgiven",
+    "year": "1992",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "68",
+      "director": "Clint Eastwood"
+    },
+    "tmdb_id": 33,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
+          "MGM Plus",
+          "Philo"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.908,
+    "runtime": 130,
+    "genres": [
+      "Western"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/54roTwbX9fltg85zjsmrooXAs12.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5zkrI7P70j8C03ThBOvrEG6VF8M.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=amE57OniG9Y",
+    "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+    "release_date": "1992-08-07",
+    "cast": [
+      "Clint Eastwood",
+      "Gene Hackman",
+      "Morgan Freeman"
+    ]
+  },
+  {
+    "title": "Tootsie",
+    "year": "1982",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "69",
+      "director": "Sydney Pollack"
+    },
+    "tmdb_id": 9576,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.204,
+    "runtime": 116,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ngyCzZwb9y5sMUCig5JQT4Y33Q.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/dGRGes6Yw0vK1IymLatHBXGvvpS.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=IS-rkKwfuJU",
+    "overview": "When struggling, out of work actor Michael Dorsey secretly adopts a female alter ego \u2013 Dorothy Michaels \u2013 in order to land a part in a daytime drama, he unwittingly becomes a feminist icon and ends up in a romantic pickle.",
+    "release_date": "1982-12-17",
+    "cast": [
+      "Dustin Hoffman",
+      "Jessica Lange",
+      "Teri Garr"
+    ]
+  },
+  {
+    "title": "A Clockwork Orange",
+    "year": "1971",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "70",
+      "director": "Stanley Kubrick"
+    },
+    "tmdb_id": 185,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.181,
+    "runtime": 137,
+    "genres": [
+      "Science Fiction",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nLFxvLokHe3bQmrmAfljIfax2jQ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
+    "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
+    "release_date": "1971-12-19",
+    "cast": [
+      "Malcolm McDowell",
+      "Patrick Magee",
+      "Carl Duering"
+    ]
+  },
+  {
+    "title": "Saving Private Ryan",
+    "year": "1998",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "71",
+      "director": "Steven Spielberg"
+    },
+    "tmdb_id": 857,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Sky Go",
+          "Now TV Cinema",
+          "Paramount+ Amazon Channel",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Stan",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.221,
+    "runtime": 169,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/rW2xRFlJRbTnBJlQTSjQmjevIwb.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=x3wsoR3UyKM",
+    "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+    "release_date": "1998-07-24",
+    "cast": [
+      "Tom Hanks",
+      "Tom Sizemore",
+      "Edward Burns"
+    ]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "72",
+      "director": "Frank Darabont"
+    },
+    "tmdb_id": 278,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Crave",
+          "Club Illico",
+          "Starz Amazon Channel",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Stan",
+          "Netflix Standard with Ads",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix",
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.711,
+    "runtime": 142,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/v8xVDqt8uCul3c3mgx4VpGCwxJC.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "release_date": "1994-09-23",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ]
+  },
+  {
+    "title": "Butch Cassidy and the Sundance Kid",
+    "year": "1969",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "73",
+      "director": "George Roy Hill"
+    },
+    "tmdb_id": 642,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "History Vault",
+          "TCM"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus",
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.608,
+    "runtime": 111,
+    "genres": [
+      "Adventure",
+      "Western",
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gFmmykF1Ym3OGzENo50nZQaD1dx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/C6jcUqld8M6hZQmzBxgwHuQ4qT.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=YdJW2UxvSFQ",
+    "overview": "As the west rapidly becomes civilized, a pair of outlaws in 1890s Wyoming find themselves pursued by a posse and decide to flee to South America in hopes of evading the law.",
+    "release_date": "1969-09-23",
+    "cast": [
+      "Paul Newman",
+      "Robert Redford",
+      "Katharine Ross"
+    ]
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": "1991",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "74",
+      "director": "Jonathan Demme"
+    },
+    "tmdb_id": 274,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
+          "MGM Plus",
+          "Philo"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Crave",
+          "Starz Amazon Channel",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Stan",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video",
+          "TVNZ+"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.347,
+    "runtime": 119,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/aYcnDyLMnpKce1FOYUpZrXtgUye.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=6iB21hsprAQ",
+    "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+    "release_date": "1991-02-14",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn"
+    ]
+  },
+  {
+    "title": "In the Heat of the Night",
+    "year": "1967",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "75",
+      "director": "Norman Jewison"
+    },
+    "tmdb_id": 10633,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "History Vault",
+          "IndieFlix",
+          "Amazon Prime Video with Ads",
+          "Kanopy",
+          "Hoopla",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.649,
+    "runtime": 109,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fvqHTabYej3LwzKRRZCm6jV3g0O.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/knYZcpl08qhiEPCytyNXOq7Z1oS.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=xIpWyKoxdFg",
+    "overview": "African-American Philadelphia police detective Virgil Tibbs is arrested on suspicion of murder by Bill Gillespie, the racist police chief of tiny Sparta, Mississippi. After Tibbs proves not only his own innocence but that of another man, he joins forces with Gillespie to track down the real killer. Their investigation takes them through every social level of the town, with Tibbs making enemies as well as unlikely friends as he hunts for the truth.",
+    "release_date": "1967-08-02",
+    "cast": [
+      "Sidney Poitier",
+      "Rod Steiger",
+      "Warren Oates"
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "1994",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "76",
+      "director": "Robert Zemeckis"
+    },
+    "tmdb_id": 13,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Netflix Standard with Ads",
+          "ITVX Premium",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
+          "AMC+",
+          "AMC",
+          "Philo"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Stan",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.464,
+    "runtime": 142,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=m-btyJIYLyI",
+    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events\u2014in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "release_date": "1994-06-23",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ]
+  },
+  {
+    "title": "All the President's Men",
+    "year": "1976",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "77",
+      "director": "Alan J. Pakula"
+    },
+    "tmdb_id": 891,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.652,
+    "runtime": 138,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qwdcIdiTAk8iANsJEK2JmrYQx5o.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/eHUsvxdZzHyjdPbppBkYkW9EQUx.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=k5y8SW2KyTY",
+    "overview": "During the 1972 elections, two reporters' investigation sheds light on the controversial Watergate scandal that compels President Nixon to resign from his post.",
+    "release_date": "1976-04-09",
+    "cast": [
+      "Dustin Hoffman",
+      "Robert Redford",
+      "Jack Warden"
+    ]
+  },
+  {
+    "title": "Modern Times",
+    "year": "1936",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "78",
+      "director": "Charlie Chaplin"
+    },
+    "tmdb_id": 3082,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Now TV",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video",
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "Amazon Prime Video with Ads",
+          "Kanopy"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 8.281,
+    "runtime": 87,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=NNznUyDmSFc",
+    "overview": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time..",
+    "release_date": "1936-02-05",
+    "cast": [
+      "Charlie Chaplin",
+      "Paulette Goddard",
+      "Henry Bergman"
+    ]
+  },
+  {
+    "title": "The Wild Bunch",
+    "year": "1969",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "79",
+      "director": "Sam Peckinpah"
+    },
+    "tmdb_id": 576,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "YouTube TV"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.609,
+    "runtime": 145,
+    "genres": [
+      "Western"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8j9yEC3xjy1PJDSizIbaxcHaSph.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nkgWcfOeQnVnxak5xCKvkRDLt5H.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=kdy0t_8mQBw",
+    "overview": "An aging group of outlaws look for one last big score as the \"traditional\" American West is disappearing around them.",
+    "release_date": "1969-06-19",
+    "cast": [
+      "William Holden",
+      "Ernest Borgnine",
+      "Robert Ryan"
+    ]
+  },
+  {
+    "title": "The Apartment",
+    "year": "1960",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "80",
+      "director": "Billy Wilder"
+    },
+    "tmdb_id": 284,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MGM Plus Amazon Channel",
+          "ITVX Premium"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "MGM Amazon Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.2,
+    "runtime": 125,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2L8U8rUyWeFTb6n1egTNeJsEsvj.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=isjfwA0B5xQ",
+    "overview": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
+    "release_date": "1960-06-21",
+    "cast": [
+      "Jack Lemmon",
+      "Shirley MacLaine",
+      "Fred MacMurray"
+    ]
+  },
+  {
+    "title": "Spartacus",
+    "year": "1960",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "81",
+      "director": "Stanley Kubrick"
+    },
+    "tmdb_id": 967,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Foxtel Now",
+          "BINGE"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.535,
+    "runtime": 197,
+    "genres": [
+      "History",
+      "War",
+      "Drama",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/r0Fgg1GyZgzokaiw2HFQv3oPaL2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/aheSIG4h3JNxWeDvdb1NxKzgjaM.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=R8aWcZa18pc",
+    "overview": "The rebellious Thracian Spartacus, born and raised a slave, is sold to Gladiator trainer Batiatus. After weeks of being trained to kill for the arena, Spartacus turns on his owners and leads the other slaves in rebellion. As the rebels move from town to town, their numbers swell as escaped slaves join their ranks. Under the leadership of Spartacus, they make their way to southern Italy, where they will cross the sea and return to their homes.",
+    "release_date": "1960-10-13",
+    "cast": [
+      "Kirk Douglas",
+      "Laurence Olivier",
+      "Jean Simmons"
+    ]
+  },
+  {
+    "title": "Sunrise: A Song of Two Humans",
+    "year": "1927",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "82",
+      "director": "F. W. Murnau"
+    },
+    "tmdb_id": 631,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "BFI Player",
+          "BFI Player Amazon Channel",
+          "BFI Player Apple TV Channel",
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Hoopla",
+          "JustWatchTV",
+          "Plex",
+          "Plex Channel",
+          "Darkroom",
+          "Fawesome",
+          "Reveel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hoopla",
+          "Plex",
+          "JustWatchTV"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "JustWatchTV",
+          "Plex"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.822,
+    "runtime": 94,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oj8ZW8jKXBSs8F1e5iWsTUeXSJW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hKrrCigPFmhv1bg5IJl9nzjEaN4.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=PCgbFay53BA",
+    "overview": "A married farmer falls under the spell of a slatternly woman from the city, who tries to convince him to drown his wife.",
+    "release_date": "1927-11-04",
+    "cast": [
+      "George O'Brien",
+      "Janet Gaynor",
+      "Margaret Livingston"
+    ]
+  },
+  {
+    "title": "Titanic",
+    "year": "1997",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "83",
+      "director": "James Cameron"
+    },
+    "tmdb_id": 597,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Paramount Plus",
+          "Starz Apple TV Channel",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Starz",
+          "Philo",
+          "VIX ",
+          "Starz Amazon Channel",
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus",
+          "Stan"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus",
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.904,
+    "runtime": 194,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xXCuto8YVp5RFqBJ7yKmVmLOWpF.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=cZUvJ37ao1k",
+    "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fianc\u00e9. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death\u2014on its first and last voyage\u2014on April 15, 1912.",
+    "release_date": "1997-11-18",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
+    ]
+  },
+  {
+    "title": "Easy Rider",
+    "year": "1969",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "84",
+      "director": "Dennis Hopper"
+    },
+    "tmdb_id": 624,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Netflix"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.059,
+    "runtime": 95,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mmGEB6ly9OG8SYVfvAoa6QqHNvN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/qvTmYyYsv71qTq5syAq24k1kGk.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=IlfpTppsR0U",
+    "overview": "Wyatt and Billy, two Harley-riding hippies, complete a drug deal in Southern California and decide to travel cross-country in search of spiritual truth.",
+    "release_date": "1969-06-26",
+    "cast": [
+      "Peter Fonda",
+      "Dennis Hopper",
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "title": "A Night at the Opera",
+    "year": "1935",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "85",
+      "director": "Sam Wood"
+    },
+    "tmdb_id": 37719,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Kanopy"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.434,
+    "runtime": 91,
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/A4YDGfJwaG7aMxDVrVJsOHJ7ufK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/d7YwLX0PnX8vsaaQq9bz93jczGw.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=UY9C9MpoIn4",
+    "overview": "The Marx Brothers take on high society and the opera world to bring two lovers together. A sly business manager and two wacky friends of two opera singers help them achieve success while humiliating their stuffy and snobbish enemies.",
+    "release_date": "1935-11-15",
+    "cast": [
+      "Groucho Marx",
+      "Chico Marx",
+      "Harpo Marx"
+    ]
+  },
+  {
+    "title": "Platoon",
+    "year": "1986",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "86",
+      "director": "Oliver Stone"
+    },
+    "tmdb_id": 792,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "MGM Amazon Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV",
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.746,
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "War",
+      "Action"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/m3mmFkPQKvPZq5exmh0bDuXlD9T.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xywFHPls3rMTiRtZUhrCghMCsMe.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=R8weLPF4qBQ",
+    "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+    "release_date": "1986-12-19",
+    "cast": [
+      "Charlie Sheen",
+      "Willem Dafoe",
+      "Tom Berenger"
+    ]
+  },
+  {
+    "title": "12 Angry Men",
+    "year": "1957",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "87",
+      "director": "Sidney Lumet"
+    },
+    "tmdb_id": 389,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
+          "MGM Plus",
+          "Philo",
+          "Kanopy",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "MGM Amazon Channel",
+          "Hoopla"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "MGM Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "MGM Plus Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.549,
+    "runtime": 97,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/tj6iPnz18hGfr0LKqWmG6Cp3niO.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=TEN-2uTi2c0",
+    "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+    "release_date": "1957-04-10",
+    "cast": [
+      "Martin Balsam",
+      "John Fiedler",
+      "Lee J. Cobb"
+    ]
+  },
+  {
+    "title": "Bringing Up Baby",
+    "year": "1938",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "88",
+      "director": "Howard Hawks"
+    },
+    "tmdb_id": 900,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "BBC iPlayer"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Britbox Apple TV Channel ",
+          "YouTube TV",
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Criterion Channel"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.5,
+    "runtime": 102,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vTNNOtemaYmtx3k2NpsLMRJKEwZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fzJgCQh2NBnUYlms8EGyr4bPNz3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=F25nzu6hh0Q",
+    "overview": "David Huxley is waiting to get a bone he needs for his museum collection. Through a series of strange circumstances, he meets Susan Vance, and the duo have a series of misadventures which include a leopard called Baby.",
+    "release_date": "1938-02-18",
+    "cast": [
+      "Katharine Hepburn",
+      "Cary Grant",
+      "Charles Ruggles"
+    ]
+  },
+  {
+    "title": "The Sixth Sense",
+    "year": "1999",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "89",
+      "director": "M. Night Shyamalan"
+    },
+    "tmdb_id": 745,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Hulu",
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.947,
+    "runtime": 107,
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=HXG4HTIlc1U",
+    "overview": "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.",
+    "release_date": "1999-08-06",
+    "cast": [
+      "Bruce Willis",
+      "Haley Joel Osment",
+      "Toni Collette"
+    ]
+  },
+  {
+    "title": "Swing Time",
+    "year": "1936",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "90",
+      "director": "George Stevens"
+    },
+    "tmdb_id": 20325,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 6.835,
+    "runtime": 103,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/yjoduUg87Tz1EPn7cTVKAa34uBG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/berFcW4jty3bPar7SVPIyIcqru9.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=TgimMImX-VE",
+    "overview": "Lucky is tricked into missing his own wedding to Margaret and has to make $25,000 so her father will allow him to marry her. He and business partner Pop go to New York where they run into dancing instructor Penny. She and Lucky form a successful dance partnership, but romance is blighted by his old attachment to Margaret and hers for Ricky.",
+    "release_date": "1936-08-28",
+    "cast": [
+      "Fred Astaire",
+      "Ginger Rogers",
+      "Victor Moore"
+    ]
+  },
+  {
+    "title": "Sophie's Choice",
+    "year": "1982",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "91",
+      "director": "Alan J. Pakula"
+    },
+    "tmdb_id": 15764,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "ITVX Premium"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "fuboTV",
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "Shout! Factory Amazon Channel",
+          "The CW",
+          "Kanopy",
+          "Hoopla",
+          "Plex Channel",
+          "Fawesome"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.326,
+    "runtime": 151,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rZDPbPTFwuKgr5b9jixGFNYkGYt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/uiUpvnv8zgA2pm1J7tT8DPLxh84.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=STPJVf6wqCk",
+    "overview": "Stingo, a young writer, moves to Brooklyn in 1947 to begin work on his first novel. As he becomes friendly with Sophie and her lover Nathan, he learns that she is a Holocaust survivor. Flashbacks reveal her harrowing story, from pre-war prosperity to Auschwitz. In the present, Sophie and Nathan's relationship increasingly unravels as Stingo grows closer to Sophie and Nathan's fragile mental state becomes ever more apparent.",
+    "release_date": "1982-12-08",
+    "cast": [
+      "Meryl Streep",
+      "Kevin Kline",
+      "Peter MacNicol"
+    ]
+  },
+  {
+    "title": "Goodfellas",
+    "year": "1990",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "92",
+      "director": "Martin Scorsese"
+    },
+    "tmdb_id": 769,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "YouTube TV",
+          "AMC"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Crave",
+          "Starz Amazon Channel",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Amazon Prime Video",
+          "Neon TV"
+        ],
+        "prime": true,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.453,
+    "runtime": 145,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/gILte6Zd7m1YneIr6MVhh30S9pr.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=PTBRNXGQR9Q",
+    "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+    "release_date": "1990-09-12",
+    "cast": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci"
+    ]
+  },
+  {
+    "title": "The French Connection",
+    "year": "1971",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "93",
+      "director": "William Friedkin"
+    },
+    "tmdb_id": 1051,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus",
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.499,
+    "runtime": 104,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/5XSGvIKl2yPvOkieFjc3rzLw7x0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/AsaW2VwcArvQmYjf2wsDjqWEn6f.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=T76K3RxJY0A",
+    "overview": "Tough narcotics detective 'Popeye' Doyle is in hot pursuit of a suave French drug dealer who may be the key to a huge heroin-smuggling operation.",
+    "release_date": "1971-10-09",
+    "cast": [
+      "Gene Hackman",
+      "Roy Scheider",
+      "Fernando Rey"
+    ]
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "94",
+      "director": "Quentin Tarantino"
+    },
+    "tmdb_id": 680,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Paramount Plus",
+          "Sky Go",
+          "Now TV Cinema",
+          "Paramount+ Amazon Channel",
+          "Amazon Prime Video with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "AMC+ Roku Premium Channel",
+          "AMC+",
+          "AMC",
+          "Kanopy",
+          "Hoopla",
+          "Plex",
+          "Plex Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Netflix",
+          "Crave",
+          "Paramount Plus",
+          "Starz Amazon Channel",
+          "Netflix Standard with Ads",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "Lionsgate+ Amazon Channels"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Foxtel Now",
+          "Stan",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads",
+          "BINGE"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 8.488,
+    "runtime": 154,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=tGpTpVyI_OQ",
+    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "release_date": "1994-09-10",
+    "cast": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman"
+    ]
+  },
+  {
+    "title": "The Last Picture Show",
+    "year": "1971",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "95",
+      "director": "Peter Bogdanovich"
+    },
+    "tmdb_id": 25188,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "BFI Player",
+          "BFI Player Amazon Channel",
+          "BFI Player Apple TV Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [
+          "Amazon Prime Video",
+          "Hollywood Suite",
+          "Hollywood Suite Amazon Channel",
+          "Starz Amazon Channel",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.608,
+    "runtime": 119,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7NYePZc0lZrRomtmQsjOJMePTEb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fhzwleXGmiqBuQdWxmEwpkydhm4.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=bP1KaJCC0Y0",
+    "overview": "High school seniors and best friends, Sonny and Duane, live in a dying Texas town. The handsome Duane is dating a local beauty, while Sonny is having an affair with the coach's wife. As graduation nears and both boys contemplate their futures, Duane eyes the army and Sonny takes over a local business. Each struggles to figure out if he can escape this dead-end town and build a better life somewhere else.",
+    "release_date": "1971-10-03",
+    "cast": [
+      "Timothy Bottoms",
+      "Cybill Shepherd",
+      "Jeff Bridges"
+    ]
+  },
+  {
+    "title": "Do the Right Thing",
+    "year": "1989",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "96",
+      "director": "Spike Lee"
+    },
+    "tmdb_id": 925,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "ALLBLK Apple TV channel",
+          "ALLBLK Amazon channel "
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Crave",
+          "Starz Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.8,
+    "runtime": 120,
+    "genres": [
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/oYOZay9hyW3uI5paKWLIYkWZlzv.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=yVAD4fYRcvA",
+    "overview": "Salvatore \"Sal\" Fragione is the Italian owner of a pizzeria in Brooklyn. A neighborhood local, Buggin' Out, becomes upset when he sees that the pizzeria's Wall of Fame exhibits only Italian actors. Buggin' Out believes a pizzeria in a black neighborhood should showcase black actors, but Sal disagrees. The wall becomes a symbol of racism and hate to Buggin' Out and to other people in the neighborhood, and tensions rise.",
+    "release_date": "1989-06-14",
+    "cast": [
+      "Danny Aiello",
+      "Ossie Davis",
+      "Ruby Dee"
+    ]
+  },
+  {
+    "title": "Blade Runner",
+    "year": "1982",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "97",
+      "director": "Ridley Scott"
+    },
+    "tmdb_id": 78,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Sky Go",
+          "Now TV Cinema",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "Amazon Prime Video",
+          "HBO Max",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Neon TV"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.9,
+    "runtime": 118,
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Thriller"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/cFZRtb1Q4whERknfYtj7Fjsvxpg.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=qoEyZoOTtss",
+    "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+    "release_date": "1982-06-25",
+    "cast": [
+      "Harrison Ford",
+      "Rutger Hauer",
+      "Sean Young"
+    ]
+  },
+  {
+    "title": "Yankee Doodle Dandy",
+    "year": "1942",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "98",
+      "director": "Michael Curtiz"
+    },
+    "tmdb_id": 3087,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.027,
+    "runtime": 126,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cqLLIyJFjLr6jGOxWVEHG11WGzB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/dskxBjNFZsn6ThCZ7vAqd5UueEl.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=ionMhYBMpek",
+    "overview": "A film of the life of the renowned musical composer, playwright, actor, dancer and singer George M. Cohan.",
+    "release_date": "1942-05-29",
+    "cast": [
+      "James Cagney",
+      "Joan Leslie",
+      "Walter Huston"
+    ]
+  },
+  {
+    "title": "Toy Story",
+    "year": "1995",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "99",
+      "director": "John Lasseter"
+    },
+    "tmdb_id": 862,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "US": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "CA": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "AU": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [
+          "Disney Plus"
+        ],
+        "prime": false,
+        "free_any": true
+      }
+    },
+    "tmdb_rating": 7.97,
+    "runtime": 81,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Animation",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=CxwTLktovTU",
+    "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+    "release_date": "1995-11-22",
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles"
+    ]
+  },
+  {
+    "title": "Ben-Hur",
+    "year": "1959",
+    "collection": "AFI",
+    "collection_meta": {
+      "rank": "100",
+      "director": "William Wyler"
+    },
+    "tmdb_id": 665,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [
+          "HBO Max"
+        ],
+        "prime": false,
+        "free_any": true
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 7.888,
+    "runtime": 212,
+    "genres": [
+      "History",
+      "Drama",
+      "Adventure"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sU3gFo7Gn67zjtKXIvzJ4omcUbH.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=f2y1gDeZ230",
+    "overview": "In 26 AD, Judah Ben-Hur, a Jew in ancient Judea, opposes the occupying Roman empire.  Falsely accused by a Roman childhood friend-turned-overlord of trying to kill the Roman governor, he is put into slavery and his mother and sister are taken away as prisoners.",
+    "release_date": "1959-11-18",
+    "cast": [
+      "Charlton Heston",
+      "Stephen Boyd",
+      "Hugh Griffith"
+    ]
+  }
+]

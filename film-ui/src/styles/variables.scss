@@ -45,9 +45,9 @@
 }
 
 // SCSS variables for breakpoints (can't use CSS vars in media queries)
-$mobile: 480px;
-$tablet: 768px;
-$desktop: 1024px;
+$mobile: 800px;
+$tablet: 1024px;
+$desktop: 1280px;
 $wide: 1440px;
 
 // SCSS Mixins (keep these - CSS can't do this)

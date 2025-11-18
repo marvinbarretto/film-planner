@@ -1,13 +1,39 @@
 import PropTypes from 'prop-types'
 import styles from './FilterBar.module.scss'
 
-function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, sortBy, onSortChange, onSurpriseMe, hasFilms }) {
+function FilterBar({
+  filters,
+  onFiltersChange,
+  genres,
+  providers,
+  suggestedBy,
+  sortBy,
+  onSortChange,
+  onSurpriseMe,
+  hasFilms,
+  selectedCollections,
+  onCollectionsChange,
+  collectionsLoading
+}) {
   const handleSearchChange = (e) => {
     onFiltersChange({ ...filters, search: e.target.value })
   }
 
   const handleFreeToggle = () => {
     onFiltersChange({ ...filters, showFreeOnly: !filters.showFreeOnly })
+  }
+
+  const handleCollectionToggle = (collection) => {
+    // Prevent deselecting all collections (must have at least one)
+    if (selectedCollections.includes(collection) && selectedCollections.length === 1) {
+      return
+    }
+
+    if (selectedCollections.includes(collection)) {
+      onCollectionsChange(selectedCollections.filter(c => c !== collection))
+    } else {
+      onCollectionsChange([...selectedCollections, collection])
+    }
   }
 
   const handleGenreClick = (genre) => {
@@ -124,6 +150,39 @@ function FilterBar({ filters, onFiltersChange, genres, providers, suggestedBy, s
           Clear All
         </button>
       )}
+
+      {/* Collections Section */}
+      <div className={styles.collectionsSection}>
+        <h4 className={styles.sectionTitle}>Collections</h4>
+        <div className={styles.collectionChips}>
+          <button
+            className={`${styles.collectionChip} ${styles.personal} ${selectedCollections.includes('personal') ? styles.active : ''}`}
+            onClick={() => handleCollectionToggle('personal')}
+            disabled={selectedCollections.includes('personal') && selectedCollections.length === 1}
+            title={selectedCollections.includes('personal') && selectedCollections.length === 1
+              ? "At least one collection must be selected"
+              : "Your personal watchlist"}
+          >
+            Personal
+          </button>
+
+          <button
+            className={`${styles.collectionChip} ${selectedCollections.includes('criterion') ? styles.active : ''}`}
+            onClick={() => handleCollectionToggle('criterion')}
+            disabled={collectionsLoading}
+          >
+            {collectionsLoading && !selectedCollections.includes('criterion') ? 'Loading...' : 'Criterion Collection'}
+          </button>
+
+          <button
+            className={`${styles.collectionChip} ${selectedCollections.includes('afi') ? styles.active : ''}`}
+            onClick={() => handleCollectionToggle('afi')}
+            disabled={collectionsLoading}
+          >
+            {collectionsLoading && !selectedCollections.includes('afi') ? 'Loading...' : 'AFI Top 100'}
+          </button>
+        </div>
+      </div>
 
       {/* Runtime Filter */}
       <div className={styles.runtimeSection}>
@@ -260,7 +319,10 @@ FilterBar.propTypes = {
   sortBy: PropTypes.string.isRequired,
   onSortChange: PropTypes.func.isRequired,
   onSurpriseMe: PropTypes.func.isRequired,
-  hasFilms: PropTypes.bool.isRequired
+  hasFilms: PropTypes.bool.isRequired,
+  selectedCollections: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onCollectionsChange: PropTypes.func.isRequired,
+  collectionsLoading: PropTypes.bool.isRequired
 }
 
 export default FilterBar

@@ -20,6 +20,11 @@ function App() {
   })
   const [sortBy, setSortBy] = useState('rating-desc')
 
+  // Collections state
+  const [selectedCollections, setSelectedCollections] = useState(['personal'])
+  const [collectionData, setCollectionData] = useState({})
+  const [collectionsLoading, setCollectionsLoading] = useState(false)
+
   // Country selection state (no loading needed - all data is preloaded)
   const [selectedCountry, setSelectedCountry] = useState(() => {
     return localStorage.getItem('selectedCountry') || 'GB'
@@ -31,6 +36,27 @@ function App() {
     setLoading(false)
   }, [])
 
+  // Load collections on demand when toggled
+  useEffect(() => {
+    const loadCollections = async () => {
+      for (const collection of selectedCollections) {
+        if (collection !== 'personal' && !collectionData[collection]) {
+          setCollectionsLoading(true)
+          try {
+            const module = await import(`@data/collections/${collection}.json`)
+            setCollectionData(prev => ({ ...prev, [collection]: module.default }))
+            console.log(`✅ Loaded ${collection} collection`)
+          } catch (error) {
+            console.error(`❌ Failed to load ${collection} collection:`, error)
+          } finally {
+            setCollectionsLoading(false)
+          }
+        }
+      }
+    }
+    loadCollections()
+  }, [selectedCollections, collectionData])
+
   // Handle country change - just update state, data is already loaded
   const handleCountryChange = (newCountry) => {
     setSelectedCountry(newCountry)
@@ -38,41 +64,78 @@ function App() {
     console.log(`🌍 Switched to ${newCountry}`)
   }
 
+  // Merge films from personal list and selected collections
+  // Deduplicate by tmdb_id, merging collection metadata for films in multiple collections
+  const allFilms = useMemo(() => {
+    const personal = films.map(f => ({ ...f, collection: 'personal', collection_meta: null }))
+    const collections = selectedCollections
+      .filter(c => c !== 'personal')
+      .flatMap(c => collectionData[c] || [])
+
+    const combined = [...personal, ...collections]
+    const filmMap = new Map()
+
+    combined.forEach(film => {
+      const key = film.tmdb_id
+      if (!filmMap.has(key)) {
+        // First occurrence - store film with collection as array
+        filmMap.set(key, {
+          ...film,
+          collections: [film.collection],
+          collection_metas: film.collection_meta ? [{ collection: film.collection, ...film.collection_meta }] : []
+        })
+      } else {
+        // Duplicate found - merge collection info
+        const existing = filmMap.get(key)
+        if (!existing.collections.includes(film.collection)) {
+          existing.collections.push(film.collection)
+        }
+        if (film.collection_meta) {
+          existing.collection_metas.push({ collection: film.collection, ...film.collection_meta })
+        }
+      }
+    })
+
+    return Array.from(filmMap.values())
+  }, [films, selectedCollections, collectionData])
+
   // Get all unique genres
   const allGenres = useMemo(() => {
     const genreSet = new Set()
-    films.forEach(film => {
+    allFilms.forEach(film => {
       film.genres?.forEach(genre => genreSet.add(genre))
     })
     return Array.from(genreSet).sort()
-  }, [films])
+  }, [allFilms])
 
   // Get all unique providers for selected country
   const allProviders = useMemo(() => {
     const providerSet = new Set()
-    films.forEach(film => {
+    allFilms.forEach(film => {
       const countryData = film.availability?.[selectedCountry]
       countryData?.providers?.forEach(provider => providerSet.add(provider))
     })
     return Array.from(providerSet).sort()
-  }, [films, selectedCountry])
+  }, [allFilms, selectedCountry])
 
-  // Get all unique suggested_by values
+  // Get all unique suggested_by values (includes collection sources)
   const allSuggestedBy = useMemo(() => {
     const suggestedSet = new Set()
-    films.forEach(film => {
+    allFilms.forEach(film => {
       if (film.suggested_by) {
         suggestedSet.add(film.suggested_by)
+      } else if (film.collection) {
+        suggestedSet.add(`Collection: ${film.collection}`)
       }
     })
     return Array.from(suggestedSet).sort()
-  }, [films])
+  }, [allFilms])
 
   // Filter films based on current filters
   const filteredFilms = useMemo(() => {
     console.log('🔍 FILTERING WITH:', JSON.stringify(filters, null, 2))
 
-    const result = films.filter(film => {
+    const result = allFilms.filter(film => {
       // Search filter
       if (filters.search) {
         const searchLower = filters.search.toLowerCase()
@@ -111,11 +174,13 @@ function App() {
         return false
       }
 
-      // Suggested By filter (OR logic - film must be suggested by one of selected people)
-      if (filters.selectedSuggestedBy.length > 0 &&
-          !filters.selectedSuggestedBy.includes(film.suggested_by)) {
-        console.log(`❌ SUGGESTED: "${film.title}" suggested by "${film.suggested_by}" not in [${filters.selectedSuggestedBy.join(', ')}]`)
-        return false
+      // Suggested By filter (OR logic - includes collections)
+      if (filters.selectedSuggestedBy.length > 0) {
+        const filmSource = film.suggested_by || (film.collection ? `Collection: ${film.collection}` : null)
+        if (!filters.selectedSuggestedBy.includes(filmSource)) {
+          console.log(`❌ SUGGESTED: "${film.title}" source "${filmSource}" not in [${filters.selectedSuggestedBy.join(', ')}]`)
+          return false
+        }
       }
 
       // Runtime filter
@@ -172,11 +237,11 @@ function App() {
       }
     })
 
-    console.log(`📊 RESULT: ${sorted.length} of ${films.length} films (sorted by ${sortBy})`)
+    console.log(`📊 RESULT: ${sorted.length} of ${allFilms.length} films (sorted by ${sortBy})`)
     console.log('📋 FILTERED FILMS:', sorted.map(f => `${f.title} (${f.tmdb_rating || 'N/A'})`))
 
     return sorted
-  }, [films, filters, selectedCountry, sortBy])
+  }, [allFilms, filters, selectedCountry, sortBy])
 
   const handleFilmClick = (film) => {
     setSelectedFilm(film)
@@ -190,21 +255,21 @@ function App() {
 
   // Count real Prime films for selected country
   const realPrimeCount = useMemo(() => {
-    return films.filter(film => {
+    return allFilms.filter(film => {
       const countryData = film.availability?.[selectedCountry]
       return countryData?.providers?.some(p =>
         p === 'Amazon Prime Video' || p === 'Amazon Prime Video with Ads'
       )
     }).length
-  }, [films, selectedCountry])
+  }, [allFilms, selectedCountry])
 
   // Count free films for selected country
   const freeCount = useMemo(() => {
-    return films.filter(film => {
+    return allFilms.filter(film => {
       const countryData = film.availability?.[selectedCountry]
       return countryData?.free_any
     }).length
-  }, [films, selectedCountry])
+  }, [allFilms, selectedCountry])
 
   if (loading) {
     return <div className={styles.app}>Loading...</div>
@@ -233,7 +298,10 @@ function App() {
             </div>
           </div>
           <p>
-            {filteredFilms.length} of {films.length} films • {realPrimeCount} on Prime • {freeCount} free ({selectedCountry})
+            {filteredFilms.length} of {allFilms.length} films • {realPrimeCount} on Prime • {freeCount} free ({selectedCountry})
+            {selectedCollections.length > 1 && (
+              <span> • {selectedCollections.filter(c => c !== 'personal').join(' + ')}</span>
+            )}
           </p>
         </header>
 
@@ -247,6 +315,9 @@ function App() {
           onSortChange={setSortBy}
           onSurpriseMe={handleSurpriseMe}
           hasFilms={filteredFilms.length > 0}
+          selectedCollections={selectedCollections}
+          onCollectionsChange={setSelectedCollections}
+          collectionsLoading={collectionsLoading}
         />
 
         <FilmGrid films={filteredFilms} onFilmClick={handleFilmClick} selectedCountry={selectedCountry} />

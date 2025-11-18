@@ -34,7 +34,7 @@ function FilmCard({ film, selectedCountry, onClick }) {
 
   return (
     <div className={styles.card} onClick={onClick}>
-      {/* Poster on the left */}
+      {/* Poster on the left - hidden on mobile */}
       <div className={styles.posterContainer}>
         <img
           src={poster_url || posterPlaceholder}
@@ -63,10 +63,12 @@ function FilmCard({ film, selectedCountry, onClick }) {
         </div>
       </div>
 
-      {/* Info section on the right */}
+      {/* Info section */}
       <div className={styles.info}>
         <div className={styles.mainInfo}>
-          <h3 className={styles.title}>{title}</h3>
+          <h3 className={styles.title}>
+            {title} <span className={styles.year}>({year})</span>
+          </h3>
 
           <div className={styles.meta}>
             {tmdb_rating && (
@@ -78,20 +80,29 @@ function FilmCard({ film, selectedCountry, onClick }) {
                 <span className={styles.separator}>•</span>
               </>
             )}
-            <span className={styles.year}>{year}</span>
             {runtime && (
               <>
                 <span className={styles.separator}>•</span>
                 <span className={styles.runtime}>{formatRuntime(runtime)}</span>
               </>
             )}
-            {suggested_by && (
+            {film.collections && film.collections.length > 0 && (
               <>
                 <span className={styles.separator}>•</span>
-                <span className={styles.suggestedBy}>
-                  <span className={styles.icon}>👤</span>
-                  {suggested_by}
-                </span>
+                {film.collections.map((collection, idx) => {
+                  const meta = film.collection_metas?.find(m => m.collection === collection)
+                  let label = collection.charAt(0).toUpperCase() + collection.slice(1)
+                  if (meta?.spine_number) label += ` #${meta.spine_number}`
+                  else if (meta?.rank) label += ` #${meta.rank}`
+
+                  return (
+                    <span key={collection} className={styles.collectionBadge}>
+                      {idx === 0 && <span className={styles.icon}>📚</span>}
+                      {label}
+                      {idx < film.collections.length - 1 && <span className={styles.collectionSeparator}> + </span>}
+                    </span>
+                  )
+                })}
               </>
             )}
           </div>
@@ -103,10 +114,30 @@ function FilmCard({ film, selectedCountry, onClick }) {
               ))}
             </div>
           )}
+
+          {providers && providers.length > 0 && (
+            <>
+              <div className={styles.divider}></div>
+              <div className={styles.providers}>
+                <span className={styles.icon}>📺</span>
+                {providers.map(provider => (
+                  <span key={provider} className={styles.provider}>{provider}</span>
+                ))}
+              </div>
+            </>
+          )}
+
+          {suggested_by && (
+            <div className={styles.suggestedBy}>
+              <span className={styles.icon}>👤</span>
+              Suggested by {suggested_by}
+            </div>
+          )}
         </div>
 
+        {/* Desktop-only provider display on right side */}
         {providers && providers.length > 0 && (
-          <div className={styles.providers}>
+          <div className={styles.providersDesktop}>
             {providers.map(provider => (
               <span key={provider} className={styles.provider}>{provider}</span>
             ))}
@@ -131,7 +162,12 @@ FilmCard.propTypes = {
       providers: PropTypes.arrayOf(PropTypes.string),
       prime: PropTypes.bool,
       free_any: PropTypes.bool
-    }))
+    })),
+    collection: PropTypes.string,
+    collection_meta: PropTypes.shape({
+      spine_number: PropTypes.string,
+      director: PropTypes.string
+    })
   }).isRequired,
   selectedCountry: PropTypes.string.isRequired,
   onClick: PropTypes.func
