@@ -42,7 +42,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.601,
+    "tmdb_rating": 7.602,
     "runtime": 129,
     "genres": [
       "Science Fiction",
@@ -163,7 +163,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.372,
+    "tmdb_rating": 7.374,
     "runtime": 101,
     "genres": [
       "Documentary"
@@ -239,7 +239,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.938,
+    "tmdb_rating": 6.94,
     "runtime": 117,
     "genres": [
       "Comedy",
@@ -294,7 +294,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.182,
+    "tmdb_rating": 8.181,
     "runtime": 137,
     "genres": [
       "Science Fiction",
@@ -423,7 +423,7 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/7BawlYbO8j434ovY0xTHpaNNE0Y.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=x7UGQ709lOY",
     "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?",
-    "release_date": "1986-03-07",
+    "release_date": "1985-12-13",
     "director": "James Ivory",
     "cast": [
       "Helena Bonham Carter",
@@ -470,7 +470,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.842,
+    "tmdb_rating": 6.841,
     "runtime": 125,
     "genres": [
       "Drama",
@@ -792,20 +792,24 @@
       },
       "AU": {
         "providers": [
+          "MUBI",
+          "MUBI Amazon Channel",
           "Beamafilm"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "NZ": {
         "providers": [
+          "MUBI",
+          "MUBI Amazon Channel",
           "Beamafilm"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       }
     },
-    "tmdb_rating": 7.636,
+    "tmdb_rating": 7.635,
     "runtime": 117,
     "genres": [
       "Comedy",
@@ -832,11 +836,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Studiocanal Presents Amazon Channel"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "US": {
         "providers": [
@@ -892,11 +894,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Studiocanal Presents Amazon Channel"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "US": {
         "providers": [
@@ -1048,7 +1048,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.25,
+    "tmdb_rating": 6.251,
     "runtime": 92,
     "genres": [
       "Fantasy",
@@ -1185,7 +1185,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.493,
+    "tmdb_rating": 7.492,
     "runtime": 166,
     "genres": [
       "Drama"
@@ -1211,9 +1211,11 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
+        "providers": [
+          "Plex"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "US": {
         "providers": [
@@ -1425,7 +1427,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 5.951,
+    "tmdb_rating": 5.949,
     "runtime": 83,
     "genres": [
       "Action",
@@ -1533,7 +1535,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.784,
+    "tmdb_rating": 6.785,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -1661,7 +1663,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.848,
+    "tmdb_rating": 6.849,
     "runtime": 109,
     "genres": [
       "War",
@@ -1721,7 +1723,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.383,
+    "tmdb_rating": 7.4,
     "runtime": 92,
     "genres": [
       "Comedy"
@@ -1772,7 +1774,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.409,
+    "tmdb_rating": 7.4,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -1990,7 +1992,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.3,
+    "tmdb_rating": 7.336,
     "runtime": 106,
     "genres": [
       "Crime",
@@ -2067,7 +2069,7 @@
       "Crime"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/1oaLxMtdn47TWdaty8BwdU4oXhV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/oeEiUwvqHxWT0XqD3YlViaiJOVD.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=J8lZi3ocbYk",
     "overview": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
     "release_date": "2011-09-15",
@@ -2178,7 +2180,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.57,
+    "tmdb_rating": 7.571,
     "runtime": 108,
     "genres": [
       "Drama",
@@ -2188,7 +2190,7 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/uqOuJ50EtTj7kkDIXP8LCg7G45D.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=sDkEF7Db7Gw",
     "overview": "Caleb, a coder at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl.",
-    "release_date": "2015-01-21",
+    "release_date": "2014-12-16",
     "director": "Alex Garland",
     "cast": [
       "Domhnall Gleeson",
@@ -2316,7 +2318,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.212,
+    "tmdb_rating": 7.213,
     "runtime": 118,
     "genres": [
       "Adventure",
@@ -2388,7 +2390,7 @@
       "Thriller"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/5TiwfWEaPSwD20uwXjCTUqpQX70.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=dfeUzm6KF4g",
     "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
     "release_date": "1999-10-15",
@@ -2447,7 +2449,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.0,
+    "tmdb_rating": 9.0,
     "runtime": 105,
     "genres": [
       "Fantasy"
@@ -2531,7 +2533,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.464,
+    "tmdb_rating": 8.463,
     "runtime": 142,
     "genres": [
       "Comedy",
@@ -2697,7 +2699,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.076,
+    "tmdb_rating": 7.077,
     "runtime": 102,
     "genres": [
       "Comedy",
@@ -2826,7 +2828,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.336,
+    "tmdb_rating": 7.335,
     "runtime": 116,
     "genres": [
       "Crime",
@@ -2955,7 +2957,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.744,
+    "tmdb_rating": 6.8,
     "runtime": 157,
     "genres": [
       "Adventure",
@@ -3080,7 +3082,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.818,
+    "tmdb_rating": 6.815,
     "runtime": 102,
     "genres": [
       "Crime",
@@ -3462,7 +3464,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.462,
+    "tmdb_rating": 8.5,
     "runtime": 169,
     "genres": [
       "Adventure",
@@ -3762,7 +3764,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.87,
+    "tmdb_rating": 7.9,
     "runtime": 86,
     "genres": [
       "Documentary",
@@ -3807,7 +3809,8 @@
           "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
-          "Starz Amazon Channel"
+          "Starz Amazon Channel",
+          "Plex"
         ],
         "prime": true,
         "free_any": true
@@ -3866,7 +3869,8 @@
       },
       "US": {
         "providers": [
-          "MovieSphere+ Amazon Channel"
+          "MovieSphere+ Amazon Channel",
+          "Fawesome"
         ],
         "prime": true,
         "free_any": true
@@ -3893,7 +3897,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.897,
+    "tmdb_rating": 7.898,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -4080,7 +4084,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.075,
+    "tmdb_rating": 7.074,
     "runtime": 119,
     "genres": [
       "Adventure",
@@ -4152,7 +4156,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.757,
+    "tmdb_rating": 7.758,
     "runtime": 94,
     "genres": [
       "Comedy"
@@ -4284,7 +4288,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.425,
+    "tmdb_rating": 8.426,
     "runtime": 179,
     "genres": [
       "Adventure",
@@ -4364,7 +4368,7 @@
       "Science Fiction"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/uT895WNwm0aIJRtGizcQhrejWUo.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=aXlfsF_lb0Y",
     "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
     "release_date": "2015-05-13",
@@ -4409,7 +4413,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.725,
+    "tmdb_rating": 7.726,
     "runtime": 189,
     "genres": [
       "Drama"
@@ -4485,7 +4489,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.363,
     "runtime": 94,
     "genres": [
       "Documentary"
@@ -4548,7 +4552,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.548,
+    "tmdb_rating": 7.547,
     "runtime": 138,
     "genres": [
       "Drama"
@@ -4802,7 +4806,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.54,
+    "tmdb_rating": 7.5,
     "runtime": 128,
     "genres": [
       "Drama",
@@ -4883,7 +4887,8 @@
     "availability": {
       "GB": {
         "providers": [
-          "Disney Plus"
+          "Disney Plus",
+          "Plex"
         ],
         "prime": false,
         "free_any": true
@@ -4918,7 +4923,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.051,
+    "tmdb_rating": 7.052,
     "runtime": 118,
     "genres": [
       "Crime",
@@ -4982,7 +4987,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.408,
+    "tmdb_rating": 6.4,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -5121,7 +5126,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.185,
+    "tmdb_rating": 7.183,
     "runtime": 108,
     "genres": [
       "Drama"
@@ -5242,7 +5247,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.094,
+    "tmdb_rating": 8.1,
     "runtime": 145,
     "genres": [
       "Drama"
@@ -5305,7 +5310,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.773,
+    "tmdb_rating": 7.777,
     "runtime": 124,
     "genres": [
       "Drama"
@@ -5353,7 +5358,6 @@
       },
       "AU": {
         "providers": [
-          "Stan",
           "MGM Amazon Channel"
         ],
         "prime": true,
@@ -5368,7 +5372,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.745,
+    "tmdb_rating": 7.746,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -5498,6 +5502,7 @@
           "AMC+ Roku Premium Channel",
           "AMC+",
           "AMC",
+          "Philo",
           "Kanopy",
           "Hoopla",
           "Plex",
@@ -5747,7 +5752,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.624,
+    "tmdb_rating": 7.625,
     "runtime": 135,
     "genres": [
       "Drama"
@@ -5947,7 +5952,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.565,
+    "tmdb_rating": 8.566,
     "runtime": 195,
     "genres": [
       "Drama",
@@ -6002,7 +6007,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.997,
+    "tmdb_rating": 6.992,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -6066,7 +6071,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.115,
+    "tmdb_rating": 7.114,
     "runtime": 127,
     "genres": [
       "Comedy",
@@ -6119,7 +6124,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.936,
+    "tmdb_rating": 6.9,
     "runtime": 97,
     "genres": [
       "Science Fiction",
@@ -6223,7 +6228,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.806,
+    "tmdb_rating": 7.802,
     "runtime": 103,
     "genres": [
       "Drama"
@@ -6344,7 +6349,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.5,
+    "tmdb_rating": 8.486,
     "runtime": 77,
     "genres": [
       "Drama"
@@ -6354,7 +6359,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=KS2EztRMuRw",
     "overview": "Oona, a recent graduate in anthropology, has returned to her dead mother\u2019s seaside cottage in southern England to prepare it for sale. Her arrival disturbs Mani, a wary vagrant who has been squatting on the property.",
     "release_date": "2013-04-05",
-    "director": "Eleanor Burke",
+    "director": "Ron Eyal",
     "cast": [
       "Bridget Collins",
       "Adeel Akhtar",
@@ -6460,7 +6465,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.453,
+    "tmdb_rating": 7.452,
     "runtime": 100,
     "genres": [
       "Drama",
@@ -6625,7 +6630,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.455,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -6661,6 +6666,7 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
           "Peacock Premium",
           "TCM",
           "Peacock Premium Plus",
@@ -6948,6 +6954,7 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
           "FlixFling",
           "IndieFlix",
           "IndieFlix Shorts Amazon Channel",
@@ -7003,9 +7010,11 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
+        "providers": [
+          "Plex"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "US": {
         "providers": [
@@ -7021,14 +7030,16 @@
           "Criterion Channel",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
-          "Starz Amazon Channel"
+          "Starz Amazon Channel",
+          "Plex"
         ],
         "prime": true,
         "free_any": true
       },
       "AU": {
         "providers": [
-          "Disney Plus"
+          "Disney Plus",
+          "Plex"
         ],
         "prime": false,
         "free_any": true
@@ -7041,7 +7052,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.782,
+    "tmdb_rating": 7.8,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -7106,13 +7117,13 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.114,
+    "tmdb_rating": 7.113,
     "runtime": 137,
     "genres": [
       "Drama"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/rUSjbyvYWN9H4az8xt0tDtU7I6v.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/d6EZMyJos2FonQb7omnXWe38aHY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/wgXjsX4taUwMdr5AkOOnkvhFBBr.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=RApl06pYIuU",
     "overview": "Freddie, a volatile, heavy-drinking veteran who suffers from post-traumatic stress disorder, finds some semblance of a family when he stumbles onto the ship of Lancaster Dodd, the charismatic leader of a new \"religion\" he forms after World War II.",
     "release_date": "2012-09-14",
@@ -7128,72 +7139,64 @@
     "year": "N/A",
     "suggested_by": "Ash Colbeck",
     "notes": "(Ash Colbeck)",
-    "tmdb_id": 1502943,
+    "tmdb_id": 1327769,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
         "providers": [
-          "Shudder",
-          "Shudder Amazon Channel"
+          "Netflix",
+          "Netflix Standard with Ads"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "US": {
         "providers": [
-          "AMC Plus Apple TV Channel ",
-          "AMC+ Amazon Channel",
-          "AMC+",
-          "Philo",
-          "Shudder",
-          "Shudder Amazon Channel",
-          "Shudder Apple TV Channel"
+          "Netflix",
+          "Netflix Standard with Ads"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
-        "providers": [],
+        "providers": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "AU": {
         "providers": [
-          "Shudder",
-          "Shudder Amazon Channel",
-          "AMC+",
-          "AMC+ Amazon Channel",
-          "AMC Plus Apple TV Channel ",
-          "Shudder Apple TV Channel"
+          "Netflix",
+          "Netflix Standard with Ads"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "NZ": {
         "providers": [
-          "Shudder",
-          "AMC+"
+          "Netflix"
         ],
         "prime": false,
         "free_any": true
       }
     },
-    "tmdb_rating": 6.632,
-    "runtime": 93,
+    "tmdb_rating": 6.4,
+    "runtime": 108,
     "genres": [
-      "Horror",
-      "Thriller"
+      "Comedy"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/HVR8cNWzBVoqbEIIqVtLpDvVKn.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/zGRYT2j2uoCcBWICP4u1BakqGT3.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=yID7jDK0HYA",
-    "overview": "College student Deena visits her home town and is roped into a babysitting gig. Meanwhile, the local sheriff, after receiving a piece of evidence in the mail, falls into an increasingly desperate scavenger hunt involving a series of murders.",
-    "release_date": "2025-10-30",
-    "director": "Brandon Christensen",
+    "poster_url": "https://image.tmdb.org/t/p/w500/kVMUTLFbfQvNYdFHiexTDnSHntV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/28xIxuw60UNZ3Tsz1tT5Gg7MS67.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=T9PEcUpiW6A",
+    "overview": "When a woman is admitted by her daughters to a psychiatric clinic for her carefree ways, an expert must judge if she is ill or simply wants to enjoy life.",
+    "release_date": "2025-09-19",
+    "director": "Daniel Hendler",
     "cast": [
-      "Jessica Clement",
-      "Ryan Robbins",
-      "Summer H. Howell"
+      "Maril\u00fa Marini",
+      "Daniel Hendler",
+      "Humberto Tortonese"
     ]
   },
   {
@@ -7205,9 +7208,11 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
+        "providers": [
+          "BBC iPlayer"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "US": {
         "providers": [],
@@ -7301,7 +7306,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.396,
+    "tmdb_rating": 7.395,
     "runtime": 82,
     "genres": [
       "Fantasy",
@@ -7364,7 +7369,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.137,
+    "tmdb_rating": 7.136,
     "runtime": 137,
     "genres": [
       "Action",
@@ -7425,14 +7430,14 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.464,
+    "tmdb_rating": 7.5,
     "runtime": 110,
     "genres": [
       "Comedy",
       "Drama"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/cbuX448RKetr5Y5cZkmJEfu3xji.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/m4x1TS3H4pwbFhvSlJWJac7WjC.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=-DNAI9bhBFU",
     "overview": "Royal Tenenbaum and his wife Etheline had three children and then they separated. All three children are extraordinary --- all geniuses. Virtually all memory of the brilliance of the young Tenenbaums was subsequently erased by two decades of betrayal, failure, and disaster. Most of this was generally considered to be their father's fault. \"The Royal Tenenbaums\" is the story of the family's sudden, unexpected reunion one recent winter.",
     "release_date": "2001-10-05",
@@ -7489,7 +7494,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.12,
+    "tmdb_rating": 8.119,
     "runtime": 110,
     "genres": [
       "Documentary"
@@ -7565,7 +7570,7 @@
       "Crime"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/v8xVDqt8uCul3c3mgx4VpGCwxJC.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
     "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
     "release_date": "1994-09-23",
@@ -7621,7 +7626,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.371,
     "runtime": 121,
     "genres": [
       "Drama"
@@ -7680,7 +7685,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.449,
+    "tmdb_rating": 7.448,
     "runtime": 171,
     "genres": [
       "Drama",
@@ -7902,7 +7907,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=lEfCtnM-jwc",
     "overview": "Set entirely inside Folsom Prison, The Work follows three men during four days of intensive group therapy with convicts, revealing an intimate and powerful portrait of authentic human transformation that transcends what we think of as rehabilitation.",
     "release_date": "2017-03-11",
-    "director": "Jairus McLeary",
+    "director": "Gethin Aldous",
     "cast": []
   },
   {
@@ -7943,7 +7948,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.539,
+    "tmdb_rating": 7.538,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -8208,7 +8213,7 @@
       "Crime",
       "Drama"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=_UsoBzKxj9A",
     "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
@@ -8268,7 +8273,7 @@
       "Crime",
       "Drama"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=_UsoBzKxj9A",
     "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
@@ -8377,7 +8382,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.908,
     "runtime": 130,
     "genres": [
       "Western"
@@ -8428,7 +8433,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.1,
+    "tmdb_rating": 7.098,
     "runtime": 111,
     "genres": [
       "Drama",
@@ -8483,15 +8488,15 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.899,
+    "tmdb_rating": 7.898,
     "runtime": 132,
     "genres": [
       "Action",
       "Thriller",
       "Science Fiction"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/1avD1JeaRiJX5M4ahPdZPypGoGN.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/sFEYsEfzTx7hhjetlNrme8B5OUo.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/piZOwjyk1g51oPHonc7zaQY3WOv.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5EKplo61HbA5sMGAN0XAvzdo1MX.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=3ge0navn9E0",
     "overview": "In a world in which Great Britain has become a fascist state, a masked vigilante known only as \u201cV\u201d conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain.",
     "release_date": "2006-02-23",
@@ -8542,7 +8547,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.473,
+    "tmdb_rating": 7.475,
     "runtime": 101,
     "genres": [
       "Animation",
@@ -8680,7 +8685,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.547,
+    "tmdb_rating": 6.544,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -8697,6 +8702,58 @@
       "Joaquin Phoenix",
       "Judith Roberts",
       "Ekaterina Samsonov"
+    ]
+  },
+  {
+    "title": "squaring the circle",
+    "year": "N/A",
+    "suggested_by": "",
+    "notes": "https://www.bbc.co.uk/iplayer/episode/m001t5r9/louis-theroux-interviews-series-2-5-chelsea-manning",
+    "tmdb_id": 155817,
+    "not_found_on_tmdb": false,
+    "availability": {
+      "GB": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "US": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "CA": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "AU": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      },
+      "NZ": {
+        "providers": [],
+        "prime": false,
+        "free_any": false
+      }
+    },
+    "tmdb_rating": 5.0,
+    "runtime": 115,
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aB3LNvrcf0Ibl09vbKPwXBjVfQ2.jpg",
+    "backdrop_url": null,
+    "trailer_url": null,
+    "overview": "An account of how Lech Walesa and the \"Solidarity\" trade union confronted the might of Communist dictatorship in Poland.",
+    "release_date": "1984-05-23",
+    "director": "Mike Hodges",
+    "cast": [
+      "Richard Crenna",
+      "Bernard Hill",
+      "Alec McCowen"
     ]
   }
 ]
