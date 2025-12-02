@@ -5,6 +5,12 @@ import FilmGrid from '@components/FilmGrid/FilmGrid'
 import FilterBar from '@components/FilterBar/FilterBar'
 import TrailerModal from '@components/TrailerModal/TrailerModal'
 import CountrySelector from '@components/CountrySelector/CountrySelector'
+import ExperimentsIndex from './experiments/ExperimentsIndex'
+import ExperimentLayout from './experiments/shared/ExperimentLayout'
+import FabBottomSheet from './experiments/FabBottomSheet/FabBottomSheet'
+import SwipeFilters from './experiments/SwipeFilters/SwipeFilters'
+import AccordionFilters from './experiments/AccordionFilters/AccordionFilters'
+import QuickFilters from './experiments/QuickFilters/QuickFilters'
 
 // Default user preferences
 const DEFAULT_PREFERENCES = {
@@ -58,6 +64,9 @@ function App() {
   const [films, setFilms] = useState([])
   const [loading, setLoading] = useState(true)
   const [selectedFilm, setSelectedFilm] = useState(null)
+
+  // Experiments view state
+  const [currentView, setCurrentView] = useState('main') // 'main' | 'experiments' | experiment id
 
   // User preferences (persisted to localStorage)
   const [filters, setFilters] = useState(() => getInitialPreferences().filters)
@@ -332,6 +341,65 @@ function App() {
     return <div className={styles.app}>Loading...</div>
   }
 
+  // Render experiment views
+  if (currentView === 'experiments') {
+    return (
+      <ExperimentsIndex
+        onSelectExperiment={(id) => setCurrentView(id)}
+        onBack={() => setCurrentView('main')}
+      />
+    )
+  }
+
+  if (currentView === 'fab-bottom-sheet') {
+    return (
+      <ExperimentLayout
+        title="FAB + Bottom Sheet"
+        description="Floating action button opens a sliding filter panel"
+        onBack={() => setCurrentView('experiments')}
+      >
+        <FabBottomSheet />
+      </ExperimentLayout>
+    )
+  }
+
+  if (currentView === 'swipe-filters') {
+    return (
+      <ExperimentLayout
+        title="Swipe Carousel"
+        description="Horizontal swipeable filter categories"
+        onBack={() => setCurrentView('experiments')}
+      >
+        <SwipeFilters />
+      </ExperimentLayout>
+    )
+  }
+
+  if (currentView === 'accordion-filters') {
+    return (
+      <ExperimentLayout
+        title="Accordion Filters"
+        description="Collapsible sections with search always visible"
+        onBack={() => setCurrentView('experiments')}
+      >
+        <AccordionFilters />
+      </ExperimentLayout>
+    )
+  }
+
+  if (currentView === 'quick-filters') {
+    return (
+      <ExperimentLayout
+        title="Smart Quick Filters"
+        description="Pre-set filter presets for common use cases"
+        onBack={() => setCurrentView('experiments')}
+      >
+        <QuickFilters />
+      </ExperimentLayout>
+    )
+  }
+
+  // Main app view
   return (
     <div className={styles.app}>
       <div className={styles.container}>
@@ -361,6 +429,13 @@ function App() {
               >
                 Edit List
               </a>
+              <button
+                className={styles.experimentsLink}
+                onClick={() => setCurrentView('experiments')}
+                title="UX Experiments"
+              >
+                Experiments
+              </button>
             </div>
           </div>
           <p>

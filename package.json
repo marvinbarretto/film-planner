@@ -1,0 +1,16 @@
+{
+  "name": "film-planner",
+  "version": "0.5.0",
+  "description": "Film availability checker with streaming provider tracking and curated collections",
+  "private": true,
+  "scripts": {
+    "release": "commit-and-tag-version",
+    "release:minor": "commit-and-tag-version --release-as minor",
+    "release:major": "commit-and-tag-version --release-as major",
+    "release:patch": "commit-and-tag-version --release-as patch",
+    "release:dry-run": "commit-and-tag-version --dry-run"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "12.6.1"
+  }
+}

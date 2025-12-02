@@ -1,0 +1,319 @@
+@use '@styles/variables.scss' as *;
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  overflow: hidden;
+}
+
+.header {
+  padding: var(--spacing-md);
+  text-align: center;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin: var(--spacing-xs) 0 0;
+  }
+}
+
+// Big Surprise Me Button
+.surpriseButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 var(--spacing-md) var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  border: none;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.surpriseEmoji {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.surpriseText {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.surpriseSubtext {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.75rem;
+  margin-top: 2px;
+}
+
+// Quick Presets
+.presetsSection {
+  padding: 0 var(--spacing-md) var(--spacing-md);
+
+  h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 var(--spacing-sm);
+  }
+}
+
+.presets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xs);
+}
+
+.presetChip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-sm);
+  background: var(--background-light);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-lavender-bg);
+    border-color: var(--primary);
+  }
+
+  &.active {
+    background: var(--accent-lavender-bg);
+    border-color: var(--primary);
+  }
+}
+
+.presetEmoji {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.presetLabel {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+// All Filters Toggle
+.allFiltersToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  width: calc(100% - var(--spacing-md) * 2);
+  margin: 0 var(--spacing-md) var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: var(--background-light);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-lavender-bg);
+    color: var(--text-primary);
+  }
+}
+
+.filterBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  background: var(--primary);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 9px;
+}
+
+.toggleIcon {
+  font-size: 0.6rem;
+  margin-left: auto;
+}
+
+// All Filters Panel
+.allFilters {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--background-light);
+  margin: 0 var(--spacing-md) var(--spacing-sm);
+  border-radius: var(--radius-md);
+  max-height: 200px;
+  overflow-y: auto;
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.searchBar {
+  margin-bottom: var(--spacing-sm);
+}
+
+.searchInput {
+  width: 100%;
+  padding: var(--spacing-sm);
+  background: var(--background);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+
+  &::placeholder {
+    color: var(--text-secondary);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary);
+  }
+}
+
+.filterSection {
+  margin-bottom: var(--spacing-sm);
+
+  h4 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    margin: 0 0 var(--spacing-xs);
+  }
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.chip {
+  padding: 4px 8px;
+  background: var(--background);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-lavender-bg);
+    color: var(--text-primary);
+  }
+
+  &.active {
+    background: var(--primary);
+    color: white;
+  }
+}
+
+.clearAll {
+  width: 100%;
+  padding: var(--spacing-sm);
+  background: transparent;
+  border: 1px solid var(--tertiary-accent);
+  border-radius: var(--radius-md);
+  color: var(--tertiary-accent);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: var(--spacing-sm);
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-rose-bg);
+  }
+}
+
+// Film grid
+.filmGrid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm);
+  overflow-y: auto;
+}
+
+.filmCard {
+  aspect-ratio: 2/3;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  position: relative;
+  background: var(--background-light);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--background-light);
+}
+
+.filmInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--spacing-xs);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+}
+
+.rating {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+}

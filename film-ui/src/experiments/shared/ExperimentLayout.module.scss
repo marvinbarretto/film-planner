@@ -1,0 +1,187 @@
+@use '@styles/variables.scss' as *;
+
+.layout {
+  min-height: 100vh;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: var(--background-light);
+  border-bottom: 1px solid var(--secondary);
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--background);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-lavender-bg);
+  }
+}
+
+.backArrow {
+  font-size: 1.1rem;
+}
+
+.titleArea {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: var(--spacing-xs) 0 0 0;
+}
+
+.hapticsToggle {
+  padding: var(--spacing-sm);
+  background: var(--background);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &.active {
+    opacity: 1;
+    background: var(--accent-sage-bg);
+  }
+}
+
+.mobileViewport {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: var(--spacing-xl);
+  overflow: auto;
+}
+
+.phoneFrame {
+  width: 390px;
+  height: 844px;
+  max-height: calc(100vh - 200px);
+  background: var(--background);
+  border-radius: 40px;
+  border: 8px solid #333;
+  box-shadow:
+    0 0 0 2px #1a1a1a,
+    0 20px 60px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.notch {
+  width: 150px;
+  height: 30px;
+  background: #1a1a1a;
+  border-radius: 0 0 20px 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+  }
+}
+
+.screen {
+  flex: 1;
+  overflow: auto;
+  background: var(--background);
+  position: relative;
+
+  // Custom scrollbar for the phone screen
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 2px;
+  }
+}
+
+.homeIndicator {
+  width: 134px;
+  height: 5px;
+  background: var(--text-secondary);
+  border-radius: 3px;
+  margin: var(--spacing-sm) auto;
+  opacity: 0.5;
+}
+
+.footer {
+  padding: var(--spacing-md);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--secondary);
+}
+
+// On actual mobile devices, hide the phone frame
+@media (max-width: 500px) {
+  .mobileViewport {
+    padding: 0;
+  }
+
+  .phoneFrame {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .notch,
+  .homeIndicator {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}

@@ -68,6 +68,24 @@
   }
 }
 
+.experimentsLink {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--accent-lavender-bg);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover {
+    background: var(--primary);
+    color: var(--background);
+  }
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;

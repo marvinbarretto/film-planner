@@ -1,0 +1,314 @@
+@use '@styles/variables.scss' as *;
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  overflow: hidden;
+}
+
+.header {
+  padding: var(--spacing-md);
+  text-align: center;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin: var(--spacing-xs) 0 0;
+  }
+}
+
+.searchBar {
+  padding: 0 var(--spacing-md) var(--spacing-sm);
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-right: 2.5rem;
+  background: var(--background-light);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+
+  &::placeholder {
+    color: var(--text-secondary);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary);
+  }
+}
+
+.clearSearch {
+  position: absolute;
+  right: calc(var(--spacing-md) + 8px);
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--secondary);
+  border: none;
+  color: var(--text-secondary);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearAllBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--accent-rose-bg);
+  margin: 0 var(--spacing-md) var(--spacing-sm);
+  border-radius: var(--radius-md);
+
+  span {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  button {
+    background: none;
+    border: none;
+    color: var(--tertiary-accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Accordion
+.accordion {
+  padding: 0 var(--spacing-md);
+  overflow-y: auto;
+  max-height: 280px;
+}
+
+.section {
+  margin-bottom: var(--spacing-xs);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--background-light);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--background-light);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-lavender-bg);
+  }
+
+  &.open {
+    background: var(--accent-lavender-bg);
+  }
+}
+
+.sectionLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  background: var(--primary);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 9px;
+}
+
+.chevron {
+  font-size: 0.6rem;
+  color: var(--text-secondary);
+  transition: transform var(--transition-fast);
+}
+
+.sectionContent {
+  padding: var(--spacing-sm) var(--spacing-md) var(--spacing-md);
+  background: var(--background);
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quickActions {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.quickChip {
+  flex: 1;
+  padding: var(--spacing-sm);
+  background: var(--background-light);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-sage-bg);
+    color: var(--text-primary);
+  }
+
+  &.active {
+    background: var(--secondary-accent);
+    color: white;
+  }
+}
+
+.surpriseChip {
+  flex: 1;
+  padding: var(--spacing-sm);
+  background: var(--primary);
+  border: none;
+  border-radius: var(--radius-md);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+}
+
+.sortSelect {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--background-light);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.chip {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--background-light);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--accent-lavender-bg);
+    color: var(--text-primary);
+  }
+
+  &.active {
+    background: var(--primary);
+    color: white;
+  }
+}
+
+// Film grid
+.filmGrid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm);
+  overflow-y: auto;
+}
+
+.filmCard {
+  aspect-ratio: 2/3;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  position: relative;
+  background: var(--background-light);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--background-light);
+}
+
+.filmInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--spacing-xs);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+}
+
+.rating {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+}
