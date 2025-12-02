@@ -344,6 +344,15 @@ function App() {
                 onCountryChange={handleCountryChange}
               />
               <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd4-LKFqFd6W5jVW62U1r_5n5CIV7C-8pGhhjYQxSZxYJibfg/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.editLink}
+                title="Add a new film"
+              >
+                Add Film
+              </a>
+              <a
                 href="https://docs.google.com/spreadsheets/d/1rlKS3PJhRjeiiQ9KEdIuMchrJxAn5TdCPjV7a2ZVcw8/edit"
                 target="_blank"
                 rel="noopener noreferrer"
