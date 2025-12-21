@@ -78,6 +78,7 @@
         "providers": [
           "Paramount Plus",
           "Paramount+ Amazon Channel",
+          "Foxtel Now",
           "Paramount Plus Premium",
           "Paramount Plus Basic with Ads"
         ],
@@ -211,7 +212,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.375,
+    "tmdb_rating": 7.373,
     "runtime": 101,
     "genres": [
       "Documentary"
@@ -287,7 +288,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.938,
+    "tmdb_rating": 6.937,
     "runtime": 117,
     "genres": [
       "Comedy",
@@ -354,7 +355,7 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/nLFxvLokHe3bQmrmAfljIfax2jQ.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
     "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
-    "release_date": "1971-12-19",
+    "release_date": "1971-10-28",
     "director": "Stanley Kubrick",
     "cast": [
       "Malcolm McDowell",
@@ -403,7 +404,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.577,
+    "tmdb_rating": 7.6,
     "runtime": 155,
     "genres": [
       "Crime",
@@ -463,7 +464,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.9,
+    "tmdb_rating": 6.932,
     "runtime": 117,
     "genres": [
       "Drama",
@@ -471,9 +472,9 @@
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/5xRAqywVo6tNUNQbAESGVP930la.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/7BawlYbO8j434ovY0xTHpaNNE0Y.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=x7UGQ709lOY",
+    "trailer_url": "https://www.youtube.com/watch?v=PW6W3EsfZaE",
     "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?",
-    "release_date": "1985-12-13",
+    "release_date": "1986-03-07",
     "director": "James Ivory",
     "cast": [
       "Helena Bonham Carter",
@@ -778,7 +779,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.754,
+    "tmdb_rating": 7.756,
     "runtime": 127,
     "genres": [
       "Drama",
@@ -920,7 +921,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.27,
+    "tmdb_rating": 8.3,
     "runtime": 147,
     "genres": [
       "Drama",
@@ -983,7 +984,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.27,
+    "tmdb_rating": 8.3,
     "runtime": 147,
     "genres": [
       "Drama",
@@ -1107,7 +1108,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.251,
+    "tmdb_rating": 6.252,
     "runtime": 92,
     "genres": [
       "Fantasy",
@@ -1164,7 +1165,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.41,
+    "tmdb_rating": 7.4,
     "runtime": 113,
     "genres": [
       "Comedy",
@@ -1238,7 +1239,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.493,
+    "tmdb_rating": 7.494,
     "runtime": 166,
     "genres": [
       "Drama"
@@ -1296,7 +1297,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.671,
+    "tmdb_rating": 7.672,
     "runtime": 143,
     "genres": [
       "Comedy",
@@ -1358,7 +1359,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.496,
+    "tmdb_rating": 7.5,
     "runtime": 159,
     "genres": [
       "Drama",
@@ -1416,7 +1417,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.785,
+    "tmdb_rating": 7.784,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -1475,7 +1476,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.0,
+    "tmdb_rating": 5.948,
     "runtime": 83,
     "genres": [
       "Action",
@@ -1583,7 +1584,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.783,
+    "tmdb_rating": 6.777,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -1626,7 +1627,7 @@
       },
       "CA": {
         "providers": [
-          "Hollywood Suite"
+          "Criterion Channel"
         ],
         "prime": false,
         "free_any": true
@@ -2260,7 +2261,9 @@
     "availability": {
       "GB": {
         "providers": [
+          "Netflix",
           "Amazon Prime Video",
+          "Netflix Standard with Ads",
           "Amazon Prime Video with Ads"
         ],
         "prime": true,
@@ -2305,7 +2308,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.85,
+    "tmdb_rating": 7.849,
     "runtime": 98,
     "genres": [
       "Crime",
@@ -2446,7 +2449,7 @@
       "Thriller"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5TiwfWEaPSwD20uwXjCTUqpQX70.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=dfeUzm6KF4g",
     "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
     "release_date": "1999-10-15",
@@ -2736,6 +2739,7 @@
       },
       "US": {
         "providers": [
+          "AMC Plus Apple TV Channel ",
           "AMC+ Amazon Channel",
           "MGM Plus",
           "Kanopy"
@@ -2763,7 +2767,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.078,
+    "tmdb_rating": 7.079,
     "runtime": 102,
     "genres": [
       "Comedy",
@@ -2890,7 +2894,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.3,
+    "tmdb_rating": 7.339,
     "runtime": 116,
     "genres": [
       "Crime",
@@ -2917,12 +2921,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "US": {
         "providers": [
@@ -3405,7 +3406,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.91,
     "runtime": 95,
     "genres": [
       "Animation",
@@ -3531,7 +3532,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.463,
+    "tmdb_rating": 8.464,
     "runtime": 169,
     "genres": [
       "Adventure",
@@ -3792,47 +3793,34 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "US": {
         "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads",
           "Kanopy"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
-        "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "AU": {
-        "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "NZ": {
-        "providers": [
-          "Amazon Prime Video"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.87,
     "runtime": 86,
     "genres": [
       "Documentary",
@@ -3900,7 +3888,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.803,
+    "tmdb_rating": 7.802,
     "runtime": 138,
     "genres": [
       "Crime",
@@ -3965,7 +3953,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.898,
+    "tmdb_rating": 7.9,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -3985,7 +3973,7 @@
     ]
   },
   {
-    "title": "la Vie D'ad\u00e8le Film",
+    "title": "la Vie D'ad\u00c3\u00a8le Film",
     "year": "N/A",
     "suggested_by": "",
     "notes": "",
@@ -4046,67 +4034,13 @@
     ]
   },
   {
-    "title": "L\u00e9on: The Professional",
+    "title": "L\u00c3\u00a9on: The Professional",
     "year": "N/A",
     "suggested_by": "Mat",
     "notes": "(Mat)",
-    "tmdb_id": 101,
-    "not_found_on_tmdb": false,
-    "availability": {
-      "GB": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
-      },
-      "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
-      },
-      "CA": {
-        "providers": [
-          "Crave",
-          "Starz Amazon Channel",
-          "Crave Amazon Channel"
-        ],
-        "prime": true,
-        "free_any": true
-      },
-      "AU": {
-        "providers": [
-          "Netflix",
-          "Stan",
-          "Netflix Standard with Ads"
-        ],
-        "prime": false,
-        "free_any": true
-      },
-      "NZ": {
-        "providers": [
-          "Netflix"
-        ],
-        "prime": false,
-        "free_any": true
-      }
-    },
-    "tmdb_rating": 8.299,
-    "runtime": 111,
-    "genres": [
-      "Crime",
-      "Drama",
-      "Action"
-    ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/2hS80sTgsSmK0T61bd5J9YBc52k.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=DD-6bmOY__g",
-    "overview": "L\u00e9on, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in L\u00e9on's footsteps.",
-    "release_date": "1994-09-14",
-    "director": "Luc Besson",
-    "cast": [
-      "Jean Reno",
-      "Natalie Portman",
-      "Gary Oldman"
-    ]
+    "tmdb_id": null,
+    "not_found_on_tmdb": true,
+    "availability": {}
   },
   {
     "title": "Levellers",
@@ -4142,7 +4076,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.014,
+    "tmdb_rating": 7.0,
     "runtime": 116,
     "genres": [
       "Action",
@@ -4206,7 +4140,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.073,
+    "tmdb_rating": 7.074,
     "runtime": 119,
     "genres": [
       "Adventure",
@@ -4275,7 +4209,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.758,
+    "tmdb_rating": 7.759,
     "runtime": 94,
     "genres": [
       "Comedy"
@@ -4388,8 +4322,9 @@
       },
       "CA": {
         "providers": [
-          "Crave",
+          "Amazon Prime Video",
           "Starz Amazon Channel",
+          "Amazon Prime Video with Ads",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -4397,17 +4332,20 @@
       },
       "AU": {
         "providers": [
+          "Amazon Prime Video",
           "Stan",
-          "HBO Max"
+          "HBO Max",
+          "Amazon Prime Video with Ads"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "NZ": {
         "providers": [
+          "Amazon Prime Video",
           "Neon TV"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       }
     },
@@ -4536,7 +4474,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.727,
+    "tmdb_rating": 7.728,
     "runtime": 189,
     "genres": [
       "Drama"
@@ -4593,7 +4531,6 @@
       "AU": {
         "providers": [
           "Foxtel Now",
-          "Stan",
           "DocPlay",
           "DocPlay Amazon Channel",
           "Beamafilm"
@@ -4611,7 +4548,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.363,
+    "tmdb_rating": 7.367,
     "runtime": 94,
     "genres": [
       "Documentary"
@@ -4675,7 +4612,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.546,
+    "tmdb_rating": 7.5,
     "runtime": 138,
     "genres": [
       "Drama"
@@ -4738,7 +4675,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.2,
+    "tmdb_rating": 7.173,
     "runtime": 138,
     "genres": [
       "Adventure",
@@ -4761,7 +4698,7 @@
     "title": "Michaela school",
     "year": "N/A",
     "suggested_by": "",
-    "notes": "https://vimeo.com/ondemand/strictest/711783459 \u00a35",
+    "notes": "https://vimeo.com/ondemand/strictest/711783459 \u00c2\u00a35",
     "tmdb_id": null,
     "not_found_on_tmdb": true,
     "availability": {}
@@ -4810,7 +4747,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.153,
+    "tmdb_rating": 7.152,
     "runtime": 147,
     "genres": [
       "Horror",
@@ -4863,7 +4800,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.2,
+    "tmdb_rating": 7.241,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -5050,7 +4987,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.052,
+    "tmdb_rating": 7.053,
     "runtime": 118,
     "genres": [
       "Crime",
@@ -5143,10 +5080,8 @@
     "availability": {
       "GB": {
         "providers": [
-          "Netflix",
           "Paramount Plus",
           "Paramount+ Amazon Channel",
-          "Netflix Standard with Ads",
           "Paramount Plus Premium",
           "Paramount Plus Basic with Ads"
         ],
@@ -5186,14 +5121,13 @@
       },
       "NZ": {
         "providers": [
-          "Netflix",
           "Neon TV"
         ],
         "prime": false,
         "free_any": true
       }
     },
-    "tmdb_rating": 7.947,
+    "tmdb_rating": 7.948,
     "runtime": 122,
     "genres": [
       "Crime",
@@ -5216,7 +5150,7 @@
     "title": "Nomadland",
     "year": "2020",
     "suggested_by": "film of the year",
-    "notes": "(41st) | Suggested by: film of the year, Chlo\u00e9 Zhao",
+    "notes": "(41st) | Suggested by: film of the year, Chlo\u00c3\u00a9 Zhao",
     "tmdb_id": 581734,
     "not_found_on_tmdb": false,
     "availability": {
@@ -5378,7 +5312,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.09,
     "runtime": 145,
     "genres": [
       "Drama"
@@ -5440,7 +5374,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.782,
+    "tmdb_rating": 7.8,
     "runtime": 124,
     "genres": [
       "Drama"
@@ -5493,6 +5427,7 @@
       },
       "AU": {
         "providers": [
+          "Stan",
           "MGM Amazon Channel"
         ],
         "prime": true,
@@ -5506,7 +5441,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.746,
+    "tmdb_rating": 7.745,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -5683,7 +5618,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.488,
+    "tmdb_rating": 8.487,
     "runtime": 154,
     "genres": [
       "Thriller",
@@ -5821,7 +5756,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.118,
+    "tmdb_rating": 8.117,
     "runtime": 99,
     "genres": [
       "Crime",
@@ -5843,7 +5778,7 @@
     "title": "Roma",
     "year": "2018",
     "suggested_by": "film of the year",
-    "notes": "(39th) | Suggested by: film of the year Alfonso Cuar\u00f3n",
+    "notes": "(39th) | Suggested by: film of the year Alfonso Cuar\u00c3\u00b3n",
     "tmdb_id": 426426,
     "not_found_on_tmdb": false,
     "availability": {
@@ -6024,7 +5959,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.221,
+    "tmdb_rating": 8.222,
     "runtime": 169,
     "genres": [
       "War",
@@ -6146,7 +6081,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.992,
+    "tmdb_rating": 6.991,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -6210,7 +6145,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.115,
+    "tmdb_rating": 7.114,
     "runtime": 127,
     "genres": [
       "Comedy",
@@ -6263,7 +6198,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.9,
+    "tmdb_rating": 6.934,
     "runtime": 97,
     "genres": [
       "Science Fiction",
@@ -6367,7 +6302,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.801,
+    "tmdb_rating": 7.802,
     "runtime": 103,
     "genres": [
       "Drama"
@@ -6599,7 +6534,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.448,
+    "tmdb_rating": 7.445,
     "runtime": 100,
     "genres": [
       "Drama",
@@ -6700,7 +6635,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.529,
+    "tmdb_rating": 6.527,
     "runtime": 94,
     "genres": [
       "Drama",
@@ -6765,7 +6700,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.455,
+    "tmdb_rating": 7.457,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -6801,6 +6736,7 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
           "Peacock Premium",
           "Peacock Premium Plus",
           "Shout! Factory Amazon Channel",
@@ -6825,7 +6761,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.26,
+    "tmdb_rating": 7.3,
     "runtime": 118,
     "genres": [
       "Comedy",
@@ -6908,7 +6844,7 @@
     "release_date": "2010-12-10",
     "director": "David O. Russell",
     "cast": [
-      "Marky Mark",
+      "Mark Wahlberg",
       "Christian Bale",
       "Amy Adams"
     ]
@@ -7125,7 +7061,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.679,
+    "tmdb_rating": 7.68,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -7266,7 +7202,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.116,
+    "tmdb_rating": 7.115,
     "runtime": 137,
     "genres": [
       "Drama"
@@ -7316,9 +7252,12 @@
         "free_any": true
       },
       "AU": {
-        "providers": [],
+        "providers": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "NZ": {
         "providers": [
@@ -7384,7 +7323,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.375,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -7411,49 +7350,37 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "US": {
         "providers": [
-          "Amazon Prime Video",
           "MGM Plus",
-          "Amazon Prime Video with Ads",
           "Hoopla"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
         "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads",
           "Hoopla"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "AU": {
-        "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       },
       "NZ": {
-        "providers": [
-          "Amazon Prime Video"
-        ],
-        "prime": true,
-        "free_any": true
+        "providers": [],
+        "prime": false,
+        "free_any": false
       }
     },
-    "tmdb_rating": 7.393,
+    "tmdb_rating": 7.392,
     "runtime": 82,
     "genres": [
       "Fantasy",
@@ -7516,14 +7443,14 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.139,
+    "tmdb_rating": 7.14,
     "runtime": 137,
     "genres": [
       "Action",
       "Adventure",
       "Thriller"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/j5mxLNWjUlXUUk8weFBtnF4afIR.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/qDVdTL1KqGmGLGsy7UPA3vksku7.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=a3qcNyjj9ZQ",
     "overview": "When vengeful General Francis X. Hummel seizes control of Alcatraz Island and threatens to launch missiles loaded with deadly chemical weapons into San Francisco, only a young FBI chemical weapons expert and notorious Federal prisoner have the skills to penetrate the impregnable island fortress and take him down.",
@@ -7580,7 +7507,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.462,
+    "tmdb_rating": 7.463,
     "runtime": 110,
     "genres": [
       "Comedy",
@@ -7644,7 +7571,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.121,
+    "tmdb_rating": 8.122,
     "runtime": 110,
     "genres": [
       "Documentary"
@@ -7713,7 +7640,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.713,
+    "tmdb_rating": 8.7,
     "runtime": 142,
     "genres": [
       "Drama",
@@ -7785,7 +7712,7 @@
       "Drama"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/65D7t8wgZFpjOTvIp1HQvHFY0fC.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/1GlZNA9L5trst3ItgRiyQTUH1uf.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=rBCNU0XT9GY",
     "overview": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
     "release_date": "2010-10-01",
@@ -7838,7 +7765,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.447,
+    "tmdb_rating": 7.448,
     "runtime": 171,
     "genres": [
       "Drama",
@@ -8107,7 +8034,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.54,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -8176,7 +8103,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.594,
+    "tmdb_rating": 7.593,
     "runtime": 130,
     "genres": [
       "Drama",
@@ -8244,7 +8171,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.077,
+    "tmdb_rating": 8.079,
     "runtime": 158,
     "genres": [
       "Drama"
@@ -8361,7 +8288,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.061,
+    "tmdb_rating": 8.1,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -8421,7 +8348,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.061,
+    "tmdb_rating": 8.1,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -8473,7 +8400,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.0,
+    "tmdb_rating": 7.96,
     "runtime": 94,
     "genres": [
       "Drama",
@@ -8531,7 +8458,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.907,
     "runtime": 130,
     "genres": [
       "Western"
@@ -8582,7 +8509,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.102,
+    "tmdb_rating": 7.1,
     "runtime": 111,
     "genres": [
       "Drama",
@@ -8642,7 +8569,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.899,
+    "tmdb_rating": 7.898,
     "runtime": 132,
     "genres": [
       "Action",
@@ -8701,7 +8628,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.473,
+    "tmdb_rating": 7.472,
     "runtime": 101,
     "genres": [
       "Animation",
@@ -8838,7 +8765,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.547,
+    "tmdb_rating": 6.544,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -8951,7 +8878,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.457,
+    "tmdb_rating": 7.458,
     "runtime": 112,
     "genres": [
       "Science Fiction"
@@ -9010,7 +8937,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.457,
+    "tmdb_rating": 7.458,
     "runtime": 112,
     "genres": [
       "Science Fiction"
