@@ -345,14 +345,14 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.181,
+    "tmdb_rating": 8.18,
     "runtime": 137,
     "genres": [
       "Science Fiction",
       "Crime"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/nLFxvLokHe3bQmrmAfljIfax2jQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/3hwKS7e21hzEnXZaOs2FE6e97bc.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
     "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
     "release_date": "1971-10-28",
@@ -404,7 +404,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.6,
+    "tmdb_rating": 7.572,
     "runtime": 155,
     "genres": [
       "Crime",
@@ -454,14 +454,19 @@
         "free_any": true
       },
       "AU": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "NZ": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
       }
     },
     "tmdb_rating": 6.932,
@@ -521,7 +526,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.842,
+    "tmdb_rating": 6.845,
     "runtime": 125,
     "genres": [
       "Drama",
@@ -779,7 +784,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.756,
+    "tmdb_rating": 7.755,
     "runtime": 127,
     "genres": [
       "Drama",
@@ -858,7 +863,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.636,
+    "tmdb_rating": 7.635,
     "runtime": 117,
     "genres": [
       "Comedy",
@@ -921,7 +926,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.3,
+    "tmdb_rating": 8.268,
     "runtime": 147,
     "genres": [
       "Drama",
@@ -984,7 +989,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.3,
+    "tmdb_rating": 8.268,
     "runtime": 147,
     "genres": [
       "Drama",
@@ -1165,7 +1170,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.41,
     "runtime": 113,
     "genres": [
       "Comedy",
@@ -1239,7 +1244,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.494,
+    "tmdb_rating": 7.492,
     "runtime": 166,
     "genres": [
       "Drama"
@@ -1297,7 +1302,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.672,
+    "tmdb_rating": 7.669,
     "runtime": 143,
     "genres": [
       "Comedy",
@@ -1359,7 +1364,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.49,
     "runtime": 159,
     "genres": [
       "Drama",
@@ -1417,7 +1422,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.784,
+    "tmdb_rating": 7.8,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -1712,7 +1717,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.853,
+    "tmdb_rating": 6.851,
     "runtime": 109,
     "genres": [
       "War",
@@ -2039,7 +2044,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.339,
+    "tmdb_rating": 7.334,
     "runtime": 106,
     "genres": [
       "Crime",
@@ -2171,7 +2176,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.246,
+    "tmdb_rating": 6.248,
     "runtime": 133,
     "genres": [
       "Drama",
@@ -2273,7 +2278,6 @@
         "providers": [
           "fuboTV",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel",
           "MGM Plus",
           "Philo"
         ],
@@ -2442,7 +2446,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.439,
+    "tmdb_rating": 8.4,
     "runtime": 139,
     "genres": [
       "Drama",
@@ -2550,6 +2554,7 @@
       "US": {
         "providers": [
           "Netflix",
+          "fuboTV",
           "Paramount+ Amazon Channel",
           "Netflix Standard with Ads",
           "Paramount Plus Essential",
@@ -2767,7 +2772,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.079,
+    "tmdb_rating": 7.1,
     "runtime": 102,
     "genres": [
       "Comedy",
@@ -2823,7 +2828,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.561,
+    "tmdb_rating": 7.562,
     "runtime": 107,
     "genres": [
       "Thriller",
@@ -2894,7 +2899,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.339,
+    "tmdb_rating": 7.341,
     "runtime": 116,
     "genres": [
       "Crime",
@@ -2963,7 +2968,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.965,
+    "tmdb_rating": 5.967,
     "runtime": 104,
     "genres": [
       "Drama",
@@ -3144,7 +3149,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.8,
+    "tmdb_rating": 6.822,
     "runtime": 102,
     "genres": [
       "Crime",
@@ -3518,11 +3523,9 @@
         "free_any": true
       },
       "AU": {
-        "providers": [
-          "Stan"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "NZ": {
         "providers": [
@@ -3532,7 +3535,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.464,
+    "tmdb_rating": 8.465,
     "runtime": 169,
     "genres": [
       "Adventure",
@@ -3588,7 +3591,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.801,
     "runtime": 148,
     "genres": [
       "Adventure",
@@ -3716,7 +3719,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.734,
+    "tmdb_rating": 7.7,
     "runtime": 82,
     "genres": [
       "Documentary"
@@ -3820,7 +3823,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.87,
+    "tmdb_rating": 7.9,
     "runtime": 86,
     "genres": [
       "Documentary",
@@ -3888,7 +3891,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.802,
+    "tmdb_rating": 7.803,
     "runtime": 138,
     "genres": [
       "Crime",
@@ -3953,7 +3956,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.897,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -4076,7 +4079,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.0,
+    "tmdb_rating": 7.038,
     "runtime": 116,
     "genres": [
       "Action",
@@ -4140,7 +4143,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.074,
+    "tmdb_rating": 7.075,
     "runtime": 119,
     "genres": [
       "Adventure",
@@ -4209,7 +4212,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.759,
+    "tmdb_rating": 7.756,
     "runtime": 94,
     "genres": [
       "Comedy"
@@ -4323,6 +4326,7 @@
       "CA": {
         "providers": [
           "Amazon Prime Video",
+          "Crave",
           "Starz Amazon Channel",
           "Amazon Prime Video with Ads",
           "Crave Amazon Channel"
@@ -4349,7 +4353,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.426,
+    "tmdb_rating": 8.427,
     "runtime": 179,
     "genres": [
       "Adventure",
@@ -4377,12 +4381,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Sky Go",
-          "Now TV Cinema"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "US": {
         "providers": [
@@ -4421,7 +4422,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.628,
+    "tmdb_rating": 7.629,
     "runtime": 121,
     "genres": [
       "Action",
@@ -4474,7 +4475,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.728,
+    "tmdb_rating": 7.7,
     "runtime": 189,
     "genres": [
       "Drama"
@@ -4548,7 +4549,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.367,
+    "tmdb_rating": 7.4,
     "runtime": 94,
     "genres": [
       "Documentary"
@@ -4612,7 +4613,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.547,
     "runtime": 138,
     "genres": [
       "Drama"
@@ -4675,7 +4676,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.173,
+    "tmdb_rating": 7.174,
     "runtime": 138,
     "genres": [
       "Adventure",
@@ -4747,7 +4748,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.152,
+    "tmdb_rating": 7.2,
     "runtime": 147,
     "genres": [
       "Horror",
@@ -4868,7 +4869,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.539,
+    "tmdb_rating": 7.538,
     "runtime": 128,
     "genres": [
       "Drama",
@@ -5052,7 +5053,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.409,
+    "tmdb_rating": 6.405,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -5127,7 +5128,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.948,
+    "tmdb_rating": 7.9,
     "runtime": 122,
     "genres": [
       "Crime",
@@ -5191,7 +5192,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.183,
+    "tmdb_rating": 7.185,
     "runtime": 108,
     "genres": [
       "Drama"
@@ -5254,7 +5255,7 @@
     "poster_url": "https://image.tmdb.org/t/p/w500/pFhWEWzZNhiQBrLVJfcFWDGMP6C.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/9u8ivUdOMZhVdMIgEznyBbVogww.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=KJD8xFpvuiw",
-    "overview": "Teenage groupie Dorothy is riding with a rock band when, suddenly, the van runs off the road, and she hits her head. She awakes in a fantasy world as gritty and realistic as her own and learns that her arrival killed a young thug. A gay clothier, Glyn the Good Fairy, gives her a pair of red heels as a reward to help her see the last concert of the Wizard, an androgynous glam rock star. As she's pursued and sexually threatened by the late thug's brother, she encounters and befriends a brainless surfer, a heartless mechanic, and a cowardly biker.",
+    "overview": "Teenage groupie Dorothy rides with a small-time rock band when, suddenly, the van runs off the road, and she hits her head. She awakes in a fantasy world as gritty and realistic as her own and learns that her arrival killed a young thug. A gay clothier, Glyn the Good Fairy, gifts her a pair of red heels as a reward to help her see the last concert of the Wizard, an androgynous glam rocker. As she's pursued by the late thug's lecherous brother, she befriends a brainless surfer, a heartless mechanic, and a cowardly biker.",
     "release_date": "1976-07-29",
     "director": "Chris L\u00f6fv\u00e9n",
     "cast": [
@@ -5312,7 +5313,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.09,
+    "tmdb_rating": 8.086,
     "runtime": 145,
     "genres": [
       "Drama"
@@ -5374,7 +5375,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.779,
     "runtime": 124,
     "genres": [
       "Drama"
@@ -5618,7 +5619,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.487,
+    "tmdb_rating": 8.486,
     "runtime": 154,
     "genres": [
       "Thriller",
@@ -5630,7 +5631,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=tGpTpVyI_OQ",
     "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
     "release_date": "1994-09-10",
-    "director": "Quentin Tarantino",
+    "director": "Quentin Jerome Presher Brosman Tarantino",
     "cast": [
       "John Travolta",
       "Samuel L. Jackson",
@@ -5693,7 +5694,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.013,
+    "tmdb_rating": 8.014,
     "runtime": 102,
     "genres": [
       "Crime",
@@ -5726,6 +5727,7 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
           "MovieSphere+ Amazon Channel",
           "Plex Channel"
         ],
@@ -5767,7 +5769,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=2KLZ4fSXtgI",
     "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
     "release_date": "1992-09-02",
-    "director": "Quentin Tarantino",
+    "director": "Quentin Jerome Presher Brosman Tarantino",
     "cast": [
       "Harvey Keitel",
       "Tim Roth",
@@ -5822,7 +5824,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.626,
+    "tmdb_rating": 7.624,
     "runtime": 135,
     "genres": [
       "Drama"
@@ -5959,7 +5961,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.222,
+    "tmdb_rating": 8.221,
     "runtime": 169,
     "genres": [
       "War",
@@ -6026,7 +6028,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.566,
+    "tmdb_rating": 8.565,
     "runtime": 195,
     "genres": [
       "Drama",
@@ -6145,7 +6147,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.114,
+    "tmdb_rating": 7.113,
     "runtime": 127,
     "genres": [
       "Comedy",
@@ -6252,7 +6254,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.0,
+    "tmdb_rating": 6.6,
     "runtime": 8,
     "genres": [
       "Animation",
@@ -6302,7 +6304,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.802,
+    "tmdb_rating": 7.804,
     "runtime": 103,
     "genres": [
       "Drama"
@@ -6363,7 +6365,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.204,
+    "tmdb_rating": 8.203,
     "runtime": 121,
     "genres": [
       "Adventure",
@@ -6387,7 +6389,7 @@
     "year": "N/A",
     "suggested_by": "Nora",
     "notes": "(Nori Berlin Tokyo) | Suggested by: Nora",
-    "tmdb_id": 182026,
+    "tmdb_id": 1567451,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -6416,21 +6418,24 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.486,
-    "runtime": 77,
+    "tmdb_rating": 9.5,
+    "runtime": 125,
     "genres": [
-      "Drama"
+      "Science Fiction",
+      "Action",
+      "Adventure",
+      "Horror"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/4TKdguyacjYrC1Hnbi3PjSP8r3M.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/rNFrzuwvbJtu3UV4xe3EhGZn6DP.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=KS2EztRMuRw",
-    "overview": "Oona, a recent graduate in anthropology, has returned to her dead mother\u2019s seaside cottage in southern England to prepare it for sale. Her arrival disturbs Mani, a wary vagrant who has been squatting on the property.",
-    "release_date": "2013-04-05",
-    "director": "Ron Eyal",
+    "poster_url": "https://image.tmdb.org/t/p/w500/cYmj1u3mubUxnaITIN1QmFk16TA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/8zRhHfn2lXfXMykywADgfduPGGp.jpg",
+    "trailer_url": null,
+    "overview": "The fall of 1987. Hawkins is scarred by the opening of the Rifts, and our heroes are united by a single goal: find and kill Vecna. But he has vanished \u2014 his whereabouts and plans unknown. Complicating their mission, the government has placed the town under military quarantine and intensified its hunt for Eleven, forcing her back into hiding. As the anniversary of Will\u2019s disappearance approaches, so does a heavy, familiar dread. The final battle is looming - and with it, a darkness more powerful and more deadly than anything they\u2019ve faced before. To end this nightmare, they\u2019ll need everyone - the full party - standing together, one last time.",
+    "release_date": "2025-12-31",
+    "director": "Matt Duffer",
     "cast": [
-      "Bridget Collins",
-      "Adeel Akhtar",
-      "Vivienne Burke"
+      "Winona Ryder",
+      "David Harbour",
+      "Millie Bobby Brown"
     ]
   },
   {
@@ -6534,7 +6539,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.445,
+    "tmdb_rating": 7.443,
     "runtime": 100,
     "genres": [
       "Drama",
@@ -6700,7 +6705,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.457,
+    "tmdb_rating": 7.456,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -6736,7 +6741,6 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
           "Peacock Premium",
           "Peacock Premium Plus",
           "Shout! Factory Amazon Channel",
@@ -7061,7 +7065,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.68,
+    "tmdb_rating": 7.7,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -7202,7 +7206,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.115,
+    "tmdb_rating": 7.113,
     "runtime": 137,
     "genres": [
       "Drama"
@@ -7293,11 +7297,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "BBC iPlayer"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "US": {
         "providers": [],
@@ -7323,7 +7325,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.375,
+    "tmdb_rating": 7.377,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -7380,7 +7382,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.392,
+    "tmdb_rating": 7.393,
     "runtime": 82,
     "genres": [
       "Fantasy",
@@ -7443,7 +7445,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.14,
+    "tmdb_rating": 7.141,
     "runtime": 137,
     "genres": [
       "Action",
@@ -7571,7 +7573,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.122,
+    "tmdb_rating": 8.112,
     "runtime": 110,
     "genres": [
       "Documentary"
@@ -7640,7 +7642,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.7,
+    "tmdb_rating": 8.714,
     "runtime": 142,
     "genres": [
       "Drama",
@@ -8288,7 +8290,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.061,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -8348,7 +8350,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.061,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -8406,7 +8408,7 @@
       "Drama",
       "Crime"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/y0HmDV0bZDTtXWHqqYYbT9XoshB.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/wUc83y8kXNdRK66o0HU5X8eBri4.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=r9v3UXKhVQM",
     "overview": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.",
@@ -8628,7 +8630,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.472,
+    "tmdb_rating": 7.5,
     "runtime": 101,
     "genres": [
       "Animation",
@@ -8698,7 +8700,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.593,
+    "tmdb_rating": 6.6,
     "runtime": 114,
     "genres": [
       "Comedy",
@@ -8765,7 +8767,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.544,
+    "tmdb_rating": 6.543,
     "runtime": 89,
     "genres": [
       "Crime",
