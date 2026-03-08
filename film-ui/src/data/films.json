@@ -186,9 +186,12 @@
         "free_any": true
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
         "providers": [],
@@ -249,20 +252,16 @@
         "providers": [
           "Netflix",
           "Hulu",
-          "fuboTV",
           "YouTube TV",
-          "Netflix Standard with Ads",
-          "FXNow"
+          "Netflix Standard with Ads"
         ],
         "prime": false,
         "free_any": true
       },
       "CA": {
-        "providers": [
-          "fuboTV"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "AU": {
         "providers": [
@@ -384,7 +383,6 @@
           "Amazon Prime Video",
           "Icon Film Amazon Channel",
           "Amazon Prime Video with Ads",
-          "Plex",
           "W4free"
         ],
         "prime": true,
@@ -467,6 +465,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -488,7 +487,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.18,
+    "tmdb_rating": 8.179,
     "runtime": 137,
     "genres": [
       "Science Fiction",
@@ -516,7 +515,6 @@
     "availability": {
       "GB": {
         "providers": [
-          "STUDIOCANAL PRESENTS Apple TV Channel",
           "Studiocanal Presents Amazon Channel"
         ],
         "prime": true,
@@ -548,7 +546,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.57,
+    "tmdb_rating": 7.569,
     "runtime": 155,
     "genres": [
       "Crime",
@@ -593,7 +591,8 @@
       "CA": {
         "providers": [
           "Criterion Channel",
-          "Britbox Apple TV Channel "
+          "Britbox Apple TV Channel ",
+          "Crave"
         ],
         "prime": false,
         "free_any": true
@@ -614,7 +613,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.951,
+    "tmdb_rating": 6.945,
     "runtime": 117,
     "genres": [
       "Drama",
@@ -659,8 +658,7 @@
       },
       "AU": {
         "providers": [
-          "Foxtel Now",
-          "BINGE"
+          "Foxtel Now"
         ],
         "prime": false,
         "free_any": true
@@ -671,7 +669,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.85,
+    "tmdb_rating": 6.854,
     "runtime": 125,
     "genres": [
       "Drama",
@@ -746,7 +744,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.551,
+    "tmdb_rating": 6.555,
     "runtime": 75,
     "genres": [
       "Animation",
@@ -785,9 +783,9 @@
       "US": {
         "providers": [
           "fuboTV",
-          "Paramount+ Roku Premium Channel",
+          "Paramount Plus Premium",
           "Paramount Plus Essential",
-          "Paramount Plus Premium"
+          "Paramount+ Roku Premium Channel"
         ],
         "prime": false,
         "free_any": true
@@ -846,9 +844,9 @@
       "US": {
         "providers": [
           "fuboTV",
-          "Paramount+ Roku Premium Channel",
+          "Paramount Plus Premium",
           "Paramount Plus Essential",
-          "Paramount Plus Premium"
+          "Paramount+ Roku Premium Channel"
         ],
         "prime": false,
         "free_any": true
@@ -931,7 +929,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.757,
+    "tmdb_rating": 7.759,
     "runtime": 127,
     "genres": [
       "Drama",
@@ -967,7 +965,6 @@
       "US": {
         "providers": [
           "Amazon Prime Video",
-          "Hulu",
           "Amazon Prime Video with Ads",
           "Kanopy",
           "Hoopla",
@@ -1237,6 +1234,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Starz Amazon Channel",
           "Crave Amazon Channel"
         ],
@@ -1245,8 +1243,7 @@
       },
       "AU": {
         "providers": [
-          "Foxtel Now",
-          "BINGE"
+          "Foxtel Now"
         ],
         "prime": false,
         "free_any": true
@@ -1257,7 +1254,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.261,
+    "tmdb_rating": 6.262,
     "runtime": 92,
     "genres": [
       "Fantasy",
@@ -1314,7 +1311,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.413,
+    "tmdb_rating": 7.412,
     "runtime": 113,
     "genres": [
       "Comedy",
@@ -1389,7 +1386,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.491,
     "runtime": 165,
     "genres": [
       "Drama"
@@ -1450,7 +1447,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.666,
+    "tmdb_rating": 7.665,
     "runtime": 143,
     "genres": [
       "Comedy",
@@ -1550,6 +1547,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
@@ -1569,7 +1567,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.785,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -1630,7 +1628,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.961,
+    "tmdb_rating": 5.96,
     "runtime": 83,
     "genres": [
       "Action",
@@ -1739,7 +1737,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.776,
+    "tmdb_rating": 6.768,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -1803,7 +1801,6 @@
     "tmdb_rating": 7.6,
     "runtime": 109,
     "genres": [
-      "Drama",
       "Action",
       "Thriller",
       "Science Fiction"
@@ -1864,7 +1861,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.846,
+    "tmdb_rating": 6.849,
     "runtime": 109,
     "genres": [
       "War",
@@ -1898,18 +1895,16 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
-          "MGM+ Amazon Channel",
-          "Paramount+ Amazon Channel",
-          "Philo",
           "Paramount Plus Essential",
-          "Paramount Plus Premium"
+          "Criterion Channel",
+          "Kanopy"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
         "providers": [
+          "Criterion Channel",
           "Lionsgate+ Amazon Channels",
           "Crave"
         ],
@@ -2093,7 +2088,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.0,
+    "tmdb_rating": 7.5,
     "runtime": 52,
     "genres": [
       "Documentary"
@@ -2142,7 +2137,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.0,
+    "tmdb_rating": 7.5,
     "runtime": 52,
     "genres": [
       "Documentary"
@@ -2231,7 +2226,6 @@
       "GB": {
         "providers": [
           "Amazon Prime Video",
-          "MUBI Amazon Channel",
           "Icon Film Amazon Channel",
           "Sundance Now Amazon Channel",
           "Amazon Prime Video with Ads",
@@ -2242,9 +2236,12 @@
         "free_any": true
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "fuboTV",
+          "Philo"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [
@@ -2307,7 +2304,6 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
           "YouTube TV"
         ],
         "prime": false,
@@ -2315,6 +2311,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -2375,7 +2372,11 @@
           "Netflix",
           "HBO Max",
           "HBO Max Amazon Channel",
-          "Netflix Standard with Ads"
+          "Netflix Standard with Ads",
+          "Kanopy",
+          "Hoopla",
+          "Plex",
+          "Plex Channel"
         ],
         "prime": true,
         "free_any": true
@@ -2476,7 +2477,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.848,
+    "tmdb_rating": 7.8,
     "runtime": 98,
     "genres": [
       "Crime",
@@ -2509,9 +2510,12 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
         "providers": [],
@@ -2534,7 +2538,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.211,
+    "tmdb_rating": 7.21,
     "runtime": 118,
     "genres": [
       "Adventure",
@@ -2569,12 +2573,17 @@
         "free_any": true
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "Hulu",
+          "Peacock Premium",
+          "Peacock Premium Plus"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [
+          "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
@@ -2609,7 +2618,7 @@
       "Thriller"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xRyINp9KfMLVjRiO5nCsoRDdvvF.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=dfeUzm6KF4g",
     "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
     "release_date": "1999-10-15",
@@ -2695,11 +2704,11 @@
           "Netflix",
           "Amazon Prime Video",
           "fuboTV",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
           "Paramount+ Amazon Channel",
           "Netflix Standard with Ads",
-          "Amazon Prime Video with Ads",
-          "Paramount Plus Essential",
-          "Paramount Plus Premium"
+          "Amazon Prime Video with Ads"
         ],
         "prime": true,
         "free_any": true
@@ -2828,6 +2837,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Starz Amazon Channel",
           "Crave Amazon Channel"
         ],
@@ -2836,9 +2846,10 @@
       },
       "AU": {
         "providers": [
-          "HBO Max"
+          "HBO Max",
+          "HBO Max Amazon Channel"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "NZ": {
@@ -2880,11 +2891,11 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
-          "MGM Plus",
-          "Philo"
+          "AMC+ Amazon Channel",
+          "Philo",
+          "Kanopy"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -2905,7 +2916,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.081,
+    "tmdb_rating": 7.079,
     "runtime": 102,
     "genres": [
       "Comedy",
@@ -2938,11 +2949,9 @@
         "free_any": false
       },
       "US": {
-        "providers": [
-          "fuboTV"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "CA": {
         "providers": [],
@@ -2963,7 +2972,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.6,
+    "tmdb_rating": 7.565,
     "runtime": 107,
     "genres": [
       "Thriller",
@@ -3068,13 +3077,13 @@
       "US": {
         "providers": [
           "fuboTV",
+          "Paramount Plus Premium",
           "AMC Plus Apple TV Channel ",
           "Paramount+ Amazon Channel",
           "AMC+ Amazon Channel",
           "AMC+",
           "Philo",
           "Sundance Now",
-          "Paramount Plus Premium",
           "Kanopy",
           "Plex",
           "Plex Channel"
@@ -3131,12 +3140,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Sky Go",
-          "Now TV Cinema"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "US": {
         "providers": [
@@ -3224,7 +3230,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.9,
+    "tmdb_rating": 6.891,
     "runtime": 113,
     "genres": [
       "Drama",
@@ -3290,7 +3296,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.818,
+    "tmdb_rating": 6.822,
     "runtime": 102,
     "genres": [
       "Crime",
@@ -3384,11 +3390,11 @@
       "US": {
         "providers": [
           "fuboTV",
+          "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel",
           "Philo",
           "Sundance Now",
-          "Paramount Plus Premium",
+          "Paramount+ Roku Premium Channel",
           "Kanopy"
         ],
         "prime": true,
@@ -3415,7 +3421,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.71,
+    "tmdb_rating": 7.709,
     "runtime": 100,
     "genres": [
       "Drama"
@@ -3487,7 +3493,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.044,
+    "tmdb_rating": 7.037,
     "runtime": 106,
     "genres": [
       "Comedy"
@@ -3589,13 +3595,9 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
-          "MGM+ Amazon Channel",
-          "MGM Plus Roku Premium Channel",
-          "MGM Plus",
-          "Philo"
+          "MGM Plus Roku Premium Channel"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
@@ -3645,16 +3647,19 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
+        "providers": [
+          "Sky Go",
+          "Now TV Cinema"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "US": {
         "providers": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel",
-          "Paramount Plus Essential",
-          "Paramount Plus Premium",
           "Hoopla"
         ],
         "prime": true,
@@ -3674,9 +3679,11 @@
       },
       "AU": {
         "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
           "ABC iview"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "NZ": {
@@ -3743,7 +3750,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.799,
     "runtime": 148,
     "genres": [
       "Adventure",
@@ -3870,7 +3877,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.736,
+    "tmdb_rating": 7.734,
     "runtime": 82,
     "genres": [
       "Documentary"
@@ -4014,7 +4021,8 @@
       "US": {
         "providers": [
           "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
+          "Amazon Prime Video with Ads",
+          "Plex"
         ],
         "prime": true,
         "free_any": true
@@ -4022,6 +4030,7 @@
       "CA": {
         "providers": [
           "Disney Plus",
+          "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
@@ -4047,7 +4056,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.802,
+    "tmdb_rating": 7.801,
     "runtime": 138,
     "genres": [
       "Crime",
@@ -4115,7 +4124,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.899,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -4238,7 +4247,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.075,
+    "tmdb_rating": 7.079,
     "runtime": 116,
     "genres": [
       "Action",
@@ -4302,7 +4311,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.079,
+    "tmdb_rating": 7.1,
     "runtime": 119,
     "genres": [
       "Adventure",
@@ -4371,7 +4380,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.755,
+    "tmdb_rating": 7.756,
     "runtime": 94,
     "genres": [
       "Comedy"
@@ -4406,11 +4415,12 @@
       },
       "US": {
         "providers": [
+          "MovieSphere+ Amazon Channel",
           "Plex",
           "Plex Channel",
           "Fawesome"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -4439,7 +4449,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.9,
+    "tmdb_rating": 5.869,
     "runtime": 98,
     "genres": [
       "Thriller",
@@ -4463,7 +4473,7 @@
     "year": "N/A",
     "suggested_by": "crazy dating profile",
     "notes": "Suggested by: crazy dating profile",
-    "tmdb_id": 122,
+    "tmdb_id": 120,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -4484,7 +4494,10 @@
       },
       "CA": {
         "providers": [
+          "Amazon Prime Video",
+          "Crave",
           "Starz Amazon Channel",
+          "Amazon Prime Video with Ads",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -4495,7 +4508,8 @@
           "Amazon Prime Video",
           "Stan",
           "HBO Max",
-          "Amazon Prime Video with Ads"
+          "Amazon Prime Video with Ads",
+          "HBO Max Amazon Channel"
         ],
         "prime": true,
         "free_any": true
@@ -4509,18 +4523,18 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.494,
-    "runtime": 201,
+    "tmdb_rating": 8.429,
+    "runtime": 179,
     "genres": [
       "Adventure",
       "Fantasy",
       "Action"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=YCWux4oUHBs",
-    "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.\u200b",
-    "release_date": "2003-12-17",
+    "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/z51Wzj94hvAIsWfknifKTqKJRwp.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=_nZdmwHrcnw",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "release_date": "2001-12-18",
     "director": "Peter Jackson",
     "cast": [
       "Elijah Wood",
@@ -4537,12 +4551,9 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [
-          "Sky Go",
-          "Now TV Cinema"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "US": {
         "providers": [],
@@ -4553,6 +4564,7 @@
         "providers": [
           "Netflix",
           "Amazon Prime Video",
+          "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
           "Netflix Standard with Ads",
           "Amazon Prime Video with Ads"
@@ -4582,7 +4594,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.629,
+    "tmdb_rating": 7.63,
     "runtime": 121,
     "genres": [
       "Action",
@@ -4615,9 +4627,11 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "Hulu"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [],
@@ -4706,7 +4720,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.368,
+    "tmdb_rating": 7.366,
     "runtime": 94,
     "genres": [
       "Documentary"
@@ -4771,7 +4785,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.551,
+    "tmdb_rating": 7.549,
     "runtime": 138,
     "genres": [
       "Drama"
@@ -4811,6 +4825,7 @@
       "CA": {
         "providers": [
           "Disney Plus",
+          "Crave",
           "Starz Amazon Channel",
           "Crave Amazon Channel"
         ],
@@ -4833,7 +4848,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.18,
+    "tmdb_rating": 7.182,
     "runtime": 138,
     "genres": [
       "Adventure",
@@ -4875,9 +4890,12 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "Kanopy",
+          "Hoopla"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [],
@@ -4901,7 +4919,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.152,
+    "tmdb_rating": 7.151,
     "runtime": 147,
     "genres": [
       "Horror",
@@ -4954,7 +4972,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.243,
+    "tmdb_rating": 7.2,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -5024,7 +5042,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.534,
     "runtime": 128,
     "genres": [
       "Drama",
@@ -5183,6 +5201,7 @@
       "CA": {
         "providers": [
           "Disney Plus",
+          "Crave",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -5203,7 +5222,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.409,
+    "tmdb_rating": 6.4,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -5242,9 +5261,9 @@
       "US": {
         "providers": [
           "fuboTV",
-          "Paramount+ Amazon Channel",
-          "Paramount Plus Essential",
           "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
           "Kanopy"
         ],
         "prime": true,
@@ -5256,6 +5275,7 @@
           "Amazon Prime Video",
           "Paramount Plus",
           "Paramount+ Amazon Channel",
+          "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
           "Netflix Standard with Ads",
           "Amazon Prime Video with Ads",
@@ -5268,9 +5288,13 @@
       },
       "AU": {
         "providers": [
-          "Stan"
+          "Paramount Plus",
+          "Paramount+ Amazon Channel",
+          "Stan",
+          "Paramount Plus Premium",
+          "Paramount Plus Basic with Ads"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "NZ": {
@@ -5324,8 +5348,10 @@
       "CA": {
         "providers": [
           "Disney Plus",
+          "Crave",
           "Hollywood Suite",
-          "Hollywood Suite Amazon Channel"
+          "Hollywood Suite Amazon Channel",
+          "Crave Amazon Channel"
         ],
         "prime": true,
         "free_any": true
@@ -5345,7 +5371,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.176,
+    "tmdb_rating": 7.2,
     "runtime": 108,
     "genres": [
       "Drama"
@@ -5467,7 +5493,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.095,
     "runtime": 145,
     "genres": [
       "Drama"
@@ -5551,8 +5577,6 @@
     "availability": {
       "GB": {
         "providers": [
-          "Netflix",
-          "Netflix Standard with Ads",
           "MGM Plus Amazon Channel"
         ],
         "prime": true,
@@ -5705,12 +5729,14 @@
       },
       "US": {
         "providers": [
-          "Netflix",
-          "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel",
-          "Netflix Standard with Ads",
-          "Paramount Plus Essential",
           "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "AMC Plus Apple TV Channel ",
+          "Paramount+ Amazon Channel",
+          "AMC+ Amazon Channel",
+          "AMC+",
+          "AMC",
+          "Paramount+ Roku Premium Channel",
           "Kanopy",
           "Hoopla"
         ],
@@ -5720,6 +5746,8 @@
       "CA": {
         "providers": [
           "Netflix",
+          "Crave",
+          "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
           "Netflix Standard with Ads",
           "Lionsgate+ Amazon Channels",
@@ -5752,7 +5780,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.486,
+    "tmdb_rating": 8.5,
     "runtime": 154,
     "genres": [
       "Thriller",
@@ -5788,14 +5816,16 @@
       },
       "US": {
         "providers": [
+          "Amazon Prime Video",
           "Peacock Premium",
+          "Amazon Prime Video with Ads",
           "Peacock Premium Plus",
           "Kanopy",
           "Hoopla",
           "Plex",
           "Plex Channel"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -5871,8 +5901,7 @@
       "CA": {
         "providers": [
           "Disney Plus",
-          "Hollywood Suite",
-          "Hollywood Suite Amazon Channel",
+          "Crave",
           "Starz Amazon Channel"
         ],
         "prime": true,
@@ -5894,7 +5923,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.116,
+    "tmdb_rating": 8.1,
     "runtime": 99,
     "genres": [
       "Crime",
@@ -5960,7 +5989,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.624,
+    "tmdb_rating": 7.6,
     "runtime": 135,
     "genres": [
       "Drama"
@@ -6090,7 +6119,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.221,
+    "tmdb_rating": 8.222,
     "runtime": 169,
     "genres": [
       "War",
@@ -6123,12 +6152,17 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "Peacock Premium",
+          "MGM Plus",
+          "Peacock Premium Plus"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
         "providers": [
+          "Crave",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -6207,7 +6241,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.99,
+    "tmdb_rating": 6.994,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -6269,7 +6303,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.113,
+    "tmdb_rating": 7.112,
     "runtime": 127,
     "genres": [
       "Comedy",
@@ -6322,7 +6356,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.926,
+    "tmdb_rating": 6.923,
     "runtime": 97,
     "genres": [
       "Science Fiction",
@@ -6461,8 +6495,7 @@
       },
       "US": {
         "providers": [
-          "Disney Plus",
-          "Philo"
+          "Disney Plus"
         ],
         "prime": false,
         "free_any": true
@@ -6489,7 +6522,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.201,
+    "tmdb_rating": 8.2,
     "runtime": 121,
     "genres": [
       "Adventure",
@@ -6552,7 +6585,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=KS2EztRMuRw",
     "overview": "Oona, a recent graduate in anthropology, has returned to her dead mother\u2019s seaside cottage in southern England to prepare it for sale. Her arrival disturbs Mani, a wary vagrant who has been squatting on the property.",
     "release_date": "2013-04-05",
-    "director": "Ron Eyal",
+    "director": "Eleanor Burke",
     "cast": [
       "Bridget Collins",
       "Adeel Akhtar",
@@ -6721,6 +6754,7 @@
       "CA": {
         "providers": [
           "Amazon Prime Video",
+          "Crave",
           "Shudder Amazon Channel",
           "AMC+ Amazon Channel",
           "Shudder Apple TV Channel",
@@ -6800,10 +6834,14 @@
       "US": {
         "providers": [
           "fuboTV",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
           "YouTube TV",
+          "Paramount+ Roku Premium Channel",
           "FXNow"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -6828,7 +6866,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.462,
+    "tmdb_rating": 7.464,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -6864,6 +6902,7 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
           "Peacock Premium",
           "YouTube TV",
           "Peacock Premium Plus",
@@ -6874,9 +6913,11 @@
         "free_any": true
       },
       "CA": {
-        "providers": [],
+        "providers": [
+          "fuboTV"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "AU": {
         "providers": [],
@@ -6889,7 +6930,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.265,
+    "tmdb_rating": 7.264,
     "runtime": 118,
     "genres": [
       "Comedy",
@@ -6926,10 +6967,13 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
           "Paramount+ Amazon Channel",
           "MGM Plus",
-          "Paramount Plus Essential",
-          "Paramount Plus Premium",
+          "Philo",
           "Kanopy",
           "Artiflix"
         ],
@@ -6938,6 +6982,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
           "Crave Amazon Channel",
@@ -6962,7 +7007,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.382,
+    "tmdb_rating": 7.381,
     "runtime": 116,
     "genres": [
       "Drama"
@@ -7125,7 +7170,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.504,
+    "tmdb_rating": 8.505,
     "runtime": 189,
     "genres": [
       "Fantasy",
@@ -7159,6 +7204,7 @@
       },
       "US": {
         "providers": [
+          "fuboTV",
           "FlixFling",
           "IndieFlix",
           "IndieFlix Shorts Amazon Channel"
@@ -7186,7 +7232,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.682,
+    "tmdb_rating": 7.681,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -7223,7 +7269,6 @@
       },
       "US": {
         "providers": [
-          "Plex",
           "Plex Channel"
         ],
         "prime": false,
@@ -7232,11 +7277,10 @@
       "CA": {
         "providers": [
           "Disney Plus",
-          "Amazon Prime Video",
+          "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
-          "Amazon Prime Video with Ads",
           "Crave Amazon Channel",
           "Plex"
         ],
@@ -7246,23 +7290,20 @@
       "AU": {
         "providers": [
           "Disney Plus",
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads",
           "Plex"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "NZ": {
         "providers": [
-          "Disney Plus",
-          "Amazon Prime Video"
+          "Disney Plus"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       }
     },
-    "tmdb_rating": 7.783,
+    "tmdb_rating": 7.784,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -7295,12 +7336,14 @@
       },
       "US": {
         "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
           "Kanopy",
           "Hoopla",
           "Plex Channel",
           "Fawesome"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -7327,7 +7370,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.109,
+    "tmdb_rating": 7.1,
     "runtime": 137,
     "genres": [
       "Drama"
@@ -7366,6 +7409,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -7396,7 +7440,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=QkzZ5d5hQJM",
     "overview": "A wolf and mountain lion team up when a meteor unleashes a virus turning zoo animals into zombies. They join forces with other survivors to rescue the zoo and stop the deranged mutant leader from spreading the virus.",
     "release_date": "2025-01-23",
-    "director": "Ricardo Curtis",
+    "director": "Rodrigo Perez-Castro",
     "cast": [
       "Gabriella Kosmidis",
       "David Harbour",
@@ -7442,7 +7486,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.378,
+    "tmdb_rating": 7.379,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -7508,7 +7552,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.396,
+    "tmdb_rating": 7.397,
     "runtime": 82,
     "genres": [
       "Fantasy",
@@ -7543,9 +7587,14 @@
         "free_any": true
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
+          "AMC+",
+          "AMC"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
         "providers": [
@@ -7570,7 +7619,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.14,
+    "tmdb_rating": 7.139,
     "runtime": 137,
     "genres": [
       "Action",
@@ -7578,7 +7627,7 @@
       "Thriller"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/qDVdTL1KqGmGLGsy7UPA3vksku7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/1SsHEx1sCfVZY6Nj0sMyFTlEDql.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=a3qcNyjj9ZQ",
     "overview": "When vengeful General Francis X. Hummel seizes control of Alcatraz Island and threatens to launch missiles loaded with deadly chemical weapons into San Francisco, only a young FBI chemical weapons expert and notorious Federal prisoner have the skills to penetrate the impregnable island fortress and take him down.",
     "release_date": "1996-06-07",
@@ -7638,7 +7687,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.463,
+    "tmdb_rating": 7.5,
     "runtime": 110,
     "genres": [
       "Comedy",
@@ -7702,7 +7751,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.115,
+    "tmdb_rating": 8.118,
     "runtime": 110,
     "genres": [
       "Documentary"
@@ -7737,21 +7786,18 @@
       },
       "US": {
         "providers": [
-          "AMC+ Amazon Channel",
           "AMC+ Roku Premium Channel",
-          "YouTube TV",
-          "AMC",
-          "Philo"
+          "YouTube TV"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
         "providers": [
-          "Amazon Prime Video",
+          "Crave",
           "Club Illico",
+          "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
-          "Amazon Prime Video with Ads",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -7760,23 +7806,20 @@
       "AU": {
         "providers": [
           "Netflix",
-          "Amazon Prime Video",
-          "Netflix Standard with Ads",
-          "Amazon Prime Video with Ads"
+          "Netflix Standard with Ads"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "NZ": {
         "providers": [
-          "Netflix",
-          "Amazon Prime Video"
+          "Netflix"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       }
     },
-    "tmdb_rating": 8.715,
+    "tmdb_rating": 8.716,
     "runtime": 142,
     "genres": [
       "Drama",
@@ -7815,6 +7858,7 @@
       "CA": {
         "providers": [
           "Netflix",
+          "Crave",
           "Paramount+ Amazon Channel",
           "Starz Amazon Channel",
           "Netflix Standard with Ads",
@@ -7836,7 +7880,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.37,
+    "tmdb_rating": 7.4,
     "runtime": 121,
     "genres": [
       "Drama"
@@ -7895,7 +7939,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.444,
+    "tmdb_rating": 7.4,
     "runtime": 171,
     "genres": [
       "Drama",
@@ -7956,7 +8000,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.694,
+    "tmdb_rating": 6.658,
     "runtime": 86,
     "genres": [
       "Documentary"
@@ -8135,7 +8179,6 @@
         "providers": [
           "MUBI",
           "MUBI Amazon Channel",
-          "STUDIOCANAL PRESENTS Apple TV Channel",
           "Studiocanal Presents Amazon Channel"
         ],
         "prime": true,
@@ -8162,7 +8205,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.536,
+    "tmdb_rating": 7.5,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -8190,6 +8233,8 @@
     "availability": {
       "GB": {
         "providers": [
+          "MUBI",
+          "MUBI Amazon Channel",
           "MGM Plus Amazon Channel"
         ],
         "prime": true,
@@ -8202,6 +8247,7 @@
       },
       "CA": {
         "providers": [
+          "Crave",
           "MGM Amazon Channel",
           "Crave Amazon Channel"
         ],
@@ -8224,7 +8270,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.596,
+    "tmdb_rating": 7.6,
     "runtime": 130,
     "genres": [
       "Drama",
@@ -8264,10 +8310,10 @@
       "US": {
         "providers": [
           "fuboTV",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel",
-          "Paramount Plus Essential",
-          "Paramount Plus Premium",
           "Kanopy"
         ],
         "prime": true,
@@ -8390,9 +8436,10 @@
       },
       "US": {
         "providers": [
-          "HBO Max"
+          "HBO Max",
+          "HBO Max Amazon Channel"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -8452,9 +8499,10 @@
       },
       "US": {
         "providers": [
-          "HBO Max"
+          "HBO Max",
+          "HBO Max Amazon Channel"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "CA": {
@@ -8531,7 +8579,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.959,
+    "tmdb_rating": 8.0,
     "runtime": 94,
     "genres": [
       "Drama",
@@ -8564,12 +8612,10 @@
       },
       "US": {
         "providers": [
-          "AMC+ Amazon Channel",
           "AMC+ Roku Premium Channel",
-          "YouTube TV",
-          "Philo"
+          "YouTube TV"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
@@ -8646,7 +8692,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.103,
+    "tmdb_rating": 7.104,
     "runtime": 111,
     "genres": [
       "Drama",
@@ -8684,9 +8730,12 @@
         "free_any": true
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
         "providers": [
@@ -8703,9 +8752,11 @@
         "free_any": true
       },
       "NZ": {
-        "providers": [],
+        "providers": [
+          "Neon TV"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       }
     },
     "tmdb_rating": 7.898,
@@ -8817,9 +8868,10 @@
       },
       "CA": {
         "providers": [
-          "Disney Plus"
+          "Disney Plus",
+          "Hollywood Suite Amazon Channel"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "AU": {
@@ -8866,7 +8918,6 @@
     "availability": {
       "GB": {
         "providers": [
-          "STUDIOCANAL PRESENTS Apple TV Channel",
           "Studiocanal Presents Amazon Channel"
         ],
         "prime": true,
@@ -8905,7 +8956,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.548,
+    "tmdb_rating": 6.547,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -9021,7 +9072,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.46,
+    "tmdb_rating": 7.461,
     "runtime": 112,
     "genres": [
       "Science Fiction"
@@ -9083,7 +9134,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.46,
+    "tmdb_rating": 7.461,
     "runtime": 112,
     "genres": [
       "Science Fiction"
