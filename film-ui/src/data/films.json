@@ -104,7 +104,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.607,
+    "tmdb_rating": 7.605,
     "runtime": 92,
     "genres": [
       "Comedy",
@@ -223,7 +223,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.603,
+    "tmdb_rating": 7.604,
     "runtime": 129,
     "genres": [
       "Science Fiction",
@@ -350,7 +350,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.376,
     "runtime": 101,
     "genres": [
       "Documentary"
@@ -385,9 +385,11 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
+        "providers": [
+          "W4free"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "US": {
         "providers": [
@@ -485,7 +487,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.2,
+    "tmdb_rating": 8.178,
     "runtime": 137,
     "genres": [
       "Science Fiction",
@@ -998,7 +1000,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.63,
+    "tmdb_rating": 7.6,
     "runtime": 117,
     "genres": [
       "Comedy",
@@ -1155,7 +1157,7 @@
     "year": "N/A",
     "suggested_by": "",
     "notes": "Animation - Comedy Recommendation",
-    "tmdb_id": 73752,
+    "tmdb_id": 73749,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -1186,22 +1188,22 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 5.0,
-    "runtime": 100,
+    "tmdb_rating": 6.8,
+    "runtime": 127,
     "genres": [
       "Action",
       "Drama"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/DFAjPVa5X5spdQEiPtVQycI3p5.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/k2MOh4Ae0gfZbEEjaWEjL338HyU.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=5yGazKmUjXE",
-    "overview": "Guo Jing and Huang Rong return to Peach Blossom Island and are shocked to see that Guo's first martial arts teachers, the \"Seven Freaks of Jiangnan\", have all been murdered except for Ke Zhen'e. Guo Jing is tricked into believing that Huang Rong's father, Huang Yaoshi, is responsible for the murders and he attempts to avenge his teachers by fighting Huang Yaoshi. The intelligent Huang Rong eventually uncovers the truth and reveals that the murders are actually part of a plot masterminded by Ouyang Feng and Yang Kang. Ouyang and Yang want to make Guo Jing and Huang Yaoshi kill each other and Yang can learn Ouyang's newly mastered skills from the fake copy of the Nine Yin Manual.",
-    "release_date": "1982-02-25",
+    "poster_url": "https://image.tmdb.org/t/p/w500/lJjQKm3qZI7sXwa1AlrWG4x9Bp0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/vQtsXQDouXCGBbzDcg374reHzsq.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=r_DbcyCVQLI",
+    "overview": "Guo Jing and Yang Kang are the sons of two rebels. The rebels are killed by imperial soldiers and the boys are rescued by six pugilists later. The pugilists agree to separate the two boys, tutor them separately in martial arts, and let them meet again when they have grown up, to determine whose abilities are better. Guo becomes the student of the \"Seven Freaks of Jiangnan\" while Yang Kang becomes the foster son of a Jurchen prince inadvertently.",
+    "release_date": "1977-07-30",
     "director": "Chang Cheh",
     "cast": [
-      "Phillip Kwok Chui",
-      "Gigi Wong",
-      "Wong Wa"
+      "Alexander Fu Sheng",
+      "Tien Niu",
+      "Phillip Kwok Chui"
     ]
   },
   {
@@ -1320,7 +1322,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.415,
+    "tmdb_rating": 7.416,
     "runtime": 113,
     "genres": [
       "Comedy",
@@ -1357,7 +1359,6 @@
           "Netflix",
           "Hulu",
           "AMC Plus Apple TV Channel ",
-          "AMC+ Amazon Channel",
           "AMC+",
           "Criterion Channel",
           "Philo",
@@ -1395,7 +1396,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.491,
+    "tmdb_rating": 7.5,
     "runtime": 165,
     "genres": [
       "Drama"
@@ -1437,24 +1438,21 @@
       },
       "AU": {
         "providers": [
-          "Amazon Prime Video",
           "Disney Plus",
-          "Stan",
-          "Amazon Prime Video with Ads"
+          "Stan"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "NZ": {
         "providers": [
-          "Amazon Prime Video",
           "Disney Plus"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       }
     },
-    "tmdb_rating": 7.7,
+    "tmdb_rating": 7.668,
     "runtime": 143,
     "genres": [
       "Comedy",
@@ -1516,7 +1514,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.505,
+    "tmdb_rating": 7.506,
     "runtime": 159,
     "genres": [
       "Drama",
@@ -1635,7 +1633,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.955,
+    "tmdb_rating": 5.957,
     "runtime": 83,
     "genres": [
       "Action",
@@ -1776,11 +1774,9 @@
         "free_any": false
       },
       "US": {
-        "providers": [
-          "Criterion Channel"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "CA": {
         "providers": [],
@@ -1800,11 +1796,12 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.61,
+    "tmdb_rating": 7.6,
     "runtime": 109,
     "genres": [
       "Science Fiction",
-      "Thriller"
+      "Thriller",
+      "Action"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/lQcXgb0fFzffnLV5WY0Q0X2WW7E.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/gFGLwUBhVrq0bq4j9DU08xQDRU2.jpg",
@@ -1861,7 +1858,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.855,
+    "tmdb_rating": 6.854,
     "runtime": 109,
     "genres": [
       "War",
@@ -1922,7 +1919,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.384,
+    "tmdb_rating": 7.383,
     "runtime": 92,
     "genres": [
       "Comedy"
@@ -1977,7 +1974,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.418,
+    "tmdb_rating": 7.421,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -2196,7 +2193,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.343,
+    "tmdb_rating": 7.3,
     "runtime": 106,
     "genres": [
       "Crime",
@@ -2265,7 +2262,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.583,
+    "tmdb_rating": 7.584,
     "runtime": 100,
     "genres": [
       "Drama",
@@ -2467,7 +2464,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.849,
+    "tmdb_rating": 7.85,
     "runtime": 98,
     "genres": [
       "Crime",
@@ -2528,7 +2525,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.207,
+    "tmdb_rating": 7.208,
     "runtime": 118,
     "genres": [
       "Adventure",
@@ -2582,31 +2579,28 @@
       },
       "AU": {
         "providers": [
-          "Amazon Prime Video",
           "Disney Plus",
-          "Stan",
-          "Amazon Prime Video with Ads"
+          "Stan"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "NZ": {
         "providers": [
-          "Amazon Prime Video",
           "Disney Plus"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       }
     },
-    "tmdb_rating": 8.439,
+    "tmdb_rating": 8.438,
     "runtime": 139,
     "genres": [
       "Drama",
       "Thriller"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/xRyINp9KfMLVjRiO5nCsoRDdvvF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=dfeUzm6KF4g",
     "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
     "release_date": "1999-10-15",
@@ -2622,50 +2616,65 @@
     "year": "N/A",
     "suggested_by": "crazy dating profile",
     "notes": "Suggested by: crazy dating profile",
-    "tmdb_id": 1311268,
+    "tmdb_id": 1164506,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "AU": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "NZ": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
       }
     },
-    "tmdb_rating": 0.0,
-    "runtime": 9,
+    "tmdb_rating": 8.0,
+    "runtime": 105,
     "genres": [
-      "Fantasy"
+      "Fantasy",
+      "Drama"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/iIpz2NaPmwy1lF15ZMRPsQSPdjN.jpg",
-    "backdrop_url": null,
-    "trailer_url": null,
-    "overview": "When things in her house start to change, a delightfully curious young girl, Maya, senses that a monster may be the culprit. In an effort to protect her mother and grandmother, she takes the monster hunt into her own hands. She soon learns that, while the threat it poses may be real, the monster itself is more someone than something.",
-    "release_date": "2016-06-06",
-    "director": "Yanillys P\u00e9rez",
+    "poster_url": "https://image.tmdb.org/t/p/w500/dRyckThsRzAuIk7pUNs6QSqfpy4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/iOtIjnDdXmEKHDOxmE4LZK244Xi.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=pJ4H5-YOH2U",
+    "overview": "The film follows a young boy's search for the mythical island of fireflies described in his mother's bedtime stories. Using the \"clues\" he believes his mother left behind in an old notebook, the boy makes the long journey to the magical island to wish her back to life.",
+    "release_date": "2023-12-25",
+    "director": "Zig Madamba Dulay",
     "cast": [
-      "Araija DaCosta",
-      "Nia Fairweather",
-      "Dutch Johnson"
+      "Alessandra de Rossi",
+      "Euwenn Mikaell",
+      "Dingdong Dantes"
     ]
   },
   {
@@ -2691,7 +2700,6 @@
       },
       "US": {
         "providers": [
-          "fuboTV",
           "Paramount Plus Premium",
           "Paramount Plus Essential",
           "AMC Plus Apple TV Channel ",
@@ -2701,6 +2709,7 @@
           "AMC",
           "MGM Plus",
           "Philo",
+          "Kanopy",
           "Hoopla"
         ],
         "prime": true,
@@ -2736,7 +2745,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.463,
+    "tmdb_rating": 8.464,
     "runtime": 142,
     "genres": [
       "Comedy",
@@ -2853,7 +2862,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.119,
+    "tmdb_rating": 8.12,
     "runtime": 117,
     "genres": [
       "Drama",
@@ -3143,7 +3152,8 @@
       "US": {
         "providers": [
           "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
+          "Amazon Prime Video with Ads",
+          "Hoopla"
         ],
         "prime": true,
         "free_any": true
@@ -3348,7 +3358,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.819,
+    "tmdb_rating": 6.826,
     "runtime": 99,
     "genres": [
       "Comedy",
@@ -3547,7 +3557,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.91,
     "runtime": 95,
     "genres": [
       "Animation",
@@ -3690,7 +3700,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.469,
+    "tmdb_rating": 8.47,
     "runtime": 169,
     "genres": [
       "Adventure",
@@ -3878,7 +3888,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.732,
+    "tmdb_rating": 7.731,
     "runtime": 82,
     "genres": [
       "Documentary"
@@ -3990,7 +4000,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.877,
+    "tmdb_rating": 7.9,
     "runtime": 86,
     "genres": [
       "Documentary",
@@ -4046,21 +4056,24 @@
       },
       "AU": {
         "providers": [
+          "Amazon Prime Video",
           "Disney Plus",
-          "Stan"
+          "Stan",
+          "Amazon Prime Video with Ads"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "NZ": {
         "providers": [
+          "Amazon Prime Video",
           "Disney Plus"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       }
     },
-    "tmdb_rating": 7.799,
+    "tmdb_rating": 7.801,
     "runtime": 138,
     "genres": [
       "Crime",
@@ -4129,7 +4142,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.899,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -4137,7 +4150,7 @@
       "Romance"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/nofXR1TN1vgGjdfnwGQwFaAWBaY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=nlJ3nM2y8rg",
     "overview": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
     "release_date": "2016-12-01",
@@ -4316,7 +4329,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.077,
+    "tmdb_rating": 7.076,
     "runtime": 119,
     "genres": [
       "Adventure",
@@ -4422,7 +4435,8 @@
       "US": {
         "providers": [
           "Plex",
-          "Plex Channel"
+          "Plex Channel",
+          "Fawesome"
         ],
         "prime": false,
         "free_any": true
@@ -4453,7 +4467,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.9,
+    "tmdb_rating": 5.881,
     "runtime": 98,
     "genres": [
       "Thriller",
@@ -4477,7 +4491,7 @@
     "year": "N/A",
     "suggested_by": "crazy dating profile",
     "notes": "Suggested by: crazy dating profile",
-    "tmdb_id": 122,
+    "tmdb_id": 120,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -4499,8 +4513,10 @@
       },
       "CA": {
         "providers": [
+          "Amazon Prime Video",
           "Crave",
           "Starz Amazon Channel",
+          "Amazon Prime Video with Ads",
           "Crave Amazon Channel"
         ],
         "prime": true,
@@ -4526,18 +4542,18 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.496,
-    "runtime": 201,
+    "tmdb_rating": 8.431,
+    "runtime": 179,
     "genres": [
       "Adventure",
       "Fantasy",
       "Action"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=YCWux4oUHBs",
-    "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.\u200b",
-    "release_date": "2003-12-17",
+    "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=_nZdmwHrcnw",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "release_date": "2001-12-18",
     "director": "Peter Jackson",
     "cast": [
       "Elijah Wood",
@@ -4622,9 +4638,11 @@
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "HBO Max Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "US": {
         "providers": [],
@@ -4780,7 +4798,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.6,
+    "tmdb_rating": 7.554,
     "runtime": 138,
     "genres": [
       "Drama"
@@ -4884,11 +4902,9 @@
         "free_any": false
       },
       "US": {
-        "providers": [
-          "Kanopy"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "CA": {
         "providers": [],
@@ -4912,7 +4928,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.152,
+    "tmdb_rating": 7.2,
     "runtime": 147,
     "genres": [
       "Horror",
@@ -4965,7 +4981,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.248,
+    "tmdb_rating": 7.247,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -5009,6 +5025,7 @@
           "Disney Plus",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
+          "fuboTV",
           "Starz Amazon Channel"
         ],
         "prime": true,
@@ -5143,7 +5160,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.052,
+    "tmdb_rating": 7.053,
     "runtime": 119,
     "genres": [
       "Crime",
@@ -5209,7 +5226,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.4,
+    "tmdb_rating": 6.415,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -5268,7 +5285,8 @@
           "Netflix Standard with Ads",
           "Amazon Prime Video with Ads",
           "Paramount Plus Premium",
-          "Paramount Plus Basic with Ads"
+          "Paramount Plus Basic with Ads",
+          "Lionsgate+ Amazon Channels"
         ],
         "prime": true,
         "free_any": true
@@ -5292,7 +5310,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.9,
+    "tmdb_rating": 7.949,
     "runtime": 122,
     "genres": [
       "Crime",
@@ -5359,7 +5377,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.2,
+    "tmdb_rating": 7.175,
     "runtime": 108,
     "genres": [
       "Drama"
@@ -5481,7 +5499,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.098,
     "runtime": 145,
     "genres": [
       "Drama"
@@ -5538,7 +5556,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.785,
+    "tmdb_rating": 7.789,
     "runtime": 124,
     "genres": [
       "Drama"
@@ -5603,7 +5621,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.743,
+    "tmdb_rating": 7.744,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -5703,12 +5721,10 @@
     "availability": {
       "GB": {
         "providers": [
-          "Amazon Prime Video",
           "Paramount Plus",
           "Sky Go",
           "Now TV Cinema",
           "Paramount+ Amazon Channel",
-          "Amazon Prime Video with Ads",
           "Paramount Plus Premium",
           "Paramount Plus Basic with Ads"
         ],
@@ -5730,6 +5746,8 @@
         "providers": [
           "Crave",
           "Hollywood Suite",
+          "Super Channel Plus",
+          "Super Channel Amazon Channel",
           "Hollywood Suite Amazon Channel",
           "Starz Amazon Channel",
           "Crave Amazon Channel",
@@ -5799,6 +5817,7 @@
       "US": {
         "providers": [
           "Peacock Premium",
+          "AMC Plus Apple TV Channel ",
           "AMC+ Amazon Channel",
           "Philo",
           "Sundance Now",
@@ -5817,6 +5836,7 @@
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
           "Amazon Prime Video with Ads",
+          "Lionsgate+ Amazon Channels",
           "Crave",
           "Hoopla",
           "Plex"
@@ -5865,12 +5885,10 @@
     "availability": {
       "GB": {
         "providers": [
-          "Amazon Prime Video",
           "Disney Plus",
-          "Amazon Prime Video with Ads",
           "ITVX Premium"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "US": {
@@ -5886,6 +5904,9 @@
         "providers": [
           "Disney Plus",
           "Crave",
+          "Super Channel Plus",
+          "Super Channel Amazon Channel",
+          "fuboTV",
           "Starz Amazon Channel"
         ],
         "prime": true,
@@ -5973,7 +5994,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.621,
+    "tmdb_rating": 7.622,
     "runtime": 135,
     "genres": [
       "Drama"
@@ -6055,9 +6076,11 @@
       "GB": {
         "providers": [
           "Netflix",
+          "Amazon Prime Video",
           "Paramount Plus",
           "Paramount+ Amazon Channel",
           "Netflix Standard with Ads",
+          "Amazon Prime Video with Ads",
           "Paramount Plus Premium",
           "Paramount Plus Basic with Ads"
         ],
@@ -6230,7 +6253,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.002,
+    "tmdb_rating": 7.001,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -6292,7 +6315,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.119,
+    "tmdb_rating": 7.12,
     "runtime": 127,
     "genres": [
       "Comedy",
@@ -6350,7 +6373,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.921,
+    "tmdb_rating": 6.9,
     "runtime": 97,
     "genres": [
       "Science Fiction",
@@ -6516,7 +6539,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.201,
+    "tmdb_rating": 8.202,
     "runtime": 121,
     "genres": [
       "Adventure",
@@ -6579,7 +6602,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=KS2EztRMuRw",
     "overview": "Oona, a recent graduate in anthropology, has returned to her dead mother\u2019s seaside cottage in southern England to prepare it for sale. Her arrival disturbs Mani, a wary vagrant who has been squatting on the property.",
     "release_date": "2013-04-05",
-    "director": "Ron Eyal",
+    "director": "Eleanor Burke",
     "cast": [
       "Bridget Collins",
       "Adeel Akhtar",
@@ -6657,7 +6680,8 @@
           "Kanopy",
           "Hoopla",
           "Plex",
-          "Plex Channel"
+          "Plex Channel",
+          "Fawesome"
         ],
         "prime": false,
         "free_any": true
@@ -6685,7 +6709,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.441,
+    "tmdb_rating": 7.44,
     "runtime": 100,
     "genres": [
       "Drama",
@@ -6826,7 +6850,6 @@
       "US": {
         "providers": [
           "fuboTV",
-          "Paramount Plus Essential",
           "YouTube TV",
           "FXNow"
         ],
@@ -6855,7 +6878,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.5,
+    "tmdb_rating": 7.463,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -6919,7 +6942,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.3,
+    "tmdb_rating": 7.263,
     "runtime": 118,
     "genres": [
       "Comedy",
@@ -6961,6 +6984,7 @@
           "Peacock Premium",
           "Paramount+ Amazon Channel",
           "Peacock Premium Plus",
+          "Kanopy",
           "Hoopla",
           "Artiflix"
         ],
@@ -7133,11 +7157,9 @@
       },
       "US": {
         "providers": [
-          "AMC+ Amazon Channel",
-          "YouTube TV",
-          "AMC"
+          "YouTube TV"
         ],
-        "prime": true,
+        "prime": false,
         "free_any": true
       },
       "CA": {
@@ -7162,7 +7184,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.504,
+    "tmdb_rating": 8.505,
     "runtime": 189,
     "genres": [
       "Fantasy",
@@ -7233,7 +7255,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.685,
+    "tmdb_rating": 7.686,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -7334,7 +7356,8 @@
         "providers": [
           "Kanopy",
           "Hoopla",
-          "Plex Channel"
+          "Plex Channel",
+          "Fawesome"
         ],
         "prime": false,
         "free_any": true
@@ -7365,7 +7388,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.1,
+    "tmdb_rating": 7.101,
     "runtime": 137,
     "genres": [
       "Drama"
@@ -7473,7 +7496,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.379,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -7539,7 +7562,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.39,
     "runtime": 82,
     "genres": [
       "Fantasy",
@@ -7674,7 +7697,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.459,
+    "tmdb_rating": 7.46,
     "runtime": 110,
     "genres": [
       "Comedy",
@@ -7765,10 +7788,11 @@
     "availability": {
       "GB": {
         "providers": [
+          "HBO Max Amazon Channel",
           "Sky Go",
           "Now TV Cinema"
         ],
-        "prime": false,
+        "prime": true,
         "free_any": true
       },
       "US": {
@@ -7841,6 +7865,7 @@
       },
       "US": {
         "providers": [
+          "AMC Plus Apple TV Channel ",
           "Paramount+ Amazon Channel",
           "AMC+ Amazon Channel",
           "Philo"
@@ -7934,7 +7959,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.445,
     "runtime": 171,
     "genres": [
       "Drama",
@@ -8149,7 +8174,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.486,
+    "tmdb_rating": 7.526,
     "runtime": 90,
     "genres": [
       "Documentary"
@@ -8159,7 +8184,7 @@
     "trailer_url": "https://www.youtube.com/watch?v=lEfCtnM-jwc",
     "overview": "Set entirely inside Folsom Prison, The Work follows three men during four days of intensive group therapy with convicts, revealing an intimate and powerful portrait of authentic human transformation that transcends what we think of as rehabilitation.",
     "release_date": "2017-03-11",
-    "director": "Gethin Aldous",
+    "director": "Jairus McLeary",
     "cast": []
   },
   {
@@ -8200,7 +8225,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.54,
+    "tmdb_rating": 7.539,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -8271,7 +8296,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.601,
+    "tmdb_rating": 7.6,
     "runtime": 130,
     "genres": [
       "Drama",
@@ -8342,7 +8367,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.077,
+    "tmdb_rating": 8.078,
     "runtime": 158,
     "genres": [
       "Drama"
@@ -8406,7 +8431,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.471,
+    "tmdb_rating": 7.5,
     "runtime": 101,
     "genres": [
       "Drama",
@@ -8476,7 +8501,7 @@
       "Drama"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/bioYaOXZS2nXLiLVf5mDOgXpCd8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=_UsoBzKxj9A",
     "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
     "release_date": "2017-12-01",
@@ -8539,7 +8564,7 @@
       "Drama"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/bioYaOXZS2nXLiLVf5mDOgXpCd8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=_UsoBzKxj9A",
     "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
     "release_date": "2017-12-01",
@@ -8584,7 +8609,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.958,
+    "tmdb_rating": 7.96,
     "runtime": 94,
     "genres": [
       "Drama",
@@ -8592,7 +8617,7 @@
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/y0HmDV0bZDTtXWHqqYYbT9XoshB.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/dkfBKDUIWP1peEszdqK10MkMZCP.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=r9v3UXKhVQM",
+    "trailer_url": "https://www.youtube.com/watch?v=bKrbNruyFVE",
     "overview": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.",
     "release_date": "1996-02-23",
     "director": "Danny Boyle",
@@ -8613,7 +8638,6 @@
       "GB": {
         "providers": [
           "Amazon Prime Video",
-          "HBO Max Amazon Channel",
           "Amazon Prime Video with Ads"
         ],
         "prime": true,
@@ -8647,7 +8671,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.908,
+    "tmdb_rating": 7.909,
     "runtime": 130,
     "genres": [
       "Western"
@@ -8698,7 +8722,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.106,
+    "tmdb_rating": 7.1,
     "runtime": 111,
     "genres": [
       "Drama",
@@ -8729,8 +8753,7 @@
     "availability": {
       "GB": {
         "providers": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
+          "HBO Max Amazon Channel"
         ],
         "prime": true,
         "free_any": true
@@ -8821,7 +8844,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.474,
+    "tmdb_rating": 7.477,
     "runtime": 101,
     "genres": [
       "Animation",
@@ -8960,7 +8983,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.549,
+    "tmdb_rating": 6.55,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -9074,7 +9097,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.462,
+    "tmdb_rating": 7.463,
     "runtime": 112,
     "genres": [
       "Science Fiction"
@@ -9134,7 +9157,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.462,
+    "tmdb_rating": 7.463,
     "runtime": 112,
     "genres": [
       "Science Fiction"
