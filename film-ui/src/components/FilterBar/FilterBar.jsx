@@ -15,6 +15,26 @@ function FilterBar({
   onCollectionsChange,
   collectionsLoading
 }) {
+  const DECADES = [
+    { key: 'pre60s', label: 'Pre-60s' },
+    { key: '60s', label: '60s' },
+    { key: '70s', label: '70s' },
+    { key: '80s', label: '80s' },
+    { key: '90s', label: '90s' },
+    { key: '00s', label: '00s' },
+    { key: '10s', label: '10s' },
+    { key: '20s', label: '20s' }
+  ]
+
+  const handleDecadeClick = (decade) => {
+    onFiltersChange({
+      ...filters,
+      selectedDecades: filters.selectedDecades.includes(decade)
+        ? filters.selectedDecades.filter(d => d !== decade)
+        : [...filters.selectedDecades, decade]
+    })
+  }
+
   const handleSearchChange = (e) => {
     onFiltersChange({ ...filters, search: e.target.value })
   }
@@ -77,7 +97,8 @@ function FilterBar({
       selectedGenres: [],
       selectedProviders: [],
       selectedSuggestedBy: [],
-      selectedRuntimeRange: 'all'
+      selectedRuntimeRange: 'all',
+      selectedDecades: []
     })
   }
 
@@ -86,7 +107,8 @@ function FilterBar({
     filters.selectedGenres.length > 0 ||
     filters.selectedProviders.length > 0 ||
     filters.selectedSuggestedBy.length > 0 ||
-    filters.selectedRuntimeRange !== 'all'
+    filters.selectedRuntimeRange !== 'all' ||
+    filters.selectedDecades.length > 0
 
   return (
     <div className={styles.filterBar}>
@@ -215,6 +237,22 @@ function FilterBar({
         </div>
       </div>
 
+      {/* Decade Filter */}
+      <div className={styles.decadeSection}>
+        <h4 className={styles.sectionTitle}>Decades</h4>
+        <div className={styles.decadeChips}>
+          {DECADES.map(({ key, label }) => (
+            <button
+              key={key}
+              className={`${styles.decadeChip} ${filters.selectedDecades.includes(key) ? styles.active : ''}`}
+              onClick={() => handleDecadeClick(key)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {genres && genres.length > 0 && (
         <div className={styles.genresSection}>
           <div className={styles.genreChips}>
@@ -310,7 +348,8 @@ FilterBar.propTypes = {
     selectedGenres: PropTypes.arrayOf(PropTypes.string),
     selectedProviders: PropTypes.arrayOf(PropTypes.string),
     selectedSuggestedBy: PropTypes.arrayOf(PropTypes.string),
-    selectedRuntimeRange: PropTypes.string
+    selectedRuntimeRange: PropTypes.string,
+    selectedDecades: PropTypes.arrayOf(PropTypes.string)
   }).isRequired,
   onFiltersChange: PropTypes.func.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string),

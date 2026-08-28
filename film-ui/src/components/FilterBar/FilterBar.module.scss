@@ -252,6 +252,49 @@
   }
 }
 
+.decadeSection {
+  width: 100%;
+  margin-top: var(--spacing-2xl);
+
+  h4 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+.decadeChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.decadeChip {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--background);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+
+  &:hover {
+    background: var(--accent-sage-bg);
+    color: var(--text-primary);
+  }
+
+  &.active {
+    background: var(--secondary-accent);
+    color: var(--background);
+  }
+}
+
 .genresSection {
   width: 100%;
   margin-top: var(--spacing-2xl);

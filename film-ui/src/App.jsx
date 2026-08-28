@@ -20,7 +20,8 @@ const DEFAULT_PREFERENCES = {
     selectedGenres: [],
     selectedProviders: [],
     selectedSuggestedBy: [],
-    selectedRuntimeRange: 'all'
+    selectedRuntimeRange: 'all',
+    selectedDecades: []
   },
   sortBy: 'rating-desc',
   selectedCollections: ['personal'],
@@ -273,6 +274,28 @@ function App() {
 
         if (!inRange) {
           console.log(`❌ RUNTIME: "${film.title}" runtime ${runtime}min not in range ${filters.selectedRuntimeRange}`)
+          return false
+        }
+      }
+
+      // Decade filter (OR logic - film must match at least one selected decade)
+      if (filters.selectedDecades.length > 0) {
+        const year = parseInt(film.year, 10)
+        const matchDecade = (decade) => {
+          switch (decade) {
+            case 'pre60s': return year < 1960
+            case '60s': return year >= 1960 && year <= 1969
+            case '70s': return year >= 1970 && year <= 1979
+            case '80s': return year >= 1980 && year <= 1989
+            case '90s': return year >= 1990 && year <= 1999
+            case '00s': return year >= 2000 && year <= 2009
+            case '10s': return year >= 2010 && year <= 2019
+            case '20s': return year >= 2020
+            default: return false
+          }
+        }
+        if (isNaN(year) || !filters.selectedDecades.some(matchDecade)) {
+          console.log(`❌ DECADE: "${film.title}" year ${film.year} doesn't match any of [${filters.selectedDecades.join(', ')}]`)
           return false
         }
       }
