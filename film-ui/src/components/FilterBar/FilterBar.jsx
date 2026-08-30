@@ -5,6 +5,7 @@ function FilterBar({
   filters,
   onFiltersChange,
   genres,
+  decades,
   providers,
   suggestedBy,
   sortBy,
@@ -45,6 +46,15 @@ function FilterBar({
     })
   }
 
+  const handleDecadeClick = (decade) => {
+    onFiltersChange({
+      ...filters,
+      selectedDecades: filters.selectedDecades.includes(decade)
+        ? filters.selectedDecades.filter(d => d !== decade)  // Remove if already selected
+        : [...filters.selectedDecades, decade]  // Add if not selected
+    })
+  }
+
   const handleProviderClick = (provider) => {
     onFiltersChange({
       ...filters,
@@ -77,6 +87,7 @@ function FilterBar({
       selectedGenres: [],
       selectedProviders: [],
       selectedSuggestedBy: [],
+      selectedDecades: [],
       selectedRuntimeRange: 'all'
     })
   }
@@ -86,6 +97,7 @@ function FilterBar({
     filters.selectedGenres.length > 0 ||
     filters.selectedProviders.length > 0 ||
     filters.selectedSuggestedBy.length > 0 ||
+    filters.selectedDecades.length > 0 ||
     filters.selectedRuntimeRange !== 'all'
 
   return (
@@ -215,6 +227,23 @@ function FilterBar({
         </div>
       </div>
 
+      {decades && decades.length > 0 && (
+        <div className={styles.decadesSection}>
+          <h4 className={styles.sectionTitle}>Decade</h4>
+          <div className={styles.decadeChips}>
+            {decades.map(decade => (
+              <button
+                key={decade}
+                className={`${styles.decadeChip} ${filters.selectedDecades.includes(decade) ? styles.active : ''}`}
+                onClick={() => handleDecadeClick(decade)}
+              >
+                {decade}s
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {genres && genres.length > 0 && (
         <div className={styles.genresSection}>
           <div className={styles.genreChips}>
@@ -310,10 +339,12 @@ FilterBar.propTypes = {
     selectedGenres: PropTypes.arrayOf(PropTypes.string),
     selectedProviders: PropTypes.arrayOf(PropTypes.string),
     selectedSuggestedBy: PropTypes.arrayOf(PropTypes.string),
+    selectedDecades: PropTypes.arrayOf(PropTypes.number),
     selectedRuntimeRange: PropTypes.string
   }).isRequired,
   onFiltersChange: PropTypes.func.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string),
+  decades: PropTypes.arrayOf(PropTypes.number),
   providers: PropTypes.arrayOf(PropTypes.string),
   suggestedBy: PropTypes.arrayOf(PropTypes.string),
   sortBy: PropTypes.string.isRequired,

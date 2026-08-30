@@ -20,6 +20,7 @@ const DEFAULT_PREFERENCES = {
     selectedGenres: [],
     selectedProviders: [],
     selectedSuggestedBy: [],
+    selectedDecades: [],
     selectedRuntimeRange: 'all'
   },
   sortBy: 'rating-desc',
@@ -174,6 +175,21 @@ function App() {
     return Array.from(genreSet).sort()
   }, [allFilms])
 
+  // Get all unique decades from film years
+  const allDecades = useMemo(() => {
+    const decadeSet = new Set()
+    allFilms.forEach(film => {
+      if (film.year) {
+        const yearNum = parseInt(film.year)
+        if (!isNaN(yearNum)) {
+          const decade = Math.floor(yearNum / 10) * 10
+          decadeSet.add(decade)
+        }
+      }
+    })
+    return Array.from(decadeSet).sort((a, b) => b - a) // newest first
+  }, [allFilms])
+
   // Get all unique providers for selected country
   const allProviders = useMemo(() => {
     const providerSet = new Set()
@@ -229,6 +245,18 @@ function App() {
         const hasMatchingGenre = film.genres?.some(g => filters.selectedGenres.includes(g))
         if (!hasMatchingGenre) {
           console.log(`❌ GENRE: "${film.title}" genres [${film.genres?.join(', ')}] don't include any of [${filters.selectedGenres.join(', ')}]`)
+          return false
+        }
+      }
+
+      // Decade filter (OR logic - film year must fall within one selected decade)
+      if (filters.selectedDecades.length > 0) {
+        const filmYear = parseInt(film.year)
+        const inSelectedDecade = !isNaN(filmYear) && filters.selectedDecades.some(d =>
+          filmYear >= d && filmYear < d + 10
+        )
+        if (!inSelectedDecade) {
+          console.log(`❌ DECADE: "${film.title}" (${film.year}) not in any of [${filters.selectedDecades.join(', ')}s]`)
           return false
         }
       }
@@ -450,6 +478,7 @@ function App() {
           filters={filters}
           onFiltersChange={setFilters}
           genres={allGenres}
+          decades={allDecades}
           providers={allProviders}
           suggestedBy={allSuggestedBy}
           sortBy={sortBy}
