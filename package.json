@@ -8,7 +8,8 @@
     "release:minor": "commit-and-tag-version --release-as minor",
     "release:major": "commit-and-tag-version --release-as major",
     "release:patch": "commit-and-tag-version --release-as patch",
-    "release:dry-run": "commit-and-tag-version --dry-run"
+    "release:dry-run": "commit-and-tag-version --dry-run",
+    "status": "node $HOME/.jimbo/hooks/jimbo-api/scripts/claude-code-hooks/handoff.mjs status"
   },
   "devDependencies": {
     "commit-and-tag-version": "12.6.1"
