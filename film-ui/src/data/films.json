@@ -4,50 +4,70 @@
     "year": "N/A",
     "suggested_by": "",
     "notes": "",
-    "tmdb_id": 1687466,
+    "tmdb_id": 1428990,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Shudder",
+          "Shudder Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Philo",
+          "AMC+ Amazon Channel",
+          "AMC+ Roku Premium Channel",
+          "Shudder"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Crave",
+          "Crave Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "AU": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Shudder",
+          "Shudder Amazon Channel",
+          "AMC+ Amazon Channel",
+          "AMC Plus Apple TV channel",
+          "Shudder Apple TV channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "NZ": {
-        "providers": [],
+        "providers": [
+          "Shudder"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       }
     },
-    "tmdb_rating": 0.0,
-    "runtime": 113,
+    "tmdb_rating": 5.773,
+    "runtime": 102,
     "genres": [
-      "Drama"
+      "Thriller",
+      "Horror"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/oJIHrrxje5mepU5dWF9KyhdNXC2.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/q1C0z8zju0dLRpneBJo455HSfWz.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=WauSXyYPUi0",
-    "overview": "The unforgettable, striking, and emotionally raw story of Eddie, a young bodybuilder struggling to define himself in a community with limited opportunity. Eddie lives under the intense influence of his deeply codependent mother while grappling with gay sexual desires that clash with the rigid religious beliefs that shape his world. Convince that his only path forward is through perfecting the body God gave him, Eddie pursues bodybuilding with an obsessive devotion that ultimately forces him to questions of identity, masculinity, and faith.",
-    "release_date": "2026-06-03",
-    "director": "Sam McConnell",
+    "poster_url": "https://image.tmdb.org/t/p/w500/vOh6v3BaysP5Ipd89S1XAR3ZtJj.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/dydvEc82Z6ptEx3aAubzJawesiQ.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=DXAjPhglafE",
+    "overview": "Sloane and four classmates take cover in Cortege High to escape a world plagued by the infected. As danger relentlessly pounds on the doors, Sloane begins to see the world through the eyes of those who actually want to live and takes matters into her own hands.",
+    "release_date": "2026-02-20",
+    "director": "Adam MacDonald",
     "cast": [
-      "Brock Yurich",
-      "Matthew Morrison",
-      "Tammy Blanchard"
+      "Olivia Holt",
+      "Froy Gutierrez",
+      "Carson MacCormac"
     ]
   },
   {
@@ -91,7 +111,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.58,
+    "tmdb_rating": 7.571,
     "runtime": 92,
     "genres": [
       "Comedy",
@@ -166,7 +186,7 @@
     "year": "N/A",
     "suggested_by": "",
     "notes": "(sombre time travel thriller, https://www.bbc.co.uk/iplayer/episodes/b01fhfjy/twelve-monkeys)",
-    "tmdb_id": 1608921,
+    "tmdb_id": 63,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -175,19 +195,29 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Crave",
+          "Crave Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "AU": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "BINGE",
+          "Foxtel Now",
+          "Binge Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "NZ": {
         "providers": [],
@@ -195,21 +225,23 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 4.8,
-    "runtime": 0,
+    "tmdb_rating": 7.6,
+    "runtime": 129,
     "genres": [
-      "Animation",
-      "Science Fiction"
+      "Science Fiction",
+      "Thriller",
+      "Mystery"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/vsD5b9yGOf5w5drpibacuAEJqu5.jpg",
-    "backdrop_url": null,
-    "trailer_url": null,
-    "overview": "",
-    "release_date": "2026-01-30",
-    "director": "Cl\u00e9mence Taveau",
+    "poster_url": "https://image.tmdb.org/t/p/w500/gt3iyguaCIw8DpQZI1LIN5TohM2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mKIkGoyuR71qz6FdiEiOjxvBQcS.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=Xwh1xBzsc1Q",
+    "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly and the son of a famous virus expert who may hold the key to the Army of the 12 Monkeys; thought to be responsible for unleashing the killer disease.",
+    "release_date": "1995-12-29",
+    "director": "Terry Gilliam",
     "cast": [
-      "Bernard Sabot-Durand",
-      "Julie Taveau"
+      "Bruce Willis",
+      "Madeleine Stowe",
+      "Brad Pitt"
     ]
   },
   {
@@ -252,7 +284,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.927,
+    "tmdb_rating": 7.9,
     "runtime": 134,
     "genres": [
       "Drama",
@@ -318,7 +350,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.323,
+    "tmdb_rating": 7.332,
     "runtime": 101,
     "genres": [
       "Documentary"
@@ -462,7 +494,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.167,
+    "tmdb_rating": 8.166,
     "runtime": 137,
     "genres": [
       "Science Fiction",
@@ -552,8 +584,10 @@
       "US": {
         "providers": [
           "HBO Max Amazon Channel",
+          "Peacock Premium",
           "Britbox Apple TV channel",
           "HBO Max",
+          "Peacock Premium Plus",
           "Shout! Factory Amazon Channel"
         ],
         "prime": true,
@@ -585,7 +619,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.9,
+    "tmdb_rating": 6.934,
     "runtime": 117,
     "genres": [
       "Drama",
@@ -640,7 +674,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.865,
+    "tmdb_rating": 6.866,
     "runtime": 125,
     "genres": [
       "Drama",
@@ -715,7 +749,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.545,
+    "tmdb_rating": 6.546,
     "runtime": 75,
     "genres": [
       "Animation",
@@ -776,7 +810,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.998,
+    "tmdb_rating": 8.0,
     "runtime": 122,
     "genres": [
       "Drama"
@@ -836,7 +870,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.998,
+    "tmdb_rating": 8.0,
     "runtime": 122,
     "genres": [
       "Drama"
@@ -976,7 +1010,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.6,
+    "tmdb_rating": 7.624,
     "runtime": 117,
     "genres": [
       "Drama"
@@ -1233,7 +1267,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.298,
+    "tmdb_rating": 6.297,
     "runtime": 92,
     "genres": [
       "Fantasy",
@@ -1287,7 +1321,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.423,
+    "tmdb_rating": 7.422,
     "runtime": 113,
     "genres": [
       "Comedy",
@@ -1355,7 +1389,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.493,
+    "tmdb_rating": 7.49,
     "runtime": 165,
     "genres": [
       "Drama"
@@ -1417,7 +1451,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.653,
+    "tmdb_rating": 7.7,
     "runtime": 143,
     "genres": [
       "Comedy",
@@ -1479,7 +1513,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.481,
+    "tmdb_rating": 7.5,
     "runtime": 159,
     "genres": [
       "Drama",
@@ -1517,13 +1551,12 @@
       },
       "CA": {
         "providers": [
-          "Netflix",
           "Paramount Plus",
           "Paramount+ Amazon Channel",
           "Crave",
           "Hollywood Suite",
           "Hollywood Suite Amazon Channel",
-          "Netflix Standard with Ads",
+          "Starz Amazon Channel",
           "Paramount Plus Premium",
           "Paramount Plus Basic with Ads",
           "Crave Amazon Channel"
@@ -1608,7 +1641,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.952,
+    "tmdb_rating": 5.956,
     "runtime": 83,
     "genres": [
       "Action",
@@ -1631,7 +1664,7 @@
     "year": "N/A",
     "suggested_by": "Bex",
     "notes": "(funny relationship, Bex)",
-    "tmdb_id": 463791,
+    "tmdb_id": 71025,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -1660,21 +1693,19 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.5,
-    "runtime": 2,
-    "genres": [
-      "Animation",
-      "Comedy"
-    ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/8XJdUPQbb47BprS9tQeNwDur1ac.jpg",
+    "tmdb_rating": 6.4,
+    "runtime": 6,
+    "genres": [],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vaelx0Mkwa1fSPbCQgiB9R5PuKD.jpg",
     "backdrop_url": null,
     "trailer_url": null,
-    "overview": "When a sweet and innocent parakeet is found inexplicably dead in her cage, all fingers seem to point towards cat Rodney. To prove his innocence, he desperately tries to put the blame on others, with disastrous consequences.",
-    "release_date": "2017-07-07",
-    "director": "Jamille van Wijngaarden",
+    "overview": "An autocratic Director (Harold Pinter) and his Assistant (Rebecca Pidgeon) put the final touches to the last scene of some kind of dramatic presentation, which consists entirely of a man (John Gielgud) standing still onstage.",
+    "release_date": "2001-09-01",
+    "director": "David Mamet",
     "cast": [
-      "Ricky Weissman",
-      "Wimie Wilhelm"
+      "John Gielgud",
+      "Rebecca Pidgeon",
+      "Harold Pinter"
     ]
   },
   {
@@ -1719,7 +1750,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.78,
+    "tmdb_rating": 6.776,
     "runtime": 123,
     "genres": [
       "Drama",
@@ -1780,7 +1811,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.618,
+    "tmdb_rating": 7.619,
     "runtime": 109,
     "genres": [
       "Science Fiction",
@@ -1845,7 +1876,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.845,
+    "tmdb_rating": 6.841,
     "runtime": 109,
     "genres": [
       "War",
@@ -1903,7 +1934,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.365,
+    "tmdb_rating": 7.362,
     "runtime": 92,
     "genres": [
       "Comedy"
@@ -1958,7 +1989,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.425,
+    "tmdb_rating": 7.419,
     "runtime": 104,
     "genres": [
       "Comedy",
@@ -1967,7 +1998,7 @@
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/6vC6MLYUICH57MmEVi1UaNaj2Qs.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/xDPaSuwaOizRNPitEvNiuY7i6iE.jpg",
-    "trailer_url": "https://www.youtube.com/watch?v=JBzlQ7bUtKk",
+    "trailer_url": "https://www.youtube.com/watch?v=Nz1xH2Rga_c",
     "overview": "A renowned ophthalmologist is desperate to cut off an adulterous relationship\u2026which ends up in murder; and a frustrated documentary filmmaker woos an attractive television producer while making a film about her insufferably self-centered boss.",
     "release_date": "1989-10-13",
     "director": "Woody Allen",
@@ -2175,7 +2206,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.356,
+    "tmdb_rating": 7.345,
     "runtime": 106,
     "genres": [
       "Crime",
@@ -2242,7 +2273,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.688,
+    "tmdb_rating": 7.596,
     "runtime": 103,
     "genres": [
       "Romance",
@@ -2311,7 +2342,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.243,
+    "tmdb_rating": 6.239,
     "runtime": 133,
     "genres": [
       "Drama",
@@ -2370,7 +2401,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.57,
+    "tmdb_rating": 7.569,
     "runtime": 108,
     "genres": [
       "Drama",
@@ -2451,7 +2482,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.848,
+    "tmdb_rating": 7.849,
     "runtime": 98,
     "genres": [
       "Crime",
@@ -2504,7 +2535,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.199,
+    "tmdb_rating": 7.198,
     "runtime": 118,
     "genres": [
       "Adventure",
@@ -2512,7 +2543,7 @@
       "Comedy"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/tisNLcMkxryU2zxhi0PiyDFqhm0.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/qJaR9AZx2Qq2oJ3krnSO0Z5ne5I.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hUzs26surgYxbHATjyDIyWat6ZL.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=Rx-EsbhLZLQ",
     "overview": "Raoul Duke and his attorney Dr. Gonzo drive a red convertible across the Mojave desert to Las Vegas with a suitcase full of drugs to cover a motorcycle race. As their consumption of drugs increases at an alarming rate, the stoned duo trash their hotel room and fear legal repercussions. Duke begins to drive back to L.A., but after an odd run-in with a cop, he returns to Sin City and continues his wild drug binge.",
     "release_date": "1998-05-22",
@@ -2601,45 +2632,66 @@
     "year": "N/A",
     "suggested_by": "crazy dating profile",
     "notes": "Suggested by: crazy dating profile",
-    "tmdb_id": 1183445,
+    "tmdb_id": 1164506,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "US": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "CA": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "AU": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "NZ": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Amazon Prime Video"
+        ],
+        "prime": true,
+        "free_any": true
       }
     },
-    "tmdb_rating": 0.0,
-    "runtime": 16,
-    "genres": [],
-    "poster_url": "https://image.tmdb.org/t/p/w500/z7TvQI0qsUq2Pewwi8h7dTPU0Zr.jpg",
-    "backdrop_url": null,
-    "trailer_url": null,
-    "overview": "In a rural fishing village, a deaf girl battles adversity as her life is marred by an abusive stepmother, seeking resilience and triumph.",
-    "release_date": "2023-10-20",
-    "director": "Anne-Marie Scragg",
-    "cast": []
+    "tmdb_rating": 8.0,
+    "runtime": 105,
+    "genres": [
+      "Fantasy",
+      "Drama"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dRyckThsRzAuIk7pUNs6QSqfpy4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/iOtIjnDdXmEKHDOxmE4LZK244Xi.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=pJ4H5-YOH2U",
+    "overview": "The film follows a young boy's search for the mythical island of fireflies described in his mother's bedtime stories. Using the \"clues\" he believes his mother left behind in an old notebook, the boy makes the long journey to the magical island to wish her back to life.",
+    "release_date": "2023-12-25",
+    "director": "Zig Madamba Dulay",
+    "cast": [
+      "Alessandra de Rossi",
+      "Euwenn Mikaell",
+      "Dingdong Dantes"
+    ]
   },
   {
     "title": "Forrest Gump",
@@ -2673,8 +2725,7 @@
           "AMC+",
           "YouTube TV",
           "AMC",
-          "Apple TV Amazon Channel",
-          "Kanopy"
+          "Apple TV Amazon Channel"
         ],
         "prime": true,
         "free_any": true
@@ -2712,7 +2763,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.461,
+    "tmdb_rating": 8.462,
     "runtime": 142,
     "genres": [
       "Comedy",
@@ -2901,7 +2952,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.099,
+    "tmdb_rating": 7.098,
     "runtime": 102,
     "genres": [
       "Comedy",
@@ -2967,7 +3018,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.567,
+    "tmdb_rating": 7.6,
     "runtime": 107,
     "genres": [
       "Science Fiction",
@@ -3033,7 +3084,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.354,
+    "tmdb_rating": 7.359,
     "runtime": 117,
     "genres": [
       "Crime",
@@ -3070,6 +3121,7 @@
           "AMC Plus Apple TV channel",
           "Paramount+ Amazon Channel",
           "AMC+ Amazon Channel",
+          "AMC+",
           "Sundance Now",
           "Kanopy"
         ],
@@ -3097,7 +3149,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 5.954,
+    "tmdb_rating": 5.955,
     "runtime": 104,
     "genres": [
       "Drama",
@@ -3218,7 +3270,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.9,
+    "tmdb_rating": 6.896,
     "runtime": 113,
     "genres": [
       "Drama",
@@ -3348,7 +3400,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.8,
+    "tmdb_rating": 6.811,
     "runtime": 100,
     "genres": [
       "Comedy",
@@ -3420,7 +3472,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.709,
+    "tmdb_rating": 7.7,
     "runtime": 100,
     "genres": [
       "Drama"
@@ -3497,7 +3549,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.0,
+    "tmdb_rating": 7.01,
     "runtime": 106,
     "genres": [
       "Comedy"
@@ -3627,7 +3679,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.363,
+    "tmdb_rating": 6.4,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -3715,7 +3767,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.5,
+    "tmdb_rating": 8.493,
     "runtime": 169,
     "genres": [
       "Adventure",
@@ -3771,7 +3823,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.795,
+    "tmdb_rating": 7.794,
     "runtime": 148,
     "genres": [
       "Adventure",
@@ -4006,7 +4058,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.879,
+    "tmdb_rating": 7.9,
     "runtime": 86,
     "genres": [
       "Documentary",
@@ -4076,14 +4128,14 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.813,
+    "tmdb_rating": 7.812,
     "runtime": 138,
     "genres": [
       "Crime",
       "Mystery",
       "Thriller"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/7jqrauDn3HabyvKfeKTBjzKNeom.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/hUn13Hom8OWMYpR1ay0diwswwdP.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=QeIoelqDzsA",
     "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
@@ -4144,7 +4196,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.893,
+    "tmdb_rating": 7.9,
     "runtime": 129,
     "genres": [
       "Comedy",
@@ -4273,7 +4325,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.289,
+    "tmdb_rating": 8.288,
     "runtime": 111,
     "genres": [
       "Crime",
@@ -4297,7 +4349,7 @@
     "year": "N/A",
     "suggested_by": "Mat",
     "notes": "(Mat, best ever lol)",
-    "tmdb_id": 310731,
+    "tmdb_id": 1445220,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -4327,18 +4379,20 @@
       }
     },
     "tmdb_rating": 0.0,
-    "runtime": 0,
-    "genres": [],
-    "poster_url": "https://image.tmdb.org/t/p/w500/z5LlpHb0B18XKQSCgZ09AITbmos.jpg",
-    "backdrop_url": null,
-    "trailer_url": null,
-    "overview": "This program presents two live performances by British band the Levellers. First is a complete show featuring 23 songs, including hits \"One Way\" and \"15 Years.\" Next are highlights from an acoustic set at the Buxton Opera House, with special guests Maddy Prior, Nick Burbridge, Rev Hammer and Nick Harper. The Levellers infuse their music with punk and traditional English styles to create their own brand of anarcho-activist rock.",
-    "release_date": "2006-10-01",
-    "director": null,
+    "runtime": 95,
+    "genres": [
+      "Music"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4EYKWat3mweNY2RG5gBBHOswiAO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/lcqw61kgNVZ6NgIp4iTNkbr2KlO.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=75a_8mRd0r8",
+    "overview": "Levellers\u2019 third album of collaborations with fellow Brighton band, The Moulettes, \u201cCollective / Live\u201d was recorded at London\u2019s iconic Hackney Empire.  This live album and film feature radical reworkings of their back catalogue including Battle Of The Beanfield, England My Home and Hope Street, along with more recent songs Down By The River \u2018O\u2019, Man O\u2019 War and The Cholera Well.  With multiple cameras positioned onstage, creating a truly privileged vantage point, the spirit of the Levellers has been captured as never seen before.",
+    "release_date": "2025-03-08",
+    "director": "Andrew Hasson",
     "cast": [
       "Mark Chadwick",
-      "Simon Friend",
-      "Jon Sevink"
+      "Jeremy Cunningham",
+      "Charlie Heather"
     ]
   },
   {
@@ -4385,7 +4439,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.069,
+    "tmdb_rating": 7.07,
     "runtime": 119,
     "genres": [
       "Adventure",
@@ -4422,7 +4476,6 @@
           "Amazon Prime Video",
           "fuboTV",
           "Peacock Premium",
-          "TCM",
           "Amazon Prime Video with Ads",
           "Peacock Premium Plus",
           "Shout! Factory Amazon Channel",
@@ -4452,7 +4505,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.763,
+    "tmdb_rating": 7.76,
     "runtime": 94,
     "genres": [
       "Comedy"
@@ -4687,7 +4740,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.643,
+    "tmdb_rating": 7.642,
     "runtime": 121,
     "genres": [
       "Action",
@@ -4748,7 +4801,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.721,
+    "tmdb_rating": 7.72,
     "runtime": 189,
     "genres": [
       "Drama"
@@ -4820,7 +4873,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.376,
+    "tmdb_rating": 7.374,
     "runtime": 94,
     "genres": [
       "Documentary"
@@ -4882,7 +4935,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.55,
+    "tmdb_rating": 7.549,
     "runtime": 138,
     "genres": [
       "Drama"
@@ -4946,7 +4999,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.209,
+    "tmdb_rating": 7.213,
     "runtime": 138,
     "genres": [
       "Adventure",
@@ -5026,7 +5079,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.1,
+    "tmdb_rating": 7.138,
     "runtime": 147,
     "genres": [
       "Horror",
@@ -5330,7 +5383,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.4,
+    "tmdb_rating": 6.44,
     "runtime": 104,
     "genres": [
       "Comedy"
@@ -5413,7 +5466,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.95,
+    "tmdb_rating": 7.949,
     "runtime": 122,
     "genres": [
       "Crime",
@@ -5421,7 +5474,7 @@
       "Western"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/gddUsvfyySrM5k8B8wwJy2VRlBx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/fCCvn3xsG29TGKJPvZgTRppsDgk.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=A0oNrgumrlE",
     "overview": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
     "release_date": "2007-11-09",
@@ -5480,7 +5533,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.161,
+    "tmdb_rating": 7.16,
     "runtime": 108,
     "genres": [
       "Drama"
@@ -5552,7 +5605,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.582,
+    "tmdb_rating": 7.6,
     "runtime": 102,
     "genres": [
       "Adventure",
@@ -5623,7 +5676,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.075,
+    "tmdb_rating": 8.078,
     "runtime": 145,
     "genres": [
       "Drama"
@@ -5686,7 +5739,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.82,
     "runtime": 124,
     "genres": [
       "Drama"
@@ -5754,7 +5807,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.745,
+    "tmdb_rating": 7.7,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -5796,7 +5849,7 @@
     "year": "N/A",
     "suggested_by": "Tanzanian boys",
     "notes": "(tanzanian boys) | Suggested by: Tanzanian boys",
-    "tmdb_id": 536463,
+    "tmdb_id": 176241,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -5825,22 +5878,23 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.0,
-    "runtime": 93,
+    "tmdb_rating": 7.479,
+    "runtime": 89,
     "genres": [
-      "History",
-      "Adventure"
+      "Action",
+      "Drama",
+      "Thriller"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/uPsmdD8ZkkJRKvd0bs5pIaOgdy2.jpg",
-    "backdrop_url": null,
+    "poster_url": "https://image.tmdb.org/t/p/w500/h1QRyGuWVXM4Cr3FyPISSjMCBkA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/4vwGAoDAOAUj2k0ELYopZzSUnPB.jpg",
     "trailer_url": null,
-    "overview": "A historical and revolutionary film based on N. Virta's story \"Escape\" about the events of the preparatory period for the Second Congress of the RSDLP (1902), the escape from the Lukyanovo prison in Kiev of ten political prisoners \u2014 Bauman, Litvinov, Basovsky, Sapezhko and others.",
-    "release_date": "1978-11-06",
-    "director": "Radomir Vasilevsky",
+    "overview": "Michael and Sara wed, but the happiness is short-lived when the Feds apprehend her for the murder of Michael's mother, Christina. Once a hit is ordered on Sara, the team reunite to break out the increasingly vulnerable target.",
+    "release_date": "2009-09-10",
+    "director": "Kevin Hooks",
     "cast": [
-      "Aleksandr Abdulov",
-      "Nikolay Eryomenko",
-      "Valery Shushkevich"
+      "Wentworth Miller",
+      "Sarah Wayne Callies",
+      "Dominic Purcell"
     ]
   },
   {
@@ -6065,7 +6119,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.109,
+    "tmdb_rating": 8.108,
     "runtime": 99,
     "genres": [
       "Crime",
@@ -6226,8 +6280,7 @@
           "Paramount Plus Premium",
           "Paramount Plus Essential",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel",
-          "Kanopy"
+          "Paramount+ Roku Premium Channel"
         ],
         "prime": true,
         "free_any": true
@@ -6318,7 +6371,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.571,
+    "tmdb_rating": 8.57,
     "runtime": 195,
     "genres": [
       "Drama",
@@ -6373,7 +6426,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.998,
+    "tmdb_rating": 7.002,
     "runtime": 89,
     "genres": [
       "Crime",
@@ -6435,7 +6488,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.102,
+    "tmdb_rating": 7.1,
     "runtime": 127,
     "genres": [
       "Comedy",
@@ -6494,7 +6547,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.917,
+    "tmdb_rating": 6.922,
     "runtime": 97,
     "genres": [
       "Science Fiction",
@@ -6518,7 +6571,7 @@
     "year": "N/A",
     "suggested_by": "crazy dating profile",
     "notes": "(SO UNDERRATED) | Suggested by: crazy dating profile",
-    "tmdb_id": 206672,
+    "tmdb_id": 116817,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -6547,17 +6600,21 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.0,
-    "runtime": 0,
-    "genres": [],
-    "poster_url": null,
-    "backdrop_url": null,
+    "tmdb_rating": 6.4,
+    "runtime": 16,
+    "genres": [
+      "Comedy"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ArQrFekV0nARoBdlDA1ktZuyI1P.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kNE9o35mJNyVqPNbBrIgLJAMvWo.jpg",
     "trailer_url": null,
-    "overview": "Jack Cooper has a taxi inspector on his heels, and later confuses the inspector's wife for a theater automaton. Each section is highlighted by a major set piece of a gag and they are well done.",
-    "release_date": "1929-02-16",
-    "director": "Del Lord",
+    "overview": "The stooges are private detectives hired to find a missing girl. The boys disguise as pie salesmen and end up wandering around a mad scientist's mansion, trying to find the girl. The boys confront a gorilla and various other bad guys, before rescuing the girl.",
+    "release_date": "1953-06-15",
+    "director": "Jules White",
     "cast": [
-      "Jack Cooper"
+      "Shemp Howard",
+      "Larry Fine",
+      "Moe Howard"
     ]
   },
   {
@@ -6594,7 +6651,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.8,
+    "tmdb_rating": 7.797,
     "runtime": 103,
     "genres": [
       "Drama"
@@ -6657,7 +6714,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.207,
+    "tmdb_rating": 8.2,
     "runtime": 121,
     "genres": [
       "Adventure",
@@ -6665,7 +6722,7 @@
       "Science Fiction"
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/4qCqAdHcNKeAHcK8tJ8wNJZa9cx.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=i-vsILeJ8_8",
     "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
     "release_date": "1977-05-25",
@@ -6710,7 +6767,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.375,
+    "tmdb_rating": 8.371,
     "runtime": 77,
     "genres": [
       "Drama"
@@ -6825,7 +6882,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.43,
+    "tmdb_rating": 7.427,
     "runtime": 100,
     "genres": [
       "Drama",
@@ -6987,7 +7044,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.464,
+    "tmdb_rating": 7.5,
     "runtime": 114,
     "genres": [
       "Drama",
@@ -7033,11 +7090,9 @@
         "free_any": true
       },
       "CA": {
-        "providers": [
-          "fuboTV"
-        ],
+        "providers": [],
         "prime": false,
-        "free_any": true
+        "free_any": false
       },
       "AU": {
         "providers": [],
@@ -7050,7 +7105,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.3,
+    "tmdb_rating": 7.257,
     "runtime": 118,
     "genres": [
       "Comedy",
@@ -7117,7 +7172,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.375,
+    "tmdb_rating": 7.376,
     "runtime": 116,
     "genres": [
       "Drama"
@@ -7184,7 +7239,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.296,
+    "tmdb_rating": 7.285,
     "runtime": 109,
     "genres": [
       "Action",
@@ -7207,7 +7262,7 @@
     "year": "N/A",
     "suggested_by": "",
     "notes": "(Netflix, philosophy)",
-    "tmdb_id": 319165,
+    "tmdb_id": 807068,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -7236,21 +7291,21 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 10.0,
-    "runtime": 39,
+    "tmdb_rating": 8.071,
+    "runtime": 43,
     "genres": [
-      "Comedy"
+      "Documentary"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/coZfDIyEJLFNvYox9hjdsp2EdcO.jpg",
-    "backdrop_url": null,
+    "poster_url": "https://image.tmdb.org/t/p/w500/hpbq7Th9mlt17KnbPLjzRfJhDwl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/7gIO8EbBjXnET7ZtHZZCnD4FOK6.jpg",
     "trailer_url": null,
-    "overview": "A maid applies to a good position at the Dutilleul's, but she wouldn't know how good it was to be until people starts taking her for the lady of the house...",
-    "release_date": "1930-12-31",
-    "director": "Roger Lion",
+    "overview": "In anticipation and celebration of the fourth and final season of NBC\u2019s critically applauded and Emmy Award-nominated comedy, the network and The Paley Center for Media are collaborating on the hourlong special The Paley Center Salutes The Good Place on NBC on Thursday, Sept. 19 at 9:00 pm ET/PT.  Comprised of the best moments, hilarity, and wit from the show\u2019s first three seasons, The Paley Center Salutes The Good Place will feature interviews with the show\u2019s stars\u2014Ted Danson, Kristen Bell, William Jackson Harper, Manny Jacinto, and D\u2019Arcy Carden\u2014as well as with creator Michael Schur. In addition, the show will offer rarely seen behind-the-scenes footage.",
+    "release_date": "2019-09-19",
+    "director": null,
     "cast": [
-      "Yvonne Leduc",
-      "Marthe Sarbel",
-      "Charles Camus"
+      "Ted Danson",
+      "Kristen Bell",
+      "William Jackson Harper"
     ]
   },
   {
@@ -7297,7 +7352,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.505,
+    "tmdb_rating": 8.504,
     "runtime": 189,
     "genres": [
       "Fantasy",
@@ -7321,7 +7376,7 @@
     "year": "N/A",
     "suggested_by": "Ian",
     "notes": "(re pool, Ian Feather)",
-    "tmdb_id": 1590206,
+    "tmdb_id": 990,
     "not_found_on_tmdb": false,
     "availability": {
       "GB": {
@@ -7330,14 +7385,20 @@
         "free_any": false
       },
       "US": {
-        "providers": [],
+        "providers": [
+          "FlixFling"
+        ],
         "prime": false,
-        "free_any": false
+        "free_any": true
       },
       "CA": {
-        "providers": [],
-        "prime": false,
-        "free_any": false
+        "providers": [
+          "Hollywood Suite",
+          "FlixFling",
+          "Hollywood Suite Amazon Channel"
+        ],
+        "prime": true,
+        "free_any": true
       },
       "AU": {
         "providers": [],
@@ -7350,21 +7411,22 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 6.7,
-    "runtime": 96,
+    "tmdb_rating": 7.665,
+    "runtime": 134,
     "genres": [
-      "Drama"
+      "Drama",
+      "Romance"
     ],
-    "poster_url": "https://image.tmdb.org/t/p/w500/tk5LryKVc9vR6Z81NieJ6RAqgUz.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/sYzbBw2N9spLgOkUnJxHWwAHt06.jpg",
-    "trailer_url": null,
-    "overview": "Two up-and-coming friends, seeing themselves as the future elite of the new world, oligarchs, they sign up for a major deal, but it turns out that they have been drawn into a massive embezzlement scheme involving billions from the treasury. After his arrest, Andrei ends up in an overcrowded communal cell, a purgatory where he must transform himself into a different person in order to survive and return back to the real world, to his family.",
-    "release_date": "2026-04-23",
-    "director": "Fedor Kravchuk",
+    "poster_url": "https://image.tmdb.org/t/p/w500/snItsSViawjaadW9mlWUmGwR41R.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/tGOfacXHjOSjsFCOcGN7IwdeipF.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=n7aFFqz2bXU",
+    "overview": "Fast Eddie Felson is a small-time pool hustler with a lot of talent but a self-destructive attitude. His bravado causes him to challenge the legendary Minnesota Fats to a high-stakes match.",
+    "release_date": "1961-09-25",
+    "director": "Robert Rossen",
     "cast": [
-      "Alexander Petrov",
-      "Elizaveta Bazykina",
-      "Mikhail Troynik"
+      "Paul Newman",
+      "Jackie Gleason",
+      "Piper Laurie"
     ]
   },
   {
@@ -7410,7 +7472,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.766,
+    "tmdb_rating": 7.763,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -7552,9 +7614,11 @@
       },
       "CA": {
         "providers": [
+          "Amazon Prime Video",
           "Hollywood Suite",
           "FlixFling",
           "Hollywood Suite Amazon Channel",
+          "Amazon Prime Video with Ads",
           "Bloodstream",
           "Brew",
           "Sony Pictures Core Amazon Channel",
@@ -7578,6 +7642,7 @@
       },
       "NZ": {
         "providers": [
+          "Amazon Prime Video",
           "Rialto Amazon Channel",
           "Bloodstream",
           "JustWatch TV Free",
@@ -7587,7 +7652,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.602,
+    "tmdb_rating": 7.599,
     "runtime": 96,
     "genres": [
       "Horror",
@@ -7643,7 +7708,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.4,
+    "tmdb_rating": 7.359,
     "runtime": 120,
     "genres": [
       "Drama",
@@ -7779,7 +7844,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.157,
+    "tmdb_rating": 7.156,
     "runtime": 137,
     "genres": [
       "Action",
@@ -7842,7 +7907,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.451,
+    "tmdb_rating": 7.45,
     "runtime": 110,
     "genres": [
       "Comedy",
@@ -8060,7 +8125,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.379,
+    "tmdb_rating": 7.378,
     "runtime": 121,
     "genres": [
       "Drama"
@@ -8119,7 +8184,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.442,
+    "tmdb_rating": 7.443,
     "runtime": 171,
     "genres": [
       "Drama",
@@ -8242,7 +8307,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.349,
+    "tmdb_rating": 6.3,
     "runtime": 116,
     "genres": [
       "Thriller",
@@ -8309,7 +8374,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 6.349,
+    "tmdb_rating": 6.3,
     "runtime": 116,
     "genres": [
       "Thriller",
@@ -8428,7 +8493,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.537,
+    "tmdb_rating": 7.538,
     "runtime": 109,
     "genres": [
       "Drama",
@@ -8500,7 +8565,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.595,
+    "tmdb_rating": 7.597,
     "runtime": 130,
     "genres": [
       "Drama",
@@ -8570,7 +8635,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 8.061,
+    "tmdb_rating": 8.1,
     "runtime": 158,
     "genres": [
       "Drama"
@@ -8633,7 +8698,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.485,
+    "tmdb_rating": 7.486,
     "runtime": 102,
     "genres": [
       "Drama",
@@ -8698,7 +8763,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.049,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -8763,7 +8828,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 8.1,
+    "tmdb_rating": 8.049,
     "runtime": 115,
     "genres": [
       "Crime",
@@ -8819,7 +8884,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.958,
+    "tmdb_rating": 8.0,
     "runtime": 94,
     "genres": [
       "Drama",
@@ -8847,7 +8912,9 @@
     "availability": {
       "GB": {
         "providers": [
+          "Amazon Prime Video",
           "HBO Max Amazon Channel",
+          "Amazon Prime Video with Ads",
           "HBO Max"
         ],
         "prime": true,
@@ -8884,7 +8951,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.913,
+    "tmdb_rating": 7.912,
     "runtime": 130,
     "genres": [
       "Western"
@@ -8935,7 +9002,7 @@
         "free_any": false
       }
     },
-    "tmdb_rating": 7.134,
+    "tmdb_rating": 7.132,
     "runtime": 111,
     "genres": [
       "Drama",
@@ -9010,7 +9077,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.897,
+    "tmdb_rating": 7.898,
     "runtime": 132,
     "genres": [
       "Action",
@@ -9069,7 +9136,7 @@
         "free_any": true
       }
     },
-    "tmdb_rating": 7.462,
+    "tmdb_rating": 7.463,
     "runtime": 101,
     "genres": [
       "Animation",
